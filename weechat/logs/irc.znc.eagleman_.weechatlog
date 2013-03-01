@@ -1,0 +1,253 @@
+2013-02-28 00:29:40	Eagleman_	Hey
+2013-02-28 00:29:47	cinelli	How are you loggin in
+2013-02-28 00:29:49	cinelli	what are you using for an Ip
+2013-02-28 00:30:03	cinelli	[i didn't want to ask you in the channel]
+2013-02-28 00:30:22	Eagleman_	I'm using puty to connect to my virtualised ubuntu server running on my archlinux and then i connect to the hypervisor itself
+2013-02-28 00:30:41	Eagleman_	ssh user@eagleman.net then ssh root@192.168.1.13
+2013-02-28 00:30:49	Eagleman_	then i'm on my archbox
+2013-02-28 00:30:52	cinelli	oh wow
+2013-02-28 00:31:02	cinelli	that's so cool
+2013-02-28 00:31:03	cinelli	hahah
+2013-02-28 00:31:12	Eagleman_	lol its a bit of a hazzle
+2013-02-28 00:31:18	cinelli	now i understand the setup
+2013-02-28 00:31:28	cinelli	ok, so all the arch box is on is a bridge
+2013-02-28 00:31:41	Eagleman_	iThe ubuntu server was the host a week aigo, but i virtualized it
+2013-02-28 00:31:55	Eagleman_	eth0 and a bridge yes, i need the bridge for my ubuntu guest os
+2013-02-28 00:32:16	Eagleman_	But the network slows down after some minutes after rebooting, from 50 mb to like 2 mb
+2013-02-28 00:32:31	cinelli	ok, so you have to setup both of those
+2013-02-28 00:32:37	Eagleman_	yes
+2013-02-28 00:33:02	cinelli	the computer will be given an IP from the server... 
+2013-02-28 00:33:13	cinelli	so, you can just run the same ifplugd that i sent you .
+2013-02-28 00:33:57	Eagleman_	>the computer will be given an IP from the server...    I'm not using dhcp anywhere
+2013-02-28 00:34:06	Eagleman_	Not sure what you mean with that
+2013-02-28 00:34:38	cinelli	doesn't the computer have to request an IP address when it boots?
+2013-02-28 00:34:50	Eagleman_	I'm using static ip addresses
+2013-02-28 00:35:15	cinelli	then use /etc/netctl/examples/ethernet-static
+2013-02-28 00:35:32	cinelli	cp /etc/netctl/examples/ethernet-custom /etc/netctl/
+2013-02-28 00:35:42	Eagleman_	i did:  http://sprunge.us/jjJH
+2013-02-28 00:35:48	cinelli	cp /etc/netctl/examples/bridge /etc/netctl/ (you already did this too
+2013-02-28 00:36:28	cinelli	and lets see the bridge one more time
+2013-02-28 00:36:33	cinelli	nvm
+2013-02-28 00:36:34	cinelli	i have it
+2013-02-28 00:36:35	Eagleman_	br0= http://sprunge.us/facd  enp3s0:= http://sprunge.us/facd
+2013-02-28 00:36:40	cinelli	:)
+2013-02-28 00:38:04	cinelli	now netctl enable ethernet-static
+2013-02-28 00:38:13	Eagleman_	did them both
+2013-02-28 00:39:42	Eagleman_	So rebooting should just start everything?
+2013-02-28 00:40:51	cinelli	systemctl enable netctl@ethernet-static.service
+2013-02-28 00:42:04	Eagleman_	The unit files have no [Install] section. They are not meant to be enabled
+2013-02-28 00:42:51	cinelli	and systemctl disable netctl<tab>
+2013-02-28 00:42:57	cinelli	what service does it bring
+2013-02-28 00:43:02	cinelli	with tab completion
+2013-02-28 00:43:23	Eagleman_	nothing
+2013-02-28 00:43:27	cinelli	ok
+2013-02-28 00:43:32	Eagleman_	I also executed it accidently
+2013-02-28 00:43:42	cinelli	it's okay
+2013-02-28 00:44:02	cinelli	sudo netctl enable ethernet-static ... what's the output does it make symlinks (ln -s)
+2013-02-28 00:44:34	Eagleman_	A unit file for profile 'ethernet-static' already exists
+2013-02-28 00:44:38	Eagleman_	it did before
+2013-02-28 00:45:15	cinelli	I know.. You told me :) ... systemctl status netctl@ethernet-static.service
+2013-02-28 00:45:48	Eagleman_	netctl@ethernet-static.service - A basic static ethernet connection
+2013-02-28 00:45:54	Eagleman_	Loaded: loaded (/etc/systemd/system/netctl@ethernet-static.service; enabled)
+2013-02-28 00:45:58	Eagleman_	Active: inactive (dead)
+2013-02-28 00:46:01	cinelli	systemctl status netctl@ethernet-static.service |& curl -F sprunge=@- sprunge.us
+2013-02-28 00:46:03	cinelli	=)
+2013-02-28 00:46:13	cinelli	put that sprunge command after every i give you =)
+2013-02-28 00:46:17	Eagleman_	http://sprunge.us/ThOT
+2013-02-28 00:46:19	Eagleman_	ok :P
+2013-02-28 00:46:30	cinelli	systemctl disable netctl@ethernet-static.service
+2013-02-28 00:46:43	cinelli	should remove the symlink
+2013-02-28 00:46:49	Eagleman_	yes
+2013-02-28 00:47:19	cinelli	netctl enable br0
+2013-02-28 00:47:31	Eagleman_	A unit file for profile 'br0' already exists
+2013-02-28 00:48:02	cinelli	curl -F sprunge=@/etc/systemd/system/multi-user.wants/netctl@br0.service
+2013-02-28 00:48:16	cinelli	curl -F sprunge=@/etc/systemd/system/multi-user.target.wants/netctl@br0.service
+2013-02-28 00:48:17	cinelli	sorry
+2013-02-28 00:48:23	cinelli	curl -F sprunge=@/etc/systemd/system/multi-user.target.wants/netctl@br0.service sprunge.us ... jesus
+2013-02-28 00:48:46	Eagleman_	http://sprunge.us/deMO
+2013-02-28 00:49:17	Eagleman_	So we disabled the enp3s0 interface, dont we need it?
+2013-02-28 00:49:29	cinelli	we disable the servce
+2013-02-28 00:49:33	cinelli	but the profile is still in place
+2013-02-28 00:49:43	Eagleman_	What does the service do?
+2013-02-28 00:49:46	Eagleman_	start it on reboot?
+2013-02-28 00:49:50	cinelli	service calls it on boot
+2013-02-28 00:49:58	Eagleman_	Dont we have to start it?
+2013-02-28 00:50:00	cinelli	and the profiles are the configs that it's looking at
+2013-02-28 00:50:03	cinelli	that's next
+2013-02-28 00:50:07	Eagleman_	oki
+2013-02-28 00:50:47	cinelli	sudo systemctl enable netctl@ethernet-static.service
+2013-02-28 00:50:54	cinelli	sudo systemctl enable netctl@br0.service
+2013-02-28 00:51:31	cinelli	curl -F sprunge=@/etc/systemd/system/multi-user.target.wants/netctl@br0.service sprunge.us 
+2013-02-28 00:51:42	cinelli	curl -F sprunge=@/etc/systemd/system/multi-user.target.wants/netctl@ethernet-static.service sprunge.us 
+2013-02-28 00:52:24	Eagleman_	systemctl enable netctl@ethernet-static.service are not working
+2013-02-28 00:53:11	cinelli	netctl enable etherenet-static
+2013-02-28 00:53:56	Eagleman_	A unit file for profile 'ethernet-static' already exists
+2013-02-28 00:54:33	cinelli	systemctl status netctl@ethernet-static.service |& curl -F sprunge=@- sprunge.us
+2013-02-28 00:54:52	Eagleman_	http://sprunge.us/RcZS
+2013-02-28 00:55:11	cinelli	was that ran as root?
+2013-02-28 00:55:16	Eagleman_	yes
+2013-02-28 00:55:19	cinelli	kk
+2013-02-28 00:55:22	Eagleman_	root@archlinux netctl]#
+2013-02-28 00:55:28	cinelli	systemctl status netctl@br0.service |& curl -F sprunge=@- sprunge.us
+2013-02-28 00:55:50	Eagleman_	http://sprunge.us/dJY
+2013-02-28 00:56:09	Eagleman_	http://sprunge.us/dJYb
+2013-02-28 00:56:10	cinelli	failpaste
+2013-02-28 00:56:11	cinelli	hah
+2013-02-28 00:56:28	cinelli	ok
+2013-02-28 00:56:32	Eagleman_	I guess i should reboot for the old interfaces to stop
+2013-02-28 00:56:37	cinelli	you have to disable them
+2013-02-28 00:56:41	cinelli	if they're ran automatically
+2013-02-28 00:56:44	cinelli	so they don't pop up at boot
+2013-02-28 00:57:27	Eagleman_	i used netcfg, i cant find the /etc/conf.d/netcfg folder anymore
+2013-02-28 00:57:37	cinelli	cd /etc/systemd/system/multi-user.target.wants/
+2013-02-28 00:57:47	cinelli	ls -al | curl -F sprunge=@- sprunge.us
+2013-02-28 00:58:01	Eagleman_	http://sprunge.us/RYEK
+2013-02-28 00:59:01	cinelli	your profile is ethernet-static right?
+2013-02-28 00:59:07	cinelli	and the other is br0 ?
+2013-02-28 00:59:08	Eagleman_	yes
+2013-02-28 00:59:11	Eagleman_	yes
+2013-02-28 01:00:49	cinelli	systemctl netctl-ifplugd@enp3s0.service
+2013-02-28 01:00:55	cinelli	systemctl status netctl-ifplugd@enp3s0.service
+2013-02-28 01:01:02	cinelli	does that return anything?
+2013-02-28 01:01:11	Eagleman_	nknown operation 'netctl-ifplugd@enp3s0.service'.
+2013-02-28 01:01:21	cinelli	the second one
+2013-02-28 01:01:22	cinelli	heh
+2013-02-28 01:01:40	Eagleman_	netctl-ifplugd@enp3s0.service - Automatic wired network connection using netctl profiles
+2013-02-28 01:02:03	Eagleman_	http://sprunge.us/BcVS
+2013-02-28 01:02:04	cinelli	systemctl enable netctl-ifplugd@enp3s0.service
+2013-02-28 01:02:16	Eagleman_	ln -s '/usr/lib/systemd/system/netctl-ifplugd@.service' '/etc/systemd/system/multi-user.target.wants/netctl-ifplugd@enp3s0.service'
+2013-02-28 01:02:44	cinelli	curl -F sprunge=@/etc/systemd/system/multi-user.target.wants/netctl-ifplugd@enp2s0.service sprunge.us 
+2013-02-28 01:02:50	cinelli	also pacman -Q ifplugd
+2013-02-28 01:03:07	Eagleman_	curl: (26) couldn't open file "/etc/systemd/system/multi-user.target.wants/netctl-ifplugd@enp2s0.service"
+2013-02-28 01:03:20	Eagleman_	error: package 'ifplugd' was not found
+2013-02-28 01:03:26	cinelli	pacman -S ifplugd
+2013-02-28 01:03:39	Eagleman_	got it
+2013-02-28 01:03:45	cinelli	curl -F sprunge=@/etc/systemd/system/multi-user.target.wants/netctl-ifplugd@enp3s0.service sprunge.us 
+2013-02-28 01:04:06	Eagleman_	http://sprunge.us/CHLV
+2013-02-28 01:06:19	cinelli	I'm afraid that hte device will try to autoconf and you'll fbe fucked
+2013-02-28 01:06:54	Eagleman_	ANything i can do?
+2013-02-28 01:07:31	cinelli	systemctl disable netctl-ifplugd@enp3s0.service
+2013-02-28 01:07:48	Eagleman_	done
+2013-02-28 01:08:06	cinelli	holy shit
+2013-02-28 01:08:12	cinelli	systemctl enable netctl-ifplugd@enp3s0.service
+2013-02-28 01:08:45	cinelli	enabled again?
+2013-02-28 01:08:49	Eagleman_	yes
+2013-02-28 01:08:58	cinelli	Ok... that service will run first
+2013-02-28 01:09:01	cinelli	the one on eth0
+2013-02-28 01:09:05	cinelli	we'll call it eth0
+2013-02-28 01:09:19	Eagleman_	ok
+2013-02-28 01:09:24	cinelli	according to the code i'm looking at .. it runs /etc/ifplugd/netctl.action
+2013-02-28 01:10:08	cinelli	p.s.The guy that wrote netctl.. write such pretty code
+2013-02-28 01:10:18	Eagleman_	Not?
+2013-02-28 01:10:31	cinelli	lol... nah it's realllly nice ok... off the get go .. that netctl.action ... 
+2013-02-28 01:11:36	cinelli	looks for a dhcp based profile to try first, (which yours should just fail) ... next it'll move to static (it's a lot harder to tell if static fails as opposed to dhcp) ... and it'll go through your ethernet configured profiles one by one until it hits one that works
+2013-02-28 01:11:58	cinelli	echo "Reading profile '$profile'"
+2013-02-28 01:11:59	Eagleman_	aha
+2013-02-28 01:12:44	cinelli	so... rm /etc/systemd/system/multi-user.target.wants/netcfg ..... whatever it's called
+2013-02-28 01:13:07	Eagleman_	done
+2013-02-28 01:13:21	cinelli	ls /etc/systemd/system/multi-user.target.wants/
+2013-02-28 01:13:26	cinelli	netctl@br0
+2013-02-28 01:13:32	cinelli	netctl-ifplugd
+2013-02-28 01:13:34	cinelli	both there right?
+2013-02-28 01:13:57	cinelli	netctl-ifplugd@<interface>.service 
+2013-02-28 01:14:12	cinelli	netctl@br0.service
+2013-02-28 01:14:20	Eagleman_	bash: netctl-ifplugd: command not found
+2013-02-28 01:14:29	cinelli	no worries
+2013-02-28 01:14:37	cinelli	those aren't commands
+2013-02-28 01:14:39	cinelli	you silly shit
+2013-02-28 01:14:40	cinelli	hahaha
+2013-02-28 01:14:43	Eagleman_	xD
+2013-02-28 01:14:52	cinelli	ls /etc/systemd/system/multi-user.target.wants/
+2013-02-28 01:15:03	Eagleman_	libvirtd.service  netctl@br0.service  netctl-ifplugd@enp3s0.service  remote-fs.target  sshd.service
+2013-02-28 01:15:23	Eagleman_	Looks good i guess
+2013-02-28 01:15:32	cinelli	curl -F sprunge=@/etc/systemd/system/multi-user.target.wants/br0.service sprunge.us
+2013-02-28 01:15:33	cinelli	real quick
+2013-02-28 01:15:40	cinelli	just make sure it starts after enps3
+2013-02-28 01:15:42	cinelli	or whatever
+2013-02-28 01:17:00	Eagleman_	curl: (26) couldn't open file "/etc/systemd/system/multi-user.target.wants/br0.service"
+2013-02-28 01:17:30	Eagleman_	nevermind:  http://sprunge.us/DNPA
+2013-02-28 01:17:50	cinelli	BindsTo=sys-subsystem-net-devices-enp3s0.device
+2013-02-28 01:17:51	cinelli	After=sys-subsystem-net-devices-enp3s0.device
+2013-02-28 01:18:05	cinelli	and do that same command but for the other one
+2013-02-28 01:18:13	cinelli	sorry.. i don't want you to lose the computer =)
+2013-02-28 01:18:19	cinelli	right now it all looks great
+2013-02-28 01:19:06	Eagleman_	Have to take a break
+2013-02-28 01:19:09	Eagleman_	will be back soon
+2013-02-28 01:19:13	Eagleman_	school classes...
+2013-02-28 01:19:26	cinelli	reboot!
+2013-02-28 01:19:28	cinelli	it should work
+2013-02-28 01:54:04	Eagleman_	hey
+2013-02-28 01:54:09	cinelli	yo
+2013-02-28 01:54:19	Eagleman_	back in the class room :P
+2013-02-28 01:54:33	Eagleman_	i was at this part:  BindsTo
+2013-02-28 01:54:53	Eagleman_	i should add it to netctl@br0.service i guess
+2013-02-28 01:54:59	cinelli	no
+2013-02-28 01:55:33	cinelli	your br0.service .. has AFTER= .. which references the eth0
+2013-02-28 01:56:09	Eagleman_	yes
+2013-02-28 01:56:31	cinelli	So... eth0 service there
+2013-02-28 01:56:34	cinelli	br0 service there
+2013-02-28 01:56:41	cinelli	they're configured (hoping you did that right..)
+2013-02-28 01:56:43	cinelli	....
+2013-02-28 01:56:49	cinelli	br0 is told to wait for eth0 to connect
+2013-02-28 01:56:53	cinelli	eth0 has ifconifg
+2013-02-28 01:56:54	cinelli	... fuck it
+2013-02-28 01:56:56	cinelli	reboot
+2013-02-28 01:57:02	Eagleman_	haha ok
+2013-02-28 01:57:34	Eagleman_	Thanks for helping :)
+2013-02-28 01:58:15	Eagleman_	aha
+2013-02-28 01:58:21	Eagleman_	i can still login :)
+2013-02-28 01:58:54	cinelli	It already rebooted?
+2013-02-28 01:59:13	Eagleman_	yeh, its on an ssd and the ubuntu machine is on an faster ssd
+2013-02-28 01:59:22	cinelli	well then
+2013-02-28 01:59:23	cinelli	we did it
+2013-02-28 01:59:38	Eagleman_	:), now we have to wait if the speeds dont change
+2013-02-28 01:59:48	cinelli	Eagleman_: true
+2013-02-28 01:59:51	cinelli	keep an eye on it
+2013-02-28 01:59:56	cinelli	but now you have what's going to be replacing netcfg
+2013-02-28 02:00:04	cinelli	And you're all configured
+2013-02-28 02:00:12	cinelli	and you can reboot the fuck out of it ... it's good to go
+2013-02-28 02:00:22	Eagleman_	When will it be replaced?
+2013-02-28 02:00:35	Eagleman_	Download: 48.16 Mbit/s   Upload: 4.77 Mbit/s
+2013-02-28 02:00:53	Eagleman_	Thanks a lot cinelli :)
+2013-02-28 02:01:21	cinelli	no prob.
+2013-02-28 02:01:25	cinelli	ttyl =)
+2013-02-28 02:06:49	Eagleman_	One things i still see is that the eth0 device is UP but cannot be used to connect to:  http://sprunge.us/eIUN
+2013-02-28 02:08:09	cinelli	systemctl status netctl-ifplugd@<interface>.service
+2013-02-28 02:08:56	Eagleman_	http://sprunge.us/eeM
+2013-02-28 02:09:23	cinelli	failpaste
+2013-02-28 02:09:30	Eagleman_	http://sprunge.us/eeMd
+2013-02-28 02:09:41	cinelli	ip a ?
+2013-02-28 02:10:15	Eagleman_	http://sprunge.us/JHMe
+2013-02-28 02:11:32	cinelli	can you ping out on the server?
+2013-02-28 02:11:40	cinelli	or to the internet ... google
+2013-02-28 02:11:41	cinelli	whatever
+2013-02-28 02:11:52	Eagleman_	yes
+2013-02-28 02:11:55	cinelli	so you're good
+2013-02-28 02:11:56	Eagleman_	dns also orks
+2013-02-28 02:11:59	cinelli	where's the issue?
+2013-02-28 02:12:26	cinelli	It should
+2013-02-28 02:12:26	Eagleman_	Its supposed to be like this? On my ubuntu machine i could bridge my existing eth1 device and the eth1 device would still have his own ip address
+2013-02-28 02:12:45	cinelli	ps aus | grep ifplugd
+2013-02-28 02:13:00	cinelli	ps aus | grep dhcpcd
+2013-02-28 02:13:16	Eagleman_	error: conflicting format options
+2013-02-28 02:13:21	Eagleman_	ps aux?
+2013-02-28 02:13:36	cinelli	yeah
+2013-02-28 02:13:36	cinelli	x
+2013-02-28 02:13:37	cinelli	sorry
+2013-02-28 02:14:17	Eagleman_	http://sprunge.us/PEYL
+2013-02-28 02:14:21	Eagleman_	http://sprunge.us/cRce
+2013-02-28 02:14:43	cinelli	root       226  0.0  0.0   6312   632 ?        Ss   10:57   0:00 /usr/bin/ifplugd -i enp3s0 -r /etc/ifplugd/netctl.action -bfIns
+2013-02-28 02:14:54	cinelli	that's your only instance of your connection
+2013-02-28 02:14:57	cinelli	br0 bridges off of that
+2013-02-28 02:15:27	cinelli	see .. and the service to kick it all off
+2013-02-28 02:15:28	cinelli	  Loaded: loaded (/usr/lib/systemd/system/netctl-ifplugd@.service; enabled)
+2013-02-28 02:15:28	cinelli	  Active: inactive (dead)
+2013-02-28 02:15:47	cinelli	netctl... take full control over the entire connection
+2013-02-28 02:15:56	cinelli	systemd gets put in the fucking corner.
+2013-02-28 02:16:05	Eagleman_	So its supposed to be like this
+2013-02-28 02:16:14	cinelli	Perfect?
+2013-02-28 02:16:18	cinelli	Yeah, it's suppose to be like this
+2013-02-28 02:16:19	Eagleman_	I dont mind
+2013-02-28 02:16:29	cinelli	Why run something if it doesn't have to be ran
+2013-02-28 02:16:30	cinelli	:)
+2013-02-28 02:18:36	Eagleman_	Thanks

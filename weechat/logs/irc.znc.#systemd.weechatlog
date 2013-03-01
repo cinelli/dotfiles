@@ -1,0 +1,808 @@
+2013-02-27 23:27:33	↪	cinelli (~boss@cpe-142-136-63-210.socal.res.rr.com) has joined #systemd
+2013-02-27 23:27:33	⇄	Topic for #systemd is "Version 197 released! || http://www.freedesktop.org/software/systemd/systemd-197.tar.xz || http://www.freedesktop.org/wiki/Software/systemd || https://www.youtube.com/watch?v=9UnEV9SPuw8"
+2013-02-27 23:27:33	⇄	Topic set by michich_ (~michich@2a01:4240:5f52:bc8f:4a5b:39ff:fea7:39f1) on Mon, 25 Feb 2013 12:17:20
+2013-02-27 23:27:34	⇄	Nicks #systemd: [\n _fritz_ _grawity Adys aep agreene Alam_Squeeze algernon alwaysontherun- AmandaC araujo armands_ arnej arza auke ausbin avar berniyh Bertl bigon bizhanMona bjoe2k4 blami blueness bnf bochecha_ BogdanR Boohbah boxofrox breiti brian Bruners CalimeroTeknik canta cbmuser chengwei Choris cinelli cmr coling contradictioned dagger dan408 danmackay davidstrauss demarchi Diaoul DinCahill dlb76 dvdhrm dyek e1ch1 eboettcher ecloud else- elxa_ elzapp eqyiel Error404NotFound eternaleye Exio FabianS falconindy fatal fcrozat|gone fdo-vcs Firstyear floppym flynd freeedrich| Fritti Genolo grawity gtmanfred Guest39045 gwmngilfen|afk hachque hacosta hagabaka haraldh heftig heinrich5991 hgb hi117 holtmann honschu Hwkiller Hydrazine IcarianHeights Ingmar JackWinter Jasper Javafant jave jds2001 jelly1 jenkins-systemd Jesin jhelwig jjardon joemiller jonmasters joshc JPohlmann juergbi k-s[AWAY] KaiSforza Kamilion kangkai kay Kdecherf kerolasa keruspe kevinbenko Kharn klapperl_ klondike kmacleod koen koenkooi koniiiik kzak larsks lbt Lektron lnykryn mamikk manio master_of_master mbiebl mcfrisk mickael9 microcai microcode ming_lei Mithrandir mius mixi MK_FG moben moltendorf mrec MrElendig msx mue_ muep mwk myrde mz` nakamuray ndim neil nemequ niska Nisstyre nixin noclaf nokogiri npouillard numeral oahong Obeliks ocharles ohsix operhiem1 otavio ovitters pdq phako Phase4 Philantrop philips_ pknirsch plautrba PlugZ51 pocek_ poettering prometheanfire Ratler rektide riddle rom1504 Rondom roric rworkman s5fs Sage saltsa_ samlt seblu semeion SeoZ Shapeshifter slovdahl Slym sofar speakman ssuominen stefw Svedrin sztanpet tamas thestinger thomasg thorsten` thrice` tigerfoot timi timtaler- tomegun tpepper tridactyla trn tumppu tylerdu uau vmiklos vpavlin vudentz wdouglas WilliamH wishi woky wwoods xrogaan zbyszek zdzichuBG ZekeS Zeroedout zorael]
+2013-02-27 23:27:34	⇄	Channel #systemd: 230 nicks (0 ops, 0 halfops, 0 voices, 230 normals)
+2013-02-27 23:27:37	⇄	Mode #systemd [+ns]
+2013-02-27 23:27:37	⇄	Channel created on Tue, 13 Apr 2010 17:58:39
+2013-02-27 23:28:20	↪	cinelli (~boss@cpe-142-136-63-210.socal.res.rr.com) has joined #systemd
+2013-02-27 23:28:20	⇄	Topic for #systemd is "Version 197 released! || http://www.freedesktop.org/software/systemd/systemd-197.tar.xz || http://www.freedesktop.org/wiki/Software/systemd || https://www.youtube.com/watch?v=9UnEV9SPuw8"
+2013-02-27 23:28:20	⇄	Topic set by michich_ (~michich@2a01:4240:5f52:bc8f:4a5b:39ff:fea7:39f1) on Mon, 25 Feb 2013 12:17:20
+2013-02-27 23:28:21	⇄	Nicks #systemd: [\n _fritz_ _grawity Adys aep agreene Alam_Squeeze algernon alwaysontherun- AmandaC araujo armands_ arnej arza auke ausbin avar berniyh Bertl bigon bizhanMona bjoe2k4 blami blueness bnf bochecha_ BogdanR Boohbah boxofrox breiti brian Bruners CalimeroTeknik canta cbmuser chengwei Choris cinelli cmr coling contradictioned dagger dan408 danmackay davidstrauss demarchi Diaoul DinCahill dlb76 dvdhrm dyek e1ch1 eboettcher ecloud else- elxa_ elzapp eqyiel Error404NotFound eternaleye Exio FabianS falconindy fatal fcrozat|gone fdo-vcs Firstyear floppym flynd freeedrich| Fritti Genolo grawity gtmanfred Guest39045 gwmngilfen|afk hachque hacosta hagabaka haraldh heftig heinrich5991 hgb hi117 holtmann honschu Hwkiller Hydrazine IcarianHeights Ingmar JackWinter Jasper Javafant jave jds2001 jelly1 jenkins-systemd Jesin jhelwig jjardon joemiller jonmasters joshc JPohlmann juergbi k-s[AWAY] KaiSforza Kamilion kangkai kay Kdecherf kerolasa keruspe kevinbenko Kharn klapperl_ klondike kmacleod koen koenkooi koniiiik kzak larsks lbt Lektron lnykryn mamikk manio master_of_master mbiebl mcfrisk mickael9 microcai microcode ming_lei Mithrandir mius mixi MK_FG moben moltendorf mrec MrElendig msx mue_ muep mwk myrde mz` nakamuray ndim neil nemequ niska Nisstyre nixin noclaf nokogiri npouillard numeral oahong Obeliks ocharles ohsix operhiem1 otavio ovitters pdq phako Phase4 Philantrop philips_ pknirsch plautrba PlugZ51 pocek_ poettering prometheanfire Ratler rektide riddle rom1504 Rondom roric rworkman s5fs Sage saltsa_ samlt seblu semeion SeoZ Shapeshifter slovdahl Slym sofar speakman ssuominen stefw Svedrin sztanpet tamas thestinger thomasg thorsten` thrice` tigerfoot timi timtaler- tomegun tpepper tridactyla trn tumppu tylerdu uau vmiklos vpavlin vudentz wdouglas WilliamH wishi woky wwoods xrogaan zbyszek zdzichuBG ZekeS Zeroedout zorael]
+2013-02-27 23:28:21	⇄	Channel #systemd: 230 nicks (0 ops, 0 halfops, 0 voices, 230 normals)
+2013-02-27 23:28:24	⇄	Mode #systemd [+ns]
+2013-02-27 23:28:24	⇄	Channel created on Tue, 13 Apr 2010 17:58:39
+2013-02-27 23:41:08	↩	breiti (~breiti@176.57.141.235) has quit (Ping timeout: 272 seconds)
+2013-02-27 23:41:29	↩	MrElendig (~oh@archlinux/op/pdpc.supporter.active.mrelendig) has quit (Ping timeout: 255 seconds)
+2013-02-27 23:42:53	↪	breiti (~breiti@176.57.141.235) has joined #systemd
+2013-02-27 23:43:54	↪	loswillios (~jan@unaffiliated/loswillios) has joined #systemd
+2013-02-27 23:44:38	↩	noclaf (~noclaf@archlinux/developer/falconindy) has quit (Ping timeout: 255 seconds)
+2013-02-27 23:45:10	↪	noclaf (~noclaf@archlinux/developer/falconindy) has joined #systemd
+2013-02-27 23:45:26	↪	michich (~michich@ip4-95-82-188-143.cust.nbox.cz) has joined #systemd
+2013-02-27 23:45:54	↪	hermier (~hermier@frugalware/developer/hermier) has joined #systemd
+2013-02-27 23:49:47	↪	PaulePanter (~paul@mail.gw90.de) has joined #systemd
+2013-02-27 23:50:19	↩	kzak (~kzak@109.54.broadband13.iol.cz) has quit (Ping timeout: 260 seconds)
+2013-02-27 23:55:05	↩	plautrba (bach@nat/redhat/x-mxzbwyjulbodqobl) has quit (Read error: Connection reset by peer)
+2013-02-27 23:55:35	↪	alub (~antoine@85-171-174-36.rev.numericable.fr) has joined #systemd
+2013-02-27 23:56:47	↪	plautrba (bach@nat/redhat/x-xecqsnpzlotnyxvb) has joined #systemd
+2013-02-28 00:02:44	↪	Tuxist (~quassel@77-22-179-96-dynip.superkabel.de) has joined #systemd
+2013-02-28 00:06:06	↪	kzak (~kzak@109.54.broadband13.iol.cz) has joined #systemd
+2013-02-28 00:07:17	↩	thestinger (~strcat@archlinux/trusteduser/thestinger) has quit (Quit: WeeChat 0.4.0)
+2013-02-28 00:07:22	↩	niska (~niska@li125-242.members.linode.com) has quit (Ping timeout: 240 seconds)
+2013-02-28 00:09:14	↪	niska (~niska@li125-242.members.linode.com) has joined #systemd
+2013-02-28 00:17:13	↪	prajnoha (prajnoha@nat/redhat/x-wcjdrhzccqmutrgc) has joined #systemd
+2013-02-28 00:21:59	↩	otavio (~otavio@debian/developer/otavio) has quit (Ping timeout: 255 seconds)
+2013-02-28 00:23:52	↩	Jesin (~Jessin_@Dyn157099.cc.lehigh.edu) has quit (Ping timeout: 240 seconds)
+2013-02-28 00:24:11	↪	otavio (~otavio@debian/developer/otavio) has joined #systemd
+2013-02-28 00:31:29	⇄	fcrozat|gone is now known as fcrozat
+2013-02-28 00:33:45	↩	loswillios (~jan@unaffiliated/loswillios) has quit (Ping timeout: 276 seconds)
+2013-02-28 00:35:07	↩	ohsix (~ohsix@208.100.175.111) has quit (Ping timeout: 260 seconds)
+2013-02-28 00:36:30	↩	prajnoha (prajnoha@nat/redhat/x-wcjdrhzccqmutrgc) has quit (Quit: Leaving.)
+2013-02-28 00:37:39	↩	IcarianHeights (~ghost@gateway/tor-sasl/carbonchauvinist) has quit (Ping timeout: 276 seconds)
+2013-02-28 00:38:37	↪	prajnoha (prajnoha@nat/redhat/x-lbbcrjhicjmsffce) has joined #systemd
+2013-02-28 00:41:00	↪	alxchk (~alxchk@alpha.alxchk.me) has joined #systemd
+2013-02-28 00:41:27	↪	drhouse123 (~drhouse12@2.134.167.213) has joined #systemd
+2013-02-28 00:43:35	↩	stefw (~stefw@thewalter.net) has quit (Ping timeout: 255 seconds)
+2013-02-28 00:43:51	↪	stefw (~stefw@thewalter.net) has joined #systemd
+2013-02-28 00:44:47	↩	ming_lei (~ming@183.37.203.10) has quit (Ping timeout: 244 seconds)
+2013-02-28 00:52:58	↩	klondike (~klondike@gentoo/developer/klondike) has quit (Ping timeout: 276 seconds)
+2013-02-28 00:54:57	↪	gaveen (~gaveen@unaffiliated/gaveen) has joined #systemd
+2013-02-28 00:55:22	↪	jreznik (jreznik@nat/redhat/x-ccszshxcxtytakuv) has joined #systemd
+2013-02-28 00:57:06	↪	klondike (~klondike@gentoo/developer/klondike) has joined #systemd
+2013-02-28 01:02:12	↩	Diaoul (~Diaoul@APuteaux-652-1-11-203.w82-124.abo.wanadoo.fr) has quit (Ping timeout: 272 seconds)
+2013-02-28 01:02:16	↪	brain0 (~brain0@archlinux/developer/brain0) has joined #systemd
+2013-02-28 01:03:37	↪	nphilipp (nils@nat/redhat/x-nbeyquhenoxshjyz) has joined #systemd
+2013-02-28 01:04:19	↪	Diaoul (~Diaoul@APuteaux-652-1-11-203.w82-124.abo.wanadoo.fr) has joined #systemd
+2013-02-28 01:06:10	↪	dmach (dmach@nat/redhat/x-kltrwljztzxnnqss) has joined #systemd
+2013-02-28 01:13:03	↪	smartin (~smartin@140-85-190-109.dsl.ovh.fr) has joined #systemd
+2013-02-28 01:19:06	↪	ohsix (~ohsix@208.100.175.111) has joined #systemd
+2013-02-28 01:22:43	↪	[Enrico] (~chiccoroc@gentoo/contributor/Enrico) has joined #systemd
+2013-02-28 01:23:18	↪	pegasus87_ (~christoph@g227184217.adsl.alicedsl.de) has joined #systemd
+2013-02-28 01:24:02	↪	Viking-Ice (~johannbg@217.28.190.130) has joined #systemd
+2013-02-28 01:32:15	↩	roric (~roric@194-237-7-146.customer.telia.com) has quit (Ping timeout: 276 seconds)
+2013-02-28 01:32:53	↪	roric (~roric@194-237-7-146.customer.telia.com) has joined #systemd
+2013-02-28 01:33:14	↩	klondike (~klondike@gentoo/developer/klondike) has quit (Ping timeout: 272 seconds)
+2013-02-28 01:34:04	↪	klondike (~klondike@gentoo/developer/klondike) has joined #systemd
+2013-02-28 01:38:08	↪	MrElendig (~oh@archlinux/op/pdpc.supporter.active.mrelendig) has joined #systemd
+2013-02-28 01:39:42	↩	plautrba (bach@nat/redhat/x-xecqsnpzlotnyxvb) has quit (Ping timeout: 264 seconds)
+2013-02-28 01:40:05	↩	jreznik (jreznik@nat/redhat/x-ccszshxcxtytakuv) has quit (Ping timeout: 248 seconds)
+2013-02-28 01:48:54	↪	jreznik (jreznik@nat/redhat/x-nrtoqcewgsugdkpz) has joined #systemd
+2013-02-28 01:51:11	↪	ming_lei (~ming@58.60.1.9) has joined #systemd
+2013-02-28 01:51:22	↪	loswillios (~jan@unaffiliated/loswillios) has joined #systemd
+2013-02-28 01:53:18	↩	e1ch1 (~idkfa@2001:67c:e8:12:20e:4ff:feb7:16a6) has quit (Quit: Cracked by Bill Gilbert)
+2013-02-28 01:56:30	↪	plautrba (bach@nat/redhat/x-ltqfrgwrzxrxgqkv) has joined #systemd
+2013-02-28 02:01:19	↪	Md (~md@freenode/staff/md) has joined #systemd
+2013-02-28 02:02:05	⇄	gwmngilfen|afk is now known as gwmngilfen
+2013-02-28 02:09:18	↩	roric (~roric@194-237-7-146.customer.telia.com) has quit (Ping timeout: 276 seconds)
+2013-02-28 02:12:40	↪	roric (~roric@194-237-7-146.customer.telia.com) has joined #systemd
+2013-02-28 02:14:00	↩	vpavlin (vpavlin@nat/redhat/x-fzghoxaukkywmoqy) has quit (Quit: Leaving.)
+2013-02-28 02:16:47	↩	roric (~roric@194-237-7-146.customer.telia.com) has quit (Client Quit)
+2013-02-28 02:17:47	↩	mamikk (~mamikk@213.236.223.99) has quit (Ping timeout: 246 seconds)
+2013-02-28 02:18:12	↪	alexqwesa__ (~alex@109.172.12.47) has joined #systemd
+2013-02-28 02:26:11	↩	ming_lei (~ming@58.60.1.9) has quit (Ping timeout: 246 seconds)
+2013-02-28 02:48:32	↪	drhouse123_ (~drhouse12@2.134.144.197) has joined #systemd
+2013-02-28 02:48:57	↩	drhouse123 (~drhouse12@2.134.167.213) has quit (Ping timeout: 276 seconds)
+2013-02-28 02:50:30	↩	gaveen (~gaveen@unaffiliated/gaveen) has quit (Ping timeout: 272 seconds)
+2013-02-28 02:55:52	↪	rburton (~ross@35.106.2.81.in-addr.arpa) has joined #systemd
+2013-02-28 03:00:43	↪	gaveen (~gaveen@unaffiliated/gaveen) has joined #systemd
+2013-02-28 03:04:15	↩	tomegun (~teg@archlinux/developer/tomegun) has quit (Quit: Konversation terminated!)
+2013-02-28 03:04:49	↪	c0rnel (~c0rnel@89.121.200.106) has joined #systemd
+2013-02-28 03:04:52	c0rnel	hello all
+2013-02-28 03:05:09	c0rnel	anyone knows which systemd version will be in fedora 19?
+2013-02-28 03:05:33	⇄	fcrozat is now known as fcrozat|lunch
+2013-02-28 03:07:52	↩	Error404NotFound (~Error404N@unaffiliated/error404notfound) has quit (Ping timeout: 240 seconds)
+2013-02-28 03:08:17	↪	tomegun (~teg@2a01:e35:398b:f520:9afe:94ff:fe3f:c618) has joined #systemd
+2013-02-28 03:08:17	↩	tomegun (~teg@2a01:e35:398b:f520:9afe:94ff:fe3f:c618) has quit (Changing host)
+2013-02-28 03:08:17	↪	tomegun (~teg@archlinux/developer/tomegun) has joined #systemd
+2013-02-28 03:08:24	↪	Error404NotFound (~Error404N@unaffiliated/error404notfound) has joined #systemd
+2013-02-28 03:08:49	↪	ming_lei (~ming@58.60.1.9) has joined #systemd
+2013-02-28 03:09:42	bochecha_	c0rnel: we haven't even released the Alpha of Fedora 19, so it might be a bit early to know :)
+2013-02-28 03:10:00	c0rnel	bochecha_, what version it is now?
+2013-02-28 03:10:03	↪	mclasen (~mclasen@pool-71-174-250-64.bstnma.fios.verizon.net) has joined #systemd
+2013-02-28 03:10:08	bochecha_	let me check
+2013-02-28 03:11:24	bochecha_	c0rnel: oh well, the folks in #fedora-devel were faster than me :)
+2013-02-28 03:11:49	c0rnel	thank you very much bochecha_ 
+2013-02-28 03:21:11	↩	Fritti (~stijn@pcwin165.win.tue.nl) has left #systemd
+2013-02-28 03:25:20	↩	alxchk (~alxchk@alpha.alxchk.me) has quit (Ping timeout: 272 seconds)
+2013-02-28 03:25:26	c0rnel	so, i'll expect rawhide to follow latest systemd at least until branching
+2013-02-28 03:25:43	c0rnel	but we'll see 
+2013-02-28 03:25:44	c0rnel	:)
+2013-02-28 03:26:24	bochecha_	that's usually how it works
+2013-02-28 03:26:55	↩	bochecha_ (~bochecha@fedora/bochecha) has quit (Quit: Leaving)
+2013-02-28 03:30:46	↪	msekleta (msekleta@nat/redhat/x-pgpvbmxvohwjtaut) has joined #systemd
+2013-02-28 03:34:06	↪	roric (~roric@194-237-7-146.customer.telia.com) has joined #systemd
+2013-02-28 03:45:31	↪	alexqwesa (~alex@109.172.12.47) has joined #systemd
+2013-02-28 03:46:31	↩	msekleta (msekleta@nat/redhat/x-pgpvbmxvohwjtaut) has quit (Ping timeout: 276 seconds)
+2013-02-28 03:47:11	↩	alexqwesa__ (~alex@109.172.12.47) has quit (Ping timeout: 255 seconds)
+2013-02-28 03:47:27	↩	roric (~roric@194-237-7-146.customer.telia.com) has quit (Ping timeout: 276 seconds)
+2013-02-28 03:47:31	⇄	fcrozat|lunch is now known as fcrozat
+2013-02-28 03:49:58	↩	brain0 (~brain0@archlinux/developer/brain0) has quit (Quit: leaving)
+2013-02-28 04:00:02	↩	Error404NotFound (~Error404N@unaffiliated/error404notfound) has quit (Disconnected by services)
+2013-02-28 04:00:04	↪	Err404NotFound (~Error404N@unaffiliated/error404notfound) has joined #systemd
+2013-02-28 04:00:37	↪	roric (~roric@194-237-7-146.customer.telia.com) has joined #systemd
+2013-02-28 04:12:19	↪	Ryback_ (~ulisses@201.82.252.160) has joined #systemd
+2013-02-28 04:12:19	↩	Ryback_ (~ulisses@201.82.252.160) has quit (Changing host)
+2013-02-28 04:12:19	↪	Ryback_ (~ulisses@enlightenment/developer/ryback) has joined #systemd
+2013-02-28 04:15:45	↩	Md (~md@freenode/staff/md) has quit (Quit: Dans ce pays-ci il est bon de tuer de temps en temps un amiral pour encourager les autres.)
+2013-02-28 04:20:02	⇄	SeoZ is now known as SeoZ-work[AWAY]
+2013-02-28 04:25:05	↪	threadlock (~omni@195.14.20.220) has joined #systemd
+2013-02-28 04:28:19	↪	ahkok (~sofar@134.134.137.75) has joined #systemd
+2013-02-28 04:30:59	↪	koniiiik_ (johnny64@phoenix.wheel.sk) has joined #systemd
+2013-02-28 04:31:14	↩	michich (~michich@ip4-95-82-188-143.cust.nbox.cz) has quit (Quit: Bye)
+2013-02-28 04:31:29	↪	larsks_ (~lars@madhatter.seas.harvard.edu) has joined #systemd
+2013-02-28 04:34:37	↪	treehugger (~tim@unaffiliated/timi0tree) has joined #systemd
+2013-02-28 04:34:56	↪	aep_ (~aep@libqxt/developer/aep) has joined #systemd
+2013-02-28 04:34:58	↪	MKFG (~MK_FG@pdpc/supporter/active/mk-fg) has joined #systemd
+2013-02-28 04:35:45	↩	c0rnel (~c0rnel@89.121.200.106) has quit (*.net *.split)
+2013-02-28 04:35:45	↩	aep (~aep@libqxt/developer/aep) has quit (*.net *.split)
+2013-02-28 04:35:45	↩	timi (~tim@unaffiliated/timi0tree) has quit (*.net *.split)
+2013-02-28 04:35:47	↩	larsks (~lars@madhatter.seas.harvard.edu) has quit (*.net *.split)
+2013-02-28 04:35:47	↩	MK_FG (~MK_FG@pdpc/supporter/active/mk-fg) has quit (*.net *.split)
+2013-02-28 04:35:47	↩	fdo-vcs (~kgb@annarchy.freedesktop.org) has quit (*.net *.split)
+2013-02-28 04:35:47	↩	auke (~sofar@134.134.137.75) has quit (*.net *.split)
+2013-02-28 04:35:47	↩	Exio (exio4@trekweb/user/nax) has quit (*.net *.split)
+2013-02-28 04:35:47	↩	dyek (~dyek@bb121-6-139-251.singnet.com.sg) has quit (*.net *.split)
+2013-02-28 04:35:47	↩	koniiiik (johnny64@phoenix.wheel.sk) has quit (*.net *.split)
+2013-02-28 04:35:47	⇄	treehugger is now known as timi
+2013-02-28 04:35:47	⇄	MKFG is now known as MK_FG
+2013-02-28 04:41:38	↪	dyek (~dyek@bb121-6-139-251.singnet.com.sg) has joined #systemd
+2013-02-28 04:41:48	↪	c0rnel (~c0rnel@89.121.200.106) has joined #systemd
+2013-02-28 04:44:30	↪	Exio (exio4@trekweb/user/nax) has joined #systemd
+2013-02-28 04:49:04	↪	fdo-vcs (~kgb@annarchy.freedesktop.org) has joined #systemd
+2013-02-28 04:49:20	fdo-vcs	systemd lennart master * 3cd170c TODO
+2013-02-28 04:49:23	fdo-vcs	systemd update TODO
+2013-02-28 04:52:25	↪	alexqwesa_ (~alex@109.172.12.47) has joined #systemd
+2013-02-28 04:54:00	↩	mclasen (~mclasen@pool-71-174-250-64.bstnma.fios.verizon.net) has quit (Ping timeout: 272 seconds)
+2013-02-28 04:54:12	↩	alexqwesa (~alex@109.172.12.47) has quit (Ping timeout: 264 seconds)
+2013-02-28 04:54:21	jenkins-systemd	Project build-master build #541: SUCCESS in 2 min 3 sec: http://systemd.getpantheon.com:8080/jenkins/job/build-master/541/
+2013-02-28 04:54:23		[http://is.gd/tUhuPS]
+2013-02-28 04:54:54	↪	seschwar (~seschwar@unaffiliated/seschwar) has joined #systemd
+2013-02-28 05:05:09	↪	nucleo (nucleo@fedora/nucleo) has joined #systemd
+2013-02-28 05:05:17	↪	Apetrini (~ape@93.37.214.162) has joined #systemd
+2013-02-28 05:05:41	↪	Md_ (~md@freenode/staff/md) has joined #systemd
+2013-02-28 05:06:50	↪	mclasen (mclasen@nat/redhat/x-ssonmkdkihunxyhk) has joined #systemd
+2013-02-28 05:07:25	⇄	gwmngilfen is now known as gwmngilfen|afk
+2013-02-28 05:07:26	⇄	gwmngilfen|afk is now known as gwmngilfen|lunch
+2013-02-28 05:08:10	↪	nedko (~nedko@unaffiliated/nedko) has joined #systemd
+2013-02-28 05:09:13	↪	michich (michich@nat/redhat/x-qgetvdildnomkjxi) has joined #systemd
+2013-02-28 05:12:12	↩	ming_lei (~ming@58.60.1.9) has quit (Ping timeout: 264 seconds)
+2013-02-28 05:13:08	↩	c0rnel (~c0rnel@89.121.200.106) has quit (Quit: Leaving)
+2013-02-28 05:15:14	↩	gaveen (~gaveen@unaffiliated/gaveen) has quit (Remote host closed the connection)
+2013-02-28 05:19:36	↩	alexqwesa_ (~alex@109.172.12.47) has quit (Quit: Хана X'ам !!!)
+2013-02-28 05:21:19	⇄	Md_ is now known as Md
+2013-02-28 05:32:04	↪	vmlinuz (vmlinuz@nat/ibm/x-komhwlpedgrmhcef) has joined #systemd
+2013-02-28 05:32:32	|	threadlock struggles
+2013-02-28 05:32:47	threadlock	is lock a target? can I use WantedBy=lock.target ?
+2013-02-28 05:34:48	threadlock	more specifically - I want HandleLidSwitch to execute my session locker and nothing else, so I set it to lock
+2013-02-28 05:36:17	threadlock	managed to set HandleLidSwitch=sleep although undocumented
+2013-02-28 05:36:23	↩	tomegun (~teg@archlinux/developer/tomegun) has quit (Read error: No route to host)
+2013-02-28 05:37:10	threadlock	and using WantedBy=sleep.target for my /etc/systemd/system/locker.service worked, once.
+2013-02-28 05:37:28	↩	roric (~roric@194-237-7-146.customer.telia.com) has quit (Remote host closed the connection)
+2013-02-28 05:37:40	threadlock	(systemd 197)
+2013-02-28 05:37:55	↪	roric (~roric@194.237.7.146) has joined #systemd
+2013-02-28 05:39:25	↪	hussam (~hussam@unaffiliated/hussam) has joined #systemd
+2013-02-28 05:40:30	⇄	gwmngilfen|lunch is now known as gwmngilfen
+2013-02-28 05:41:53	↪	borschty (~sebastian@wh178.stw.stud.uni-saarland.de) has joined #systemd
+2013-02-28 05:42:23	↪	tomegun (~teg@2a01:e35:398b:f520:9afe:94ff:fe3f:c618) has joined #systemd
+2013-02-28 05:42:23	↩	tomegun (~teg@2a01:e35:398b:f520:9afe:94ff:fe3f:c618) has quit (Changing host)
+2013-02-28 05:42:23	↪	tomegun (~teg@archlinux/developer/tomegun) has joined #systemd
+2013-02-28 05:42:44	↩	mclasen (mclasen@nat/redhat/x-ssonmkdkihunxyhk) has quit (Ping timeout: 248 seconds)
+2013-02-28 05:43:27	falconindy	it's undocumented because it isn't a valid option
+2013-02-28 05:45:07	ohsix	i'm curious to know where you found out or was told it was a valid option
+2013-02-28 05:45:54	⇄	k-s[AWAY] is now known as k-s
+2013-02-28 05:47:28	threadlock	I didn't/wasn't, I just accidentally set it to sleep and tried because I didn't read properly/thought I had read 'sleep' in the documentation
+2013-02-28 05:48:12	threadlock	so that was totally my bad, but I mentioned it because I got curious it "worked"
+2013-02-28 05:50:08	threadlock	but am I on the right track trying to use HandleLidSwitch=lock and WantedBy=lock.target to try to get it just to use my locker, and nothing else, when closing the lid?
+2013-02-28 05:52:15	↪	jwbirdsong (~jwbirdson@unaffiliated/jwbirdsong) has joined #systemd
+2013-02-28 05:52:57	falconindy	i don't understand how you think systemd, running as PID 1, is going to run an app on behalf of the active user with knowledge of their X session
+2013-02-28 05:53:42	ohsix	the pid 1 thing is a nonsequitor :>
+2013-02-28 05:53:53	falconindy	eh sure, it's logind i guess
+2013-02-28 05:54:21	threadlock	yes
+2013-02-28 05:54:23	ohsix	the important distinction is even knowing about X, or wherever your state is, not the pid
+2013-02-28 05:54:41	falconindy	right
+2013-02-28 05:55:17	ohsix	if you want something in your X session to lock the screen, you'll have to listen to events that signal it happening and act on them, you can hack it together in python pretty quick
+2013-02-28 05:55:40	ohsix	running a unit is almost certainly not goin to do what you think, or what you want
+2013-02-28 05:56:32	↪	mclasen (mclasen@nat/redhat/x-udpmevmphuspijjd) has joined #systemd
+2013-02-28 05:57:12	threadlock	I switched to systemd yesterday, noticed that HandleLidSwitch defaulted to suspend, something I didn't want so I set it to ignore
+2013-02-28 05:58:05	threadlock	but then, today, I thought I might want to do something with it, lock my session and nothing else for example
+2013-02-28 05:58:36	threadlock	and I stumbled upon this thread https://bbs.archlinux.org/viewtopic.php?id=148829
+2013-02-28 05:59:56	↩	plautrba (bach@nat/redhat/x-ltqfrgwrzxrxgqkv) has quit (Quit: tunnel)
+2013-02-28 06:00:05	↪	dwalsh_ (dwalsh@nat/redhat/x-zhwlixdnkjesitzy) has joined #systemd
+2013-02-28 06:01:07	↪	plautrba (bach@nat/redhat/x-qeavcwkixtysbmqy) has joined #systemd
+2013-02-28 06:04:24	MrElendig	and?
+2013-02-28 06:04:51	threadlock	just explaining how I ended up trying to do what I described above
+2013-02-28 06:10:31	↪	Eliatrope (~speckius@212.113.107.78) has joined #systemd
+2013-02-28 06:10:36	jelly1	threadlock: I don't think the guys here like /care about acpid :D
+2013-02-28 06:11:15	jelly1	nevermind my comment ^
+2013-02-28 06:13:05	↩	seschwar (~seschwar@unaffiliated/seschwar) has quit (Disconnected by services)
+2013-02-28 06:13:22	↪	seschwar_ (~seschwar@unaffiliated/seschwar) has joined #systemd
+2013-02-28 06:13:34	⇄	seschwar_ is now known as seschwar
+2013-02-28 06:18:40	↪	Skaarj (~quassel@p57AD08F3.dip0.t-ipconnect.de) has joined #systemd
+2013-02-28 06:21:57	⇄	larsks_ is now known as larsks
+2013-02-28 06:22:02	↩	seschwar (~seschwar@unaffiliated/seschwar) has quit (Read error: Connection reset by peer)
+2013-02-28 06:22:33	↪	ming_lei (~ming@183.37.205.10) has joined #systemd
+2013-02-28 06:23:13	↪	seschwar (~seschwar@unaffiliated/seschwar) has joined #systemd
+2013-02-28 06:23:30	↩	microcai (~microcai@220.190.148.242) has quit (Read error: Connection reset by peer)
+2013-02-28 06:23:44	↪	microcai (~microcai@220.190.148.242) has joined #systemd
+2013-02-28 06:24:34	↪	brain0 (~brain0@archlinux/developer/brain0) has joined #systemd
+2013-02-28 06:28:09	↩	jreznik (jreznik@nat/redhat/x-nrtoqcewgsugdkpz) has quit (Quit: Konversation terminated!)
+2013-02-28 06:28:22	↪	walters (~walters@conductor.verbum.org) has joined #systemd
+2013-02-28 06:29:15	↪	dhaval (~dhaval@CPEbcc810004cde-CMbcc810004cdb.cpe.net.cable.rogers.com) has joined #systemd
+2013-02-28 06:29:28	↩	dmach (dmach@nat/redhat/x-kltrwljztzxnnqss) has quit
+2013-02-28 06:32:06	↪	denised (ddumas@nat/redhat/x-oqcvdvpywaxeaezs) has joined #systemd
+2013-02-28 06:32:10	↪	jreznik (jreznik@nat/redhat/x-rpnxnevjevpezozd) has joined #systemd
+2013-02-28 06:32:24	↪	dmach (dmach@nat/redhat/x-okqxkhsicrgetwwk) has joined #systemd
+2013-02-28 06:36:02	grawity	jelly1: afaik, acpid is fine as long as you use it only for events systemd doesn't handle yet
+2013-02-28 06:36:20	↪	alxchk (~alxchk@alpha.alxchk.me) has joined #systemd
+2013-02-28 06:36:36	thrice`	it shouldn't conflict with anything, with the obvious disclaimer you don't have duplicant events defined that systemd is already monitoring
+2013-02-28 06:38:03	ohsix	or anything else
+2013-02-28 06:38:43	thrice`	it's even socket-activated these days, iirc? :)
+2013-02-28 06:39:49	grawity	Socket-activated doesn't make much sense for this use of acpid
+2013-02-28 06:40:03	↪	gnubien (~e@unaffiliated/gnubien) has joined #systemd
+2013-02-28 06:40:27	grawity	since it has to connect to the kernel itself
+2013-02-28 06:41:20	↩	tomegun (~teg@archlinux/developer/tomegun) has quit (Ping timeout: 246 seconds)
+2013-02-28 06:41:38	alxchk	acpid can act like standalone server, so it couldn't be configured this way
+2013-02-28 06:44:22	↩	seschwar (~seschwar@unaffiliated/seschwar) has quit (Ping timeout: 240 seconds)
+2013-02-28 06:49:59	↩	uau (~uau@dsl-hkibrasgw2-50dfdc-209.dhcp.inet.fi) has quit (Quit: Coyote finally caught me)
+2013-02-28 06:53:29	⇄	k-s is now known as k-s[AWAY]
+2013-02-28 06:54:19	↪	uau (~uau@dsl-hkibrasgw2-50dfdc-209.dhcp.inet.fi) has joined #systemd
+2013-02-28 06:56:04	↪	stereoit79 (~stereo@static-84-242-85-69.net.upcbroadband.cz) has joined #systemd
+2013-02-28 06:59:12	↪	fcrozat_ (fcrozat@nat/novell/x-ffuzjvkrvlngiijm) has joined #systemd
+2013-02-28 07:00:46	↩	fcrozat_ (fcrozat@nat/novell/x-ffuzjvkrvlngiijm) has quit (Remote host closed the connection)
+2013-02-28 07:02:29	↩	fcrozat (fcrozat@nat/novell/x-jfxayyvldtjuhoef) has quit (Ping timeout: 255 seconds)
+2013-02-28 07:02:45	↪	jreznik_ (jreznik@nat/redhat/x-evopjoiivpkuaagc) has joined #systemd
+2013-02-28 07:02:56	↩	jreznik (jreznik@nat/redhat/x-rpnxnevjevpezozd) has quit (Ping timeout: 255 seconds)
+2013-02-28 07:05:31	↪	marktheunissen (marktheuni@rrcs-24-173-111-218.sw.biz.rr.com) has joined #systemd
+2013-02-28 07:06:11	↩	Err404NotFound (~Error404N@unaffiliated/error404notfound) has quit (Ping timeout: 246 seconds)
+2013-02-28 07:06:47	↪	fcrozat (fcrozat@nat/novell/x-tzzymzuqtydmulpe) has joined #systemd
+2013-02-28 07:08:21	↩	wdouglas (~user@c-76-105-195-123.hsd1.or.comcast.net) has quit (Read error: Connection reset by peer)
+2013-02-28 07:09:41	↪	wdouglas (~user@c-76-105-195-123.hsd1.or.comcast.net) has joined #systemd
+2013-02-28 07:11:08	↩	smartin (~smartin@140-85-190-109.dsl.ovh.fr) has quit (Ping timeout: 256 seconds)
+2013-02-28 07:15:21	↪	smartin (~smartin@bne75-5-82-231-224-7.fbx.proxad.net) has joined #systemd
+2013-02-28 07:18:13	↪	Err404NotFound (~Error404N@unaffiliated/error404notfound) has joined #systemd
+2013-02-28 07:20:43	↪	bluetech (~bluetech@bzq-79-179-10-129.red.bezeqint.net) has joined #systemd
+2013-02-28 07:23:54	stereoit79	Hello, for units what is the difference between PartOf and WantedBy in definition of a service?
+2013-02-28 07:24:22	stereoit79	I am trying to create app.target which is responsible for monitoring serveral services (postgres, nginx, gearman,...)
+2013-02-28 07:24:41	stereoit79	so inside nginx.service I am adding PartOf=app.target
+2013-02-28 07:24:55	stereoit79	but do I now need ht WantedBy=app.target as well?
+2013-02-28 07:24:55	↩	jwbirdsong (~jwbirdson@unaffiliated/jwbirdsong) has quit (Ping timeout: 276 seconds)
+2013-02-28 07:25:32	sztanpet	http://www.freedesktop.org/software/systemd/man/systemd.unit.html
+2013-02-28 07:25:34		[http://is.gd/fxrUWv]
+2013-02-28 07:25:40	sztanpet	they are completely different
+2013-02-28 07:26:05	alxchk	stereoit79: PartOf is runtime option. If service started, then if specified in PartOf stopped/restarted then this one will be stopped/restarted too
+2013-02-28 07:26:58	↪	Black_Prince (~Krejzi@linuxfromscratch/developer/blackprince) has joined #systemd
+2013-02-28 07:27:02	stereoit79	that is OK, I want to be able to restart app.target and this should restart all components
+2013-02-28 07:27:46	stereoit79	but you say they are completely diffent, I've read the man pages and could not understand the difference, hence I am here
+2013-02-28 07:28:31	alxchk	WantedBy is configuration option. I.e. it "adds" service to Wants= of another (specified) servuce
+2013-02-28 07:29:10	stereoit79	So the final effect is? I mean if I put WantedBy=app.target and the starting the app.target will start the service as well
+2013-02-28 07:29:14	stereoit79	same as PartOf
+2013-02-28 07:29:25	alxchk	no
+2013-02-28 07:29:32	alxchk	PartOf - just restart and stop
+2013-02-28 07:29:39	alxchk	Wants - optional start
+2013-02-28 07:30:01	stereoit79	OK, I think I got it now, it means I do not need WantedBy . thank you
+2013-02-28 07:31:00	alxchk	you may be need WantedBy to have that services be actually started
+2013-02-28 07:31:54	↪	klapperl (~k@p4FC97D67.dip.t-dialin.net) has joined #systemd
+2013-02-28 07:32:13	stereoit79	so stating app.target is not enough to start the nginx.service?
+2013-02-28 07:32:31	alxchk	yep
+2013-02-28 07:32:54	alxchk	you should add nginx.service to app.target deps 
+2013-02-28 07:33:12	stereoit79	via WantedBy
+2013-02-28 07:33:19	alxchk	If this is not optional set, then put ingo app.target Requires=nginx.service
+2013-02-28 07:33:40	alxchk	If it's optional, then RequiredBy/WantedBy to nginx.service unit
+2013-02-28 07:33:52	stereoit79	OK, super thanks, will test it out
+2013-02-28 07:34:57	↩	klapperl_ (~k@p4FC969E3.dip.t-dialin.net) has quit (Ping timeout: 276 seconds)
+2013-02-28 07:43:19	↩	prajnoha (prajnoha@nat/redhat/x-lbbcrjhicjmsffce) has quit (Quit: Leaving.)
+2013-02-28 07:44:56	⇄	Err404NotFound is now known as Error404NotFound
+2013-02-28 07:55:01	↩	kzak (~kzak@109.54.broadband13.iol.cz) has quit (Ping timeout: 248 seconds)
+2013-02-28 07:56:22	↩	lnykryn (lnykryn@nat/redhat/x-zgckfqwgonofrpip) has quit (Ping timeout: 240 seconds)
+2013-02-28 08:00:49	↩	nixin (~nixin@unaffiliated/nixin) has quit (Ping timeout: 264 seconds)
+2013-02-28 08:01:54	↩	dhaval (~dhaval@CPEbcc810004cde-CMbcc810004cdb.cpe.net.cable.rogers.com) has quit (Ping timeout: 264 seconds)
+2013-02-28 08:02:44	↩	dwalsh_ (dwalsh@nat/redhat/x-zhwlixdnkjesitzy) has quit (Remote host closed the connection)
+2013-02-28 08:02:55	↩	mclasen (mclasen@nat/redhat/x-udpmevmphuspijjd) has quit (Ping timeout: 244 seconds)
+2013-02-28 08:07:03	↩	Error404NotFound (~Error404N@unaffiliated/error404notfound) has quit (Disconnected by services)
+2013-02-28 08:07:06	↪	Err404NotFound (~Error404N@unaffiliated/error404notfound) has joined #systemd
+2013-02-28 08:08:52	⇄	Err404NotFound is now known as Error404NotFound
+2013-02-28 08:09:53	↪	dwalsh_ (dwalsh@nat/redhat/x-qvvtejrcxoeegsan) has joined #systemd
+2013-02-28 08:11:40	↩	drhouse123_ (~drhouse12@2.134.144.197) has quit (Read error: Connection reset by peer)
+2013-02-28 08:15:50	↩	gnubien (~e@unaffiliated/gnubien) has quit (Ping timeout: 255 seconds)
+2013-02-28 08:16:19	↪	drhouse123_ (~drhouse12@2.134.144.197) has joined #systemd
+2013-02-28 08:16:21	↩	drhouse123_ (~drhouse12@2.134.144.197) has quit (Read error: Connection reset by peer)
+2013-02-28 08:16:47	↪	drhouse123_ (~drhouse12@2.134.144.197) has joined #systemd
+2013-02-28 08:16:55	↩	michich (michich@nat/redhat/x-qgetvdildnomkjxi) has quit (Quit: Leaving)
+2013-02-28 08:17:43	↩	dmach (dmach@nat/redhat/x-okqxkhsicrgetwwk) has quit
+2013-02-28 08:19:27	↩	Kharn (~kharn@cs78213225.pp.htv.fi) has left #systemd
+2013-02-28 08:19:44	⇄	k-s[AWAY] is now known as k-s
+2013-02-28 08:20:01	↪	tomegun (~teg@37.161.44.22) has joined #systemd
+2013-02-28 08:20:01	↩	tomegun (~teg@37.161.44.22) has quit (Changing host)
+2013-02-28 08:20:01	↪	tomegun (~teg@archlinux/developer/tomegun) has joined #systemd
+2013-02-28 08:20:32	↪	seschwar (~seschwar@unaffiliated/seschwar) has joined #systemd
+2013-02-28 08:27:15	↩	drhouse123_ (~drhouse12@2.134.144.197) has quit (Read error: Connection reset by peer)
+2013-02-28 08:27:55	↪	drhouse123_ (~drhouse12@2.134.144.197) has joined #systemd
+2013-02-28 08:28:41	↪	jreznik__ (jreznik@nat/redhat/x-frghnmojxzrzhnph) has joined #systemd
+2013-02-28 08:29:16	↩	jreznik_ (jreznik@nat/redhat/x-evopjoiivpkuaagc) has quit (Ping timeout: 244 seconds)
+2013-02-28 08:30:48	↩	drhouse123_ (~drhouse12@2.134.144.197) has quit (Read error: Connection reset by peer)
+2013-02-28 08:31:23	↪	drhouse123_ (~drhouse12@2.134.144.197) has joined #systemd
+2013-02-28 08:34:40	↪	ISF (~ivan@143.106.196.219) has joined #systemd
+2013-02-28 08:37:34	↩	Apetrini (~ape@93.37.214.162) has quit (Ping timeout: 272 seconds)
+2013-02-28 08:37:34	↪	Stevee (~somebody@host228-133-28-81.hiway.at) has joined #systemd
+2013-02-28 08:38:20	↩	alub (~antoine@85-171-174-36.rev.numericable.fr) has quit (Read error: Connection reset by peer)
+2013-02-28 08:38:22	↩	drhouse123_ (~drhouse12@2.134.144.197) has quit (Read error: Connection reset by peer)
+2013-02-28 08:39:00	↪	alub (~antoine@85-171-174-36.rev.numericable.fr) has joined #systemd
+2013-02-28 08:39:01	↪	drhouse123_ (~drhouse12@2.134.144.197) has joined #systemd
+2013-02-28 08:40:43	↩	fcrozat (fcrozat@nat/novell/x-tzzymzuqtydmulpe) has quit (Remote host closed the connection)
+2013-02-28 08:41:59	⇄	gwmngilfen is now known as gwmngilfen|afk
+2013-02-28 08:43:34	↪	fcrozat (fcrozat@nat/novell/x-tbhyyjuvdcqyrovk) has joined #systemd
+2013-02-28 08:46:36	↩	drhouse123_ (~drhouse12@2.134.144.197) has quit (Read error: Connection reset by peer)
+2013-02-28 08:49:21	↪	drhouse123_ (~drhouse12@2.134.144.197) has joined #systemd
+2013-02-28 08:51:21	↩	drhouse123_ (~drhouse12@2.134.144.197) has quit (Read error: Connection reset by peer)
+2013-02-28 08:51:29	⇄	k-s is now known as k-s[AWAY]
+2013-02-28 08:51:44	⇄	k-s[AWAY] is now known as k-s
+2013-02-28 08:52:34	↩	stereoit79 (~stereo@static-84-242-85-69.net.upcbroadband.cz) has quit (Ping timeout: 246 seconds)
+2013-02-28 08:53:04	↪	drhouse123_ (~drhouse12@2.134.144.197) has joined #systemd
+2013-02-28 08:54:36	↩	Black_Prince (~Krejzi@linuxfromscratch/developer/blackprince) has quit (Remote host closed the connection)
+2013-02-28 08:54:50	↪	frakturfreak (~frakturfr@unaffiliated/frakturfreak) has joined #systemd
+2013-02-28 08:55:29	↩	microcai (~microcai@220.190.148.242) has quit (Quit: Leaving.)
+2013-02-28 08:56:53	↩	drhouse123_ (~drhouse12@2.134.144.197) has quit (Read error: Connection reset by peer)
+2013-02-28 08:57:02	↩	tigerfoot (~tigerfoot@opensuse/member/Bruno-friedmann) has quit (Quit: Geeko ate the wire!)
+2013-02-28 08:57:24	↩	jreznik__ (jreznik@nat/redhat/x-frghnmojxzrzhnph) has quit (Ping timeout: 248 seconds)
+2013-02-28 08:57:33	↪	drhouse123_ (~drhouse12@2.134.144.197) has joined #systemd
+2013-02-28 08:58:03	↩	tomegun (~teg@archlinux/developer/tomegun) has quit (Ping timeout: 245 seconds)
+2013-02-28 08:58:32	↪	tomegun (~teg@37.161.44.22) has joined #systemd
+2013-02-28 08:58:32	↩	tomegun (~teg@37.161.44.22) has quit (Changing host)
+2013-02-28 08:58:32	↪	tomegun (~teg@archlinux/developer/tomegun) has joined #systemd
+2013-02-28 08:59:19	↪	Black_Prince (~Krejzi@linuxfromscratch/developer/blackprince) has joined #systemd
+2013-02-28 09:00:03	↩	nphilipp (nils@nat/redhat/x-nbeyquhenoxshjyz) has quit (Quit: Leaving)
+2013-02-28 09:01:39	↪	Jesin (~Jessin_@Dyn157099.cc.lehigh.edu) has joined #systemd
+2013-02-28 09:06:02	↪	dhaval (~dhaval@undead.csl.utoronto.ca) has joined #systemd
+2013-02-28 09:12:16	↪	michich (~michich@8.102.broadband6.iol.cz) has joined #systemd
+2013-02-28 09:13:28	↩	JackWinter (~jack@ppp-256.vo.lu) has quit (Quit: ZNC - http://znc.in)
+2013-02-28 09:14:18	↩	tomegun (~teg@archlinux/developer/tomegun) has quit (Ping timeout: 245 seconds)
+2013-02-28 09:14:43	↪	tomegun (~teg@archlinux/developer/tomegun) has joined #systemd
+2013-02-28 09:18:05	↪	JackWinter (~jack@ppp-256.vo.lu) has joined #systemd
+2013-02-28 09:18:09	⇄	fcrozat is now known as fcrozat|gone
+2013-02-28 09:20:03	↩	bizhanMona (~bizhan@nat/cisco/x-fzekxpljetrdpkrs) has quit (Remote host closed the connection)
+2013-02-28 09:23:49	↪	bizhanMona (~bizhan@nat/cisco/x-owheeroiuszpgori) has joined #systemd
+2013-02-28 09:27:10	↪	tigerfoot (~tigerfoot@2001:1620:f7c:0:baac:6fff:fecc:1345) has joined #systemd
+2013-02-28 09:27:10	↩	tigerfoot (~tigerfoot@2001:1620:f7c:0:baac:6fff:fecc:1345) has quit (Changing host)
+2013-02-28 09:27:10	↪	tigerfoot (~tigerfoot@opensuse/member/Bruno-friedmann) has joined #systemd
+2013-02-28 09:27:21	↩	[Enrico] (~chiccoroc@gentoo/contributor/Enrico) has quit (Remote host closed the connection)
+2013-02-28 09:28:20	↪	mclasen (~mclasen@pool-71-174-250-64.bstnma.fios.verizon.net) has joined #systemd
+2013-02-28 09:30:08	↩	tomegun (~teg@archlinux/developer/tomegun) has quit (Ping timeout: 245 seconds)
+2013-02-28 09:30:43	↪	tomegun (~teg@archlinux/developer/tomegun) has joined #systemd
+2013-02-28 09:31:26	↪	nchen (c0373729@gateway/web/freenode/ip.192.55.55.41) has joined #systemd
+2013-02-28 09:34:36	↩	Black_Prince (~Krejzi@linuxfromscratch/developer/blackprince) has quit (Remote host closed the connection)
+2013-02-28 09:40:50	↪	tomegun_ (~teg@37.161.44.22) has joined #systemd
+2013-02-28 09:41:10	↩	drhouse123_ (~drhouse12@2.134.144.197) has quit (Read error: Connection reset by peer)
+2013-02-28 09:41:23	↩	tomegun (~teg@archlinux/developer/tomegun) has quit (Ping timeout: 245 seconds)
+2013-02-28 09:41:50	↩	Viking-Ice (~johannbg@217.28.190.130) has quit (Quit: Ex-Chat)
+2013-02-28 09:42:14	↪	drhouse123_ (~drhouse12@2.134.144.197) has joined #systemd
+2013-02-28 09:43:02	↩	Tuxist (~quassel@77-22-179-96-dynip.superkabel.de) has quit (Read error: Connection reset by peer)
+2013-02-28 09:46:50	↩	drhouse123_ (~drhouse12@2.134.144.197) has quit (Read error: Connection reset by peer)
+2013-02-28 09:47:20	↪	drhouse123_ (~drhouse12@2.134.144.197) has joined #systemd
+2013-02-28 09:48:28	↩	tomegun_ (~teg@37.161.44.22) has quit (Ping timeout: 245 seconds)
+2013-02-28 09:48:40	↪	tomegun_ (~teg@37.161.44.22) has joined #systemd
+2013-02-28 09:54:50	↩	drhouse123_ (~drhouse12@2.134.144.197) has quit (Read error: Connection reset by peer)
+2013-02-28 09:55:08	↩	tomegun_ (~teg@37.161.44.22) has quit (Ping timeout: 245 seconds)
+2013-02-28 09:55:16	↪	drhouse123_ (~drhouse12@2.134.144.197) has joined #systemd
+2013-02-28 09:57:21	↩	michich (~michich@8.102.broadband6.iol.cz) has quit (Ping timeout: 248 seconds)
+2013-02-28 10:03:40	↩	drhouse123_ (~drhouse12@2.134.144.197) has quit (Read error: Connection reset by peer)
+2013-02-28 10:04:48	↪	drhouse123_ (~drhouse12@2.134.144.197) has joined #systemd
+2013-02-28 10:05:01	↩	smartin (~smartin@bne75-5-82-231-224-7.fbx.proxad.net) has quit (Quit: back later)
+2013-02-28 10:05:50	↪	franck (~franck@63.100.100.5) has joined #systemd
+2013-02-28 10:08:41	↪	JuanDRay (~jrfuller@static-96-226-210-84.dllstx.dsl-w.verizon.net) has joined #systemd
+2013-02-28 10:10:01	⇄	aep_ is now known as aep
+2013-02-28 10:11:11	↩	JuanDRay (~jrfuller@static-96-226-210-84.dllstx.dsl-w.verizon.net) has quit (Client Quit)
+2013-02-28 10:13:13	↩	drhouse123_ (~drhouse12@2.134.144.197) has quit (Read error: Connection reset by peer)
+2013-02-28 10:14:08	↪	drhouse123_ (~drhouse12@2.134.144.197) has joined #systemd
+2013-02-28 10:14:14	↪	bluetech_ (~bluetech@bzq-79-180-21-167.red.bezeqint.net) has joined #systemd
+2013-02-28 10:14:27	↩	ming_lei (~ming@183.37.205.10) has quit (Read error: Connection reset by peer)
+2013-02-28 10:16:33	↪	master_o1_master (~master_of@p4FF24C7A.dip.t-dialin.net) has joined #systemd
+2013-02-28 10:17:46	↩	seschwar (~seschwar@unaffiliated/seschwar) has quit (Disconnected by services)
+2013-02-28 10:18:00	↪	seschwar_ (~seschwar@unaffiliated/seschwar) has joined #systemd
+2013-02-28 10:18:06	↩	bluetech (~bluetech@bzq-79-179-10-129.red.bezeqint.net) has quit (Ping timeout: 276 seconds)
+2013-02-28 10:18:12	⇄	seschwar_ is now known as seschwar
+2013-02-28 10:19:32	↪	jreznik__ (~jreznik@88.101.173.36) has joined #systemd
+2013-02-28 10:19:33	↩	mclasen (~mclasen@pool-71-174-250-64.bstnma.fios.verizon.net) has quit (Ping timeout: 248 seconds)
+2013-02-28 10:19:42	↩	drhouse123_ (~drhouse12@2.134.144.197) has quit (Read error: Connection reset by peer)
+2013-02-28 10:19:54	↩	master_of_master (~master_of@p4FF24E6E.dip.t-dialin.net) has quit (Ping timeout: 264 seconds)
+2013-02-28 10:20:30	↩	alxchk (~alxchk@alpha.alxchk.me) has quit (Ping timeout: 264 seconds)
+2013-02-28 10:20:36	↪	drhouse123_ (~drhouse12@2.134.144.197) has joined #systemd
+2013-02-28 10:21:09	↪	tibbs|w (~tibbs@fedora/tibbs) has joined #systemd
+2013-02-28 10:22:26	↪	tomegun (~teg@archlinux/developer/tomegun) has joined #systemd
+2013-02-28 10:23:31	tomegun	kay: i'm trying to tidy up our gummiboot package. am i expected to be able to compile it on i686? at the moment it spouts some warnings: http://pastebin.com/Km3swGWj, which i can't make any sense of (these are not there for x86_64)
+2013-02-28 10:24:11	↩	drhouse123_ (~drhouse12@2.134.144.197) has quit (Read error: Connection reset by peer)
+2013-02-28 10:24:19	kay	tomegun: it builds in fedora, i did not try it. the warnings look like some gnu-efi weirdness
+2013-02-28 10:24:46	↪	drhouse123_ (~drhouse12@2.134.144.197) has joined #systemd
+2013-02-28 10:25:44	kay	tomegun: not sure why 64bit and 32bit build are so different here regarding the const and type warnings ...
+2013-02-28 10:26:24	tomegun	yeah it looks like it should be the libs, but browsing through them they appear to be identical on both arches.... so i have no clue. do you get similar warnings?
+2013-02-28 10:30:02	kay	tomegun: i never looked at the 23 bit build, just checked the Success mail from the build sys :)
+2013-02-28 10:30:08	↩	drhouse123_ (~drhouse12@2.134.144.197) has quit (Read error: Connection reset by peer)
+2013-02-28 10:30:40	kay	tomegun: http://koji.fedoraproject.org/koji/buildinfo?buildID=398583
+2013-02-28 10:30:41		[http://is.gd/y9iCZr]
+2013-02-28 10:30:45	↪	Viking-Ice (~johannbg@157-157-184-18.dsl.dynamic.simnet.is) has joined #systemd
+2013-02-28 10:31:01	↪	Apetrini (~ape@93.37.214.162) has joined #systemd
+2013-02-28 10:31:04	kay	tomegun: http://kojipkgs.fedoraproject.org//packages/gummiboot/24/1.fc19/data/logs/i686/build.log
+2013-02-28 10:31:05		[http://is.gd/3fKt2A]
+2013-02-28 10:31:08	↪	drhouse123_ (~drhouse12@2.134.144.197) has joined #systemd
+2013-02-28 10:31:20	kay	tomegun: looks like there is some noise too
+2013-02-28 10:33:01	↪	plfiorini (~communi@93.39.254.201) has joined #systemd
+2013-02-28 10:33:52	↪	kzak (~kzak@109.54.broadband13.iol.cz) has joined #systemd
+2013-02-28 10:34:43	↩	falconindy (~noclaf@archlinux/developer/falconindy) has quit (Quit: leaving)
+2013-02-28 10:35:23	↪	falconindy (~noclaf@archlinux/developer/falconindy) has joined #systemd
+2013-02-28 10:36:31	↩	Md (~md@freenode/staff/md) has quit (Quit: 我的氣墊船充滿了鱔魚)
+2013-02-28 10:36:39	↩	ISF (~ivan@143.106.196.219) has quit (Ping timeout: 260 seconds)
+2013-02-28 10:40:19	↩	rburton (~ross@35.106.2.81.in-addr.arpa) has quit (Quit: rburton)
+2013-02-28 10:41:00	↩	mwk (~mwk@fsf/member/mwk) has quit (Ping timeout: 264 seconds)
+2013-02-28 10:41:55	↪	christoph_ (~christoph@92.231.121.159) has joined #systemd
+2013-02-28 10:44:52	↩	pegasus87_ (~christoph@g227184217.adsl.alicedsl.de) has quit (Ping timeout: 272 seconds)
+2013-02-28 10:45:41	↩	Apetrini (~ape@93.37.214.162) has quit (Read error: Connection reset by peer)
+2013-02-28 10:46:33	↪	Apetrini (~ape@93.37.214.162) has joined #systemd
+2013-02-28 10:48:39	↪	mwk (~mwk@fsf/member/mwk) has joined #systemd
+2013-02-28 10:54:15	↪	Zoolook (~cevreiba@p54951C6C.dip.t-dialin.net) has joined #systemd
+2013-02-28 10:56:07	fdo-vcs	systemd lennart master * 54c31a7 .gitignore TODO man/systemctl.xml
+2013-02-28 10:56:07	fdo-vcs	systemd man: clarify systemctl --property= documentation a bit
+2013-02-28 10:59:20	jenkins-systemd	Project build-master build #542: SUCCESS in 2 min 2 sec: http://systemd.getpantheon.com:8080/jenkins/job/build-master/542/
+2013-02-28 10:59:22		[http://is.gd/06TJfA]
+2013-02-28 11:00:19	falconindy	poettering: could i trouble you for a release somewhere in the near future?
+2013-02-28 11:00:31	↪	davidz (zeuthen@nat/google/x-khkxosnvsfiejsic) has joined #systemd
+2013-02-28 11:00:35	falconindy	462 commits since last tag =P
+2013-02-28 11:03:13	kay	falconindy: working on it already ...
+2013-02-28 11:03:18	falconindy	awesome
+2013-02-28 11:05:07	tibbs|w	I've been trying to understand the problem which causes shutdown and reboot to hang unmounting NFS filesystems because the network has already been taken down.
+2013-02-28 11:05:29	tibbs|w	In Fedora, that's https://bugzilla.redhat.com/show_bug.cgi?id=851665
+2013-02-28 11:06:42	↪	mclasen (mclasen@nat/redhat/x-lwazyagtwiyxdmzo) has joined #systemd
+2013-02-28 11:06:53	tibbs|w	In my case, it would suffice to tear down user sessions first, before killing any system processes, but I don't know if that's possible.
+2013-02-28 11:07:45	tibbs|w	In the general case, I guess you have to find all network mounts and run the equivalent of fuser -m -k before tearing down the rest of the system.
+2013-02-28 11:07:59	tibbs|w	But I don't know how feasible any of that would be.
+2013-02-28 11:11:29	tomegun	kay: ok, so it is not Arch specific. good to know. thanks
+2013-02-28 11:13:23	↩	nchen (c0373729@gateway/web/freenode/ip.192.55.55.41) has quit (Ping timeout: 245 seconds)
+2013-02-28 11:13:59	↪	stravaiger (~shrieve@du-102-0097.access.clara.net) has joined #systemd
+2013-02-28 11:13:59	↩	stravaiger (~shrieve@du-102-0097.access.clara.net) has quit (Changing host)
+2013-02-28 11:13:59	↪	stravaiger (~shrieve@unaffiliated/stravaiger) has joined #systemd
+2013-02-28 11:14:02	kay	tomegun: maybe the -Wextra stuff just does that on i686 and nobody ever tried :)
+2013-02-28 11:14:32	kay	tomegun: removing that probably makes it silent
+2013-02-28 11:16:13	↪	michich (~michich@8.102.broadband6.iol.cz) has joined #systemd
+2013-02-28 11:16:48	↩	tomegun (~teg@archlinux/developer/tomegun) has quit (Ping timeout: 245 seconds)
+2013-02-28 11:25:27	↩	stravaiger (~shrieve@unaffiliated/stravaiger) has quit (Ping timeout: 244 seconds)
+2013-02-28 11:26:49	↪	alxchk (~alxchk@alpha.alxchk.me) has joined #systemd
+2013-02-28 11:27:27	↪	stravaiger (~shrieve@du-102-0097.access.clara.net) has joined #systemd
+2013-02-28 11:27:27	↩	stravaiger (~shrieve@du-102-0097.access.clara.net) has quit (Changing host)
+2013-02-28 11:27:27	↪	stravaiger (~shrieve@unaffiliated/stravaiger) has joined #systemd
+2013-02-28 11:29:51	↪	r3pek (~r3pek@bl8-54-42.dsl.telepac.pt) has joined #systemd
+2013-02-28 11:29:52	↩	drhouse123_ (~drhouse12@2.134.144.197) has quit (Read error: Connection reset by peer)
+2013-02-28 11:30:24	↪	drhouse123_ (~drhouse12@2.134.144.197) has joined #systemd
+2013-02-28 11:30:28	↪	stefano-k (~stefano@host19-224-static.51-82-b.business.telecomitalia.it) has joined #systemd
+2013-02-28 11:30:51	r3pek	hey guys
+2013-02-28 11:31:17	r3pek	i created a timer unit to try to run a command every hour. 
+2013-02-28 11:31:50	r3pek	when i "systemctl status <unit>.timer" my desktop crashes and i'm left on a console where i can't login
+2013-02-28 11:31:59	r3pek	what can cause this?
+2013-02-28 11:32:53	↪	Md (~md@freenode/staff/md) has joined #systemd
+2013-02-28 11:33:43	zdzichuBG	r3pek: you mase some error and you hit assert() killing systemd
+2013-02-28 11:34:00	r3pek	ouch
+2013-02-28 11:34:16	zdzichuBG	if you do "systemctl status <unit>.timer" while being logged into text console, you will be able to use "dmesg" to see what happened
+2013-02-28 11:34:35	r3pek	maybe i have something wrong with the timer
+2013-02-28 11:35:15	r3pek	[Unit]
+2013-02-28 11:35:15	r3pek	Description=Update DNS hourly
+2013-02-28 11:35:15	r3pek	[Timer]
+2013-02-28 11:35:15	r3pek	OnCalendar=hourly
+2013-02-28 11:35:20	zdzichuBG	less-used parts of systemd aren't fully stable, unfortunately
+2013-02-28 11:35:32	r3pek	^^ looks simple enough
+2013-02-28 11:35:41	zdzichuBG	give me a sec, I'll check
+2013-02-28 11:37:24	zdzichuBG	you, asserts on endswith(Sec)
+2013-02-28 11:37:33	zdzichuBG	this check is not up-to-date
+2013-02-28 11:37:47	r3pek	hummm what am i missing?
+2013-02-28 11:39:53	zdzichuBG	nothing, that's not your fault ;)
+2013-02-28 11:39:59	r3pek	hehehhehe
+2013-02-28 11:40:04	r3pek	can i avoid it? ;)
+2013-02-28 11:41:54	zdzichuBG	hm, I'm just looking at code and I'm not sure if simple removing of assert will do the right thing
+2013-02-28 11:42:19	zdzichuBG	I will report issue to the list, someone knowledgeable will fix it soon
+2013-02-28 11:42:33	r3pek	ok :)
+2013-02-28 11:42:35	zdzichuBG	for now, sorry, your timer won't work
+2013-02-28 11:42:43	r3pek	i can also open a bug if it's desirable
+2013-02-28 11:43:15	zdzichuBG	can I use your name or should I just use you nick?
+2013-02-28 11:43:24	r3pek	you can use both :)
+2013-02-28 11:44:03	zdzichuBG	ircname  : Unknown
+2013-02-28 11:48:12	↪	cinelli (~boss@cpe-142-136-63-210.socal.res.rr.com) has joined #systemd
+2013-02-28 11:48:12	⇄	Topic for #systemd is "Version 197 released! || http://www.freedesktop.org/software/systemd/systemd-197.tar.xz || http://www.freedesktop.org/wiki/Software/systemd || https://www.youtube.com/watch?v=9UnEV9SPuw8"
+2013-02-28 11:48:12	⇄	Topic set by michich_ (~michich@2a01:4240:5f52:bc8f:4a5b:39ff:fea7:39f1) on Mon, 25 Feb 2013 12:17:20
+2013-02-28 11:48:12	⇄	Nicks #systemd: [\n _fritz_ _grawity Adys aep agreene ahkok Alam_Squeeze algernon alub alwaysontherun- alxchk AmandaC Apetrini araujo armands_ arnej arza ausbin avar berniyh Bertl bigon bizhanMona bjoe2k4 blami blueness bluetech_ bnf BogdanR Boohbah borschty boxofrox brain0 breiti brian Bruners CalimeroTeknik canta cbmuser chengwei Choris christoph_ cinelli cmr coling contradictioned dagger dan408 danmackay davidstrauss davidz demarchi denised dhaval Diaoul DinCahill dlb76 drhouse123_ dvdhrm dwalsh_ dyek eboettcher ecloud Eliatrope else- elxa_ elzapp eqyiel Error404NotFound eternaleye Exio FabianS falconindy fatal fcrozat|gone fdo-vcs Firstyear floppym flynd frakturfreak franck freeedrich| Genolo grawity gtmanfred Guest39045 gwmngilfen|afk hachque hacosta hagabaka haraldh heftig heinrich5991 hermier hgb hi117 holtmann honschu hussam Hwkiller Hydrazine Ingmar JackWinter Jasper Javafant jave jds2001 jelly1 jenkins-systemd Jesin jhelwig jjardon joemiller jonmasters joshc JPohlmann jreznik__ juergbi k-s KaiSforza Kamilion kangkai kay Kdecherf kerolasa keruspe kevinbenko klapperl klondike kmacleod koen koenkooi koniiiik_ kzak larsks lbt Lektron loswillios manio marktheunissen master_o1_master mbiebl mcfrisk mclasen Md michich mickael9 microcode Mithrandir mius mixi MK_FG moben moltendorf mrec MrElendig msx mue_ muep mwk myrde mz` nakamuray ndim nedko neil nemequ niska Nisstyre noclaf nokogiri npouillard nucleo numeral oahong Obeliks ocharles ohsix operhiem1 otavio ovitters PaulePanter pdq phako Phase4 Philantrop philips_ pknirsch plautrba plfiorini PlugZ51 pocek_ poettering prometheanfire r3pek Ratler rektide riddle rom1504 Rondom roric rworkman Ryback_ s5fs Sage saltsa_ samlt seblu semeion SeoZ-work[AWAY] seschwar Shapeshifter Skaarj slovdahl Slym sofar speakman ssuominen stefano-k stefw Stevee stravaiger Svedrin sztanpet tamas thomasg thorsten` threadlock thrice` tibbs|w tigerfoot timi timtaler- tpepper tridactyla trn tumppu tylerdu uau Viking-Ice vmiklos vudentz walters wdouglas WilliamH wishi woky wwoods xrogaan zbyszek zdzichuBG ZekeS Zeroedout Zoolook zorael]
+2013-02-28 11:48:12	⇄	Channel #systemd: 256 nicks (0 ops, 0 halfops, 0 voices, 256 normals)
+2013-02-28 11:48:14	⇄	Mode #systemd [+ns]
+2013-02-28 11:48:14	⇄	Channel created on Tue, 13 Apr 2010 17:58:39
+2013-02-28 11:54:27	↩	Stevee (~somebody@host228-133-28-81.hiway.at) has quit (Read error: No route to host)
+2013-02-28 11:54:43	r3pek	thanks for the help anyway ;)
+2013-02-28 11:54:50	r3pek	back to cron.... :)
+2013-02-28 11:58:53	↩	Apetrini (~ape@93.37.214.162) has quit (Ping timeout: 245 seconds)
+2013-02-28 11:59:22	↩	jreznik__ (~jreznik@88.101.173.36) has quit (Quit: Konversation terminated!)
+2013-02-28 11:45:03	↩	drhouse123_ (~drhouse12@2.134.144.197) has quit (Read error: Connection reset by peer)
+2013-02-28 11:45:07	r3pek	Carlos Silva
+2013-02-28 12:00:25	↪	drhouse123_ (~drhouse12@2.134.144.197) has joined #systemd
+2013-02-28 12:00:25	↩	cinelli (~boss@cpe-142-136-63-210.socal.res.rr.com) has left #systemd
+2013-02-28 12:00:51	↪	jreznik (~jreznik@88.101.173.36) has joined #systemd
+2013-02-28 12:01:56	↩	honschu (~honschu@shackspace/j4fun) has quit (Ping timeout: 246 seconds)
+2013-02-28 12:03:49	↪	honschu (~honschu@p5DD15E28.dip.t-dialin.net) has joined #systemd
+2013-02-28 12:03:49	↩	honschu (~honschu@p5DD15E28.dip.t-dialin.net) has quit (Changing host)
+2013-02-28 12:03:49	↪	honschu (~honschu@shackspace/j4fun) has joined #systemd
+2013-02-28 12:08:39	↪	stereoit79 (~stereo@ip-78-45-42-209.net.upcbroadband.cz) has joined #systemd
+2013-02-28 12:09:37	↪	SuperHeron (~pierre@91.178.185.85) has joined #systemd
+2013-02-28 12:14:35	↪	scientes (~scientes@199.241.201.67) has joined #systemd
+2013-02-28 12:14:35	↩	scientes (~scientes@199.241.201.67) has quit (Changing host)
+2013-02-28 12:14:35	↪	scientes (~scientes@unaffiliated/scientes) has joined #systemd
+2013-02-28 12:26:50	↩	nedko (~nedko@unaffiliated/nedko) has quit (Quit: Ex-Chat)
+2013-02-28 12:28:11	↩	kzak (~kzak@109.54.broadband13.iol.cz) has quit (Ping timeout: 260 seconds)
+2013-02-28 12:29:42	↪	digital0 (~user@5.20.214.110) has joined #systemd
+2013-02-28 12:29:44	↩	drhouse123_ (~drhouse12@2.134.144.197) has quit (Quit: Konversation terminated!)
+2013-02-28 12:30:35	digital0	hi, how do I restart systemd itself? I changed /etc/systemd/user.conf and want the changes to become active
+2013-02-28 12:30:55	alxchk	systemctl --user daemon-reexec
+2013-02-28 12:31:14	digital0	Failed to get D-Bus connection: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+2013-02-28 12:32:24	digital0	or another question - ssh console is flooded with such messages: Message from syslogd@bluegene at Feb 28 22:31:03 ...
+2013-02-28 12:32:24	digital0	 qmail-scanner-queue.pl: qmail-scanner[9465]:
+2013-02-28 12:33:01	digital0	I changed service file by adding StandardError=null and StandardOutput=null
+2013-02-28 12:33:13	digital0	but still those annoying messages
+2013-02-28 12:33:29	grawity	the messages come from syslogd
+2013-02-28 12:33:39	digital0	they appeared after F17->F18 upgrade
+2013-02-28 12:34:10	grawity	meaning, qmail writes stuff to syslog (why do you have syslogd running?), and syslogd thinks they're important enough...
+2013-02-28 12:34:37	↪	robclark (~robclark@2610:10:20:722:5054:ff:feeb:bf18) has joined #systemd
+2013-02-28 12:34:41	digital0	I don't have syslogd, I have rsyslogd running
+2013-02-28 12:35:05	digital0	# ps axw|grep syslogd
+2013-02-28 12:35:05	digital0	  608 ?        Ssl    0:00 /sbin/rsyslogd -n -c 7
+2013-02-28 12:35:56	robclark	is there any way to trigger systemd-udevd to re-process a device?  I'm trying to figure out how to debug:
+2013-02-28 12:35:57	robclark	Feb 28 15:25:12 touchpad systemd-udevd[146]: worker [1568] terminated by signal 11 (Segmentation fault)
+2013-02-28 12:35:57	robclark	Feb 28 15:25:12 touchpad systemd-udevd[146]: worker [1568] failed while handling '/devices/platform/msm_hsusb/gadget/net/rndis0'
+2013-02-28 12:36:21	↩	mclasen (mclasen@nat/redhat/x-lwazyagtwiyxdmzo) has quit (Ping timeout: 240 seconds)
+2013-02-28 12:36:33	digital0	/etc/rsyslog.conf has "#kern.*                                                 /dev/console" commented out
+2013-02-28 12:36:48	grawity	you could `echo add > /sys/devices/platform/msm_hsusb/gadget/net/rndis0/uevent`, afaik
+2013-02-28 12:37:23	grawity	or `udevadm trigger --sysname-match=rndis0`
+2013-02-28 12:37:49	robclark	grawity, the echo trick worked, thx
+2013-02-28 12:38:13	digital0	any idea how to stop those messages?
+2013-02-28 12:39:06	grawity	digital0: I'd say get rid of rsyslog and only use journald. Unless you have another package that depends on traditional /var/log/messages.
+2013-02-28 12:40:22	↪	Stevee (~somebody@81.28.133.228) has joined #systemd
+2013-02-28 12:40:53	digital0	# systemctl stop rsyslog.service
+2013-02-28 12:40:53	digital0	Job for rsyslog.service canceled.
+2013-02-28 12:40:59	digital0	it does not stop
+2013-02-28 12:42:03	cinelli	digital0: can you disable it ?
+2013-02-28 12:42:21	digital0	yes
+2013-02-28 12:42:33	cinelli	digital0: and it removes the symlink right?
+2013-02-28 12:42:38	digital0	yes
+2013-02-28 12:42:46	cinelli	Reboot and it wont/shouldn't run then.
+2013-02-28 12:42:58	digital0	I can't reboot now
+2013-02-28 12:43:03	cinelli	Well when you get yourself some time to 
+2013-02-28 12:43:17	digital0	can I kill it?
+2013-02-28 12:43:47	digital0	systemd[1]: Started System Logging Service.
+2013-02-28 12:43:49	grawity	try also stopping rsyslog.socket, if that exists
+2013-02-28 12:43:57	digital0	systemd starts it
+2013-02-28 12:45:54	↩	r3pek (~r3pek@bl8-54-42.dsl.telepac.pt) has quit (Remote host closed the connection)
+2013-02-28 12:45:54	robclark	ok.. managed to catch the segfault w/ strace -f ... http://hastebin.com/yaxurikono.tex
+2013-02-28 12:46:13	↩	timi (~tim@unaffiliated/timi0tree) has quit (Changing host)
+2013-02-28 12:46:13	↪	timi (~tim@unaffiliated/timi) has joined #systemd
+2013-02-28 12:46:56	digital0	ok, I killed it and it does not restart
+2013-02-28 12:47:00	robclark	hmm, not sure if that gives anyone any idea.. looks like it gets as far as reading the macaddr and then chokes..
+2013-02-28 12:49:22	↪	amessina (~amessina@2001:470:c1dc:7779:d6be:d9ff:fe8d:7c1e) has joined #systemd
+2013-02-28 12:49:42	↪	r3pek (~r3pek@85.241.54.42) has joined #systemd
+2013-02-28 12:51:00	r3pek	damn :) another crash
+2013-02-28 12:51:21	r3pek	now i was brought back to login screen (X didn't die)
+2013-02-28 12:51:28	r3pek	stupid question: why? ;)
+2013-02-28 12:52:09	cinelli	r3pek: cause something went wrong.
+2013-02-28 12:52:22	r3pek	that part i knew :)
+2013-02-28 12:52:44	r3pek	does systemd control graphic cards?
+2013-02-28 12:53:06	↩	digital0 (~user@5.20.214.110) has quit (Quit: Išeinu)
+2013-02-28 12:53:36	grawity	nope, nothing beyond what udev normally does
+2013-02-28 12:53:42	r3pek	this is the first two lines after this "pseudo-reboot"
+2013-02-28 12:53:48	r3pek	Feb 28 19:45:42 trinity kernel: NVRM: GPU at 0000:01:00: GPU-99987f2b-7800-2b62-448f-7be9635dcea9
+2013-02-28 12:53:49	r3pek	Feb 28 19:45:42 trinity kernel: NVRM: Xid (0000:01:00): 31, Ch 00000001, engmask 00000101, intr 10000000
+2013-02-28 12:54:04	r3pek	nothing "strange" before that
+2013-02-28 12:54:53	↪	drhouse123 (~drhouse12@2.134.144.197) has joined #systemd
+2013-02-28 12:57:05	r3pek	and that two lines don't even show on dmesg :-/
+2013-02-28 12:57:29	↪	mclasen (mclasen@nat/redhat/x-irangqgaexwpsmuc) has joined #systemd
+2013-02-28 12:58:39	↩	semeion (~semeion@gateway/tor-sasl/semeion) has quit (Ping timeout: 276 seconds)
+2013-02-28 13:00:14	↪	dmach (~dmach@ip4-95-82-133-193.cust.nbox.cz) has joined #systemd
+2013-02-28 13:03:59	↩	michich (~michich@8.102.broadband6.iol.cz) has quit (Quit: Bye)
+2013-02-28 13:10:51	↩	mclasen (mclasen@nat/redhat/x-irangqgaexwpsmuc) has quit (Ping timeout: 240 seconds)
+2013-02-28 13:12:25	⇄	bluetech_ is now known as bluetech
+2013-02-28 13:13:58	↪	tomegun (~teg@2a01:e35:398b:f520:9afe:94ff:fe3f:c618) has joined #systemd
+2013-02-28 13:13:58	↩	tomegun (~teg@2a01:e35:398b:f520:9afe:94ff:fe3f:c618) has quit (Changing host)
+2013-02-28 13:13:58	↪	tomegun (~teg@archlinux/developer/tomegun) has joined #systemd
+2013-02-28 13:17:21	↩	samlt (~sam@176.90.28.109.rev.sfr.net) has quit (Ping timeout: 240 seconds)
+2013-02-28 13:19:49	↩	Stevee (~somebody@81.28.133.228) has quit (Quit: ChatZilla 0.9.87-6.1450hg.fc18 [XULRunner 19.0/20130218162742])
+2013-02-28 13:23:01	↪	Apetrini (~ape@93.37.214.162) has joined #systemd
+2013-02-28 13:26:37	↩	Ryback_ (~ulisses@enlightenment/developer/ryback) has quit (Quit: Leaving)
+2013-02-28 13:29:13	↩	tibbs|w (~tibbs@fedora/tibbs) has quit
+2013-02-28 13:29:24	↩	dmach (~dmach@ip4-95-82-133-193.cust.nbox.cz) has quit
+2013-02-28 13:32:49	↩	Eliatrope (~speckius@212.113.107.78) has quit (Ping timeout: 276 seconds)
+2013-02-28 13:33:30	↪	lnykryn (~lnykryn@89.103.39.51) has joined #systemd
+2013-02-28 13:35:26	↪	nedko (~nedko@unaffiliated/nedko) has joined #systemd
+2013-02-28 13:35:29	↩	nedko (~nedko@unaffiliated/nedko) has quit (Remote host closed the connection)
+2013-02-28 13:36:10	↪	nedko (~nedko@unaffiliated/nedko) has joined #systemd
+2013-02-28 13:46:08	↩	denised (ddumas@nat/redhat/x-oqcvdvpywaxeaezs) has quit (Ping timeout: 255 seconds)
+2013-02-28 13:47:57	↩	Genolo (~ivesound@2001:470:b9a3::81) has quit (Ping timeout: 245 seconds)
+2013-02-28 13:54:03	↩	SuperHeron (~pierre@91.178.185.85) has quit (Quit: Ex-Chat)
+2013-02-28 13:55:04	⇄	k-s is now known as k-s[AWAY]
+2013-02-28 14:00:24	↪	nchen (86868947@gateway/web/freenode/ip.134.134.137.71) has joined #systemd
+2013-02-28 14:10:33	↩	Viking-Ice (~johannbg@157-157-184-18.dsl.dynamic.simnet.is) has quit (Quit: Ex-Chat)
+2013-02-28 14:14:50	↪	cinelli (~boss@cpe-142-136-63-210.socal.res.rr.com) has joined #systemd
+2013-02-28 14:14:50	⇄	Topic for #systemd is "Version 197 released! || http://www.freedesktop.org/software/systemd/systemd-197.tar.xz || http://www.freedesktop.org/wiki/Software/systemd || https://www.youtube.com/watch?v=9UnEV9SPuw8"
+2013-02-28 14:14:50	⇄	Topic set by michich_ (~michich@2a01:4240:5f52:bc8f:4a5b:39ff:fea7:39f1) on Mon, 25 Feb 2013 12:17:20
+2013-02-28 14:14:50	⇄	Nicks #systemd: [\n _fritz_ _grawity Adys aep agreene ahkok Alam_Squeeze algernon alub alwaysontherun- alxchk AmandaC amessina Apetrini araujo armands_ arnej arza ausbin avar berniyh Bertl bigon bizhanMona bjoe2k4 blami blueness bluetech bnf BogdanR Boohbah borschty boxofrox brain0 breiti brian Bruners CalimeroTeknik canta cbmuser chengwei Choris christoph_ cinelli cmr coling contradictioned dagger dan408 danmackay davidstrauss davidz demarchi dhaval Diaoul DinCahill dlb76 drhouse123 dvdhrm dwalsh_ dyek eboettcher ecloud else- elxa_ elzapp eqyiel Error404NotFound eternaleye Exio FabianS falconindy fatal fcrozat|gone fdo-vcs Firstyear floppym flynd frakturfreak franck freeedrich| grawity gtmanfred Guest39045 gwmngilfen|afk hachque hacosta hagabaka haraldh heftig heinrich5991 hermier hgb hi117 holtmann honschu hussam Hwkiller Hydrazine Ingmar JackWinter Jasper Javafant jave jds2001 jelly1 jenkins-systemd Jesin jhelwig jjardon joemiller jonmasters joshc JPohlmann jreznik juergbi k-s[AWAY] KaiSforza Kamilion kangkai kay Kdecherf kerolasa keruspe kevinbenko klapperl klondike kmacleod koen koenkooi koniiiik_ larsks lbt Lektron lnykryn loswillios manio marktheunissen master_o1_master mbiebl mcfrisk Md mickael9 microcode Mithrandir mius mixi MK_FG moben moltendorf mrec MrElendig msx mue_ muep mwk myrde mz` nakamuray nchen ndim nedko neil nemequ niska Nisstyre noclaf nokogiri npouillard nucleo numeral oahong Obeliks ocharles ohsix operhiem1 otavio ovitters PaulePanter pdq phako Phase4 Philantrop philips_ pknirsch plautrba plfiorini PlugZ51 pocek_ poettering prometheanfire r3pek Ratler rektide riddle robclark rom1504 Rondom roric rworkman s5fs Sage saltsa_ scientes seblu SeoZ-work[AWAY] seschwar Shapeshifter Skaarj slovdahl Slym sofar speakman ssuominen stefano-k stefw stereoit79 stravaiger Svedrin sztanpet tamas thomasg thorsten` threadlock thrice` tigerfoot timi timtaler- tomegun tpepper tridactyla trn tumppu tylerdu uau vmiklos vudentz walters wdouglas WilliamH wishi woky wwoods xrogaan zbyszek zdzichuBG ZekeS Zeroedout Zoolook zorael]
+2013-02-28 14:14:50	⇄	Channel #systemd: 251 nicks (0 ops, 0 halfops, 0 voices, 251 normals)
+2013-02-28 14:32:08	↪	cinelli (~boss@archlinux/trusteduser/cinelli) has joined #systemd
+2013-02-28 14:32:08	⇄	Topic for #systemd is "Version 197 released! || http://www.freedesktop.org/software/systemd/systemd-197.tar.xz || http://www.freedesktop.org/wiki/Software/systemd || https://www.youtube.com/watch?v=9UnEV9SPuw8"
+2013-02-28 14:32:08	⇄	Topic set by michich_ (~michich@2a01:4240:5f52:bc8f:4a5b:39ff:fea7:39f1) on Mon, 25 Feb 2013 12:17:20
+2013-02-28 14:32:08	⇄	Nicks #systemd: [\n _fritz_ _grawity Adys aep agreene ahkok Alam_Squeeze algernon alub alwaysontherun- alxchk AmandaC amessina Apetrini araujo armands_ arnej arza ausbin avar berniyh Bertl bigon bizhanMona bjoe2k4 blami blueness bluetech bnf BogdanR Boohbah borschty boxofrox brain0 breiti brian Bruners CalimeroTeknik canta cbmuser chengwei Choris christoph_ cinelli cmr coling contradictioned dagger dan408 danmackay davidstrauss davidz demarchi dhaval Diaoul DinCahill dlb76 dvdhrm dyek eboettcher ecloud else- elxa_ elzapp eqyiel Error404NotFound eternaleye Exio FabianS falconindy fatal fcrozat|gone fdo-vcs Firstyear floppym flynd frakturfreak franck freeedrich| gaveen grawity gtmanfred Guest39045 gwmngilfen|afk hachque hacosta hagabaka haraldh heftig heinrich5991 hermier hgb hi117 holtmann honschu hussam Hwkiller Hydrazine Ingmar JackWinter Jasper Javafant jave jds2001 jelly1 jenkins-systemd Jesin jhelwig jjardon joemiller jonmasters joshc JPohlmann jreznik juergbi k-s[AWAY] KaiSforza Kamilion kangkai kay Kdecherf kerolasa keruspe kevinbenko klapperl klondike kmacleod koen koenkooi koniiiik_ larsks lbt Lektron lnykryn loswillios manio marktheunissen master_o1_master mbiebl mcfrisk Md mickael9 microcode Mithrandir mius mixi MK_FG moben moltendorf mrec MrElendig msx mue_ muep mwk myrde mz` nakamuray nchen ndim nedko neil nemequ niska Nisstyre Nisstyre-laptop noclaf nokogiri npouillard nucleo numeral oahong Obeliks ocharles ohsix operhiem1 otavio ovitters PaulePanter pdq phako Phase4 Philantrop philips_ pknirsch plautrba plfiorini PlugZ51 pocek_ poettering prometheanfire r3pek Ratler rektide riddle robclark rom1504 Rondom roric rworkman s5fs Sage saltsa_ scientes seblu SeoZ-work[AWAY] seschwar Shapeshifter Skaarj slovdahl Slym sofar speakman ssuominen stefano-k stefw stereoit79 Svedrin sztanpet tamas thomasg thorsten` threadlock thrice` tigerfoot timi timtaler- tomegun tpepper tridactyla trn tumppu tylerdu uau vmiklos vudentz walters wdouglas WilliamH wishi woky wwoods xrogaan zbyszek zdzichuBG ZekeS Zeroedout Zoolook zorael]
+2013-02-28 14:32:08	⇄	Channel #systemd: 250 nicks (0 ops, 0 halfops, 0 voices, 250 normals)
+2013-02-28 14:32:12	⇄	Mode #systemd [+ns]
+2013-02-28 14:32:12	⇄	Channel created on Tue, 13 Apr 2010 17:58:39
+2013-02-28 14:33:24	↪	drhouse123 (~drhouse12@2.134.144.197) has joined #systemd
+2013-02-28 14:33:43	↩	Jesin (~Jessin_@Dyn157099.cc.lehigh.edu) has quit (Ping timeout: 260 seconds)
+2013-02-28 14:35:55	↩	seschwar (~seschwar@unaffiliated/seschwar) has quit (Ping timeout: 246 seconds)
+2013-02-28 14:39:30	↪	drhouse123_ (~drhouse12@2.134.169.22) has joined #systemd
+2013-02-28 14:39:49	↪	dwalsh_ (dwalsh@nat/redhat/x-yjldxscedkdbnssl) has joined #systemd
+2013-02-28 14:39:58	↩	kay (~kay@p549C6EE0.dip.t-dialin.net) has quit (Quit: kay)
+2013-02-28 14:40:55	tomegun	haraldh: ping?
+2013-02-28 14:41:11	↩	drhouse123 (~drhouse12@2.134.144.197) has quit (Ping timeout: 260 seconds)
+2013-02-28 14:42:13	↩	jreznik (~jreznik@88.101.173.36) has quit (Ping timeout: 245 seconds)
+2013-02-28 14:42:14	tomegun	did you have a chance to look at my initrd patches i posted a few days back? any objections to me pushing them to the repo before the next release?
+2013-02-28 14:42:24	tomegun	poettering, kay: ^
+2013-02-28 14:44:26	↪	yours_truly (~yours@mc-189-127.IPReg.mcmaster.ca) has joined #systemd
+2013-02-28 14:46:32	↩	drhouse123_ (~drhouse12@2.134.169.22) has quit (Read error: Connection reset by peer)
+2013-02-28 14:48:19	↪	drhouse123_ (~drhouse12@2.134.169.22) has joined #systemd
+2013-02-28 14:48:43	↪	seschwar (~seschwar@unaffiliated/seschwar) has joined #systemd
+2013-02-28 14:49:22	↩	yours_truly (~yours@mc-189-127.IPReg.mcmaster.ca) has quit (Quit: Leaving)
+2013-02-28 14:50:36	↩	amessina (~amessina@2001:470:c1dc:7779:d6be:d9ff:fe8d:7c1e) has quit (Quit: Konversation terminated!)
+2013-02-28 14:51:00	↩	dwalsh_ (dwalsh@nat/redhat/x-yjldxscedkdbnssl) has quit (Ping timeout: 248 seconds)
+2013-02-28 14:51:56	↪	kay (~kay@84.156.110.224) has joined #systemd
+2013-02-28 14:53:07	↩	bluetech (~bluetech@bzq-79-180-21-167.red.bezeqint.net) has quit (Quit: leaving)
+2013-02-28 14:53:47	↪	Jesin (~Jessin_@Dyn157099.cc.lehigh.edu) has joined #systemd
+2013-02-28 14:56:01	↩	drhouse123_ (~drhouse12@2.134.169.22) has quit (Read error: Connection reset by peer)
+2013-02-28 15:01:13	↩	dhaval (~dhaval@undead.csl.utoronto.ca) has quit (Ping timeout: 276 seconds)
+2013-02-28 15:02:56	↪	megustavo (~dox@unaffiliated/megustavo) has joined #systemd
+2013-02-28 15:03:12	↩	frakturfreak (~frakturfr@unaffiliated/frakturfreak) has quit (Ping timeout: 264 seconds)
+2013-02-28 15:03:16	↩	walters (~walters@conductor.verbum.org) has quit (Quit: Leaving)
+2013-02-28 15:16:06	↩	lnykryn (~lnykryn@89.103.39.51) has quit (Quit: Leaving.)
+2013-02-28 15:28:58	↪	hspasta (~Haptic@hltp-a-058.resnet.purdue.edu) has joined #systemd
+2013-02-28 15:37:29	↩	marktheunissen (marktheuni@rrcs-24-173-111-218.sw.biz.rr.com) has quit (Quit: marktheunissen)
+2013-02-28 15:40:19	↩	hspasta (~Haptic@hltp-a-058.resnet.purdue.edu) has quit (Ping timeout: 248 seconds)
+2013-02-28 15:40:29	↩	seschwar (~seschwar@unaffiliated/seschwar) has quit (Quit: :qa)
+2013-02-28 15:40:29	↪	ISF (~ivan@189.61.223.79) has joined #systemd
+2013-02-28 15:55:31	↪	dhaval (~dhaval@174.114.30.112) has joined #systemd
+2013-02-28 15:59:48	↩	Jesin (~Jessin_@Dyn157099.cc.lehigh.edu) has quit (Ping timeout: 248 seconds)
+2013-02-28 16:04:04	↩	nucleo (nucleo@fedora/nucleo) has quit (Quit: just make this person in IRC be quiet http://goo.gl/4RGta)
+2013-02-28 16:04:42	↪	denise (~ddumas@66-189-45-91.dhcp.oxfr.ma.charter.com) has joined #systemd
+2013-02-28 16:06:48	↩	christoph_ (~christoph@92.231.121.159) has quit (Ping timeout: 245 seconds)
+2013-02-28 16:08:52	↩	moltendorf (~moltendor@c-76-126-225-91.hsd1.ca.comcast.net) has quit (Read error: Connection reset by peer)
+2013-02-28 16:10:10	↪	moltendorf (~moltendor@c-76-126-225-91.hsd1.ca.comcast.net) has joined #systemd
+2013-02-28 16:16:03	↩	brain0 (~brain0@archlinux/developer/brain0) has quit (Quit: leaving)
+2013-02-28 16:19:08	stereoit79	hi folks, I can't start gearmand from systemd service file, http://pastebin.com/hhqZXGUF, can anybody have a look?
+2013-02-28 16:21:16	↩	Nisstyre-laptop (~yours@oftn/member/Nisstyre) has quit (Quit: Leaving)
+2013-02-28 16:27:31	sofar	stereoit79: did you really pastebot your password?
+2013-02-28 16:28:07	falconindy	stereoit79: it's clearly a quoting problem
+2013-02-28 16:28:25	falconindy	use double quotes and quote the entire flag _with_ the value
+2013-02-28 16:28:35	falconindy	er with the flag itself, even
+2013-02-28 16:28:58	falconindy	"--fooflag=systemd is not a shell"
+2013-02-28 16:37:14	↪	Jesin (~Jessin_@Dyn157099.cc.lehigh.edu) has joined #systemd
+2013-02-28 16:41:48	↩	ISF (~ivan@189.61.223.79) has quit (Ping timeout: 245 seconds)
+2013-02-28 16:44:04	↪	ming_lei (~ming@183.37.202.73) has joined #systemd
+2013-02-28 16:45:06	↪	IcarianHeights (~ghost@gateway/tor-sasl/carbonchauvinist) has joined #systemd
+2013-02-28 16:48:26	⇄	koniiiik_ is now known as koniiiik
+2013-02-28 16:54:18	↩	WilliamH (~william@gentoo/developer/williamh) has quit (Ping timeout: 276 seconds)
+2013-02-28 16:54:43	↩	dhaval (~dhaval@174.114.30.112) has quit (Ping timeout: 245 seconds)
+2013-02-28 16:55:47	↪	WilliamH (~william@gentoo/developer/williamh) has joined #systemd
+2013-02-28 16:57:33	↩	nchen (86868947@gateway/web/freenode/ip.134.134.137.71) has quit (Ping timeout: 245 seconds)
+2013-02-28 17:09:00	↪	ISF (~ivan@189.61.223.79) has joined #systemd
+2013-02-28 17:13:19	↩	Zoolook (~cevreiba@p54951C6C.dip.t-dialin.net) has quit (Ping timeout: 260 seconds)
+2013-02-28 17:15:06	fdo-vcs	systemd zbyszek master * 927e963 (5 files in 2 dirs)
+2013-02-28 17:15:07	fdo-vcs	systemd python: add systemd.id128 module
+2013-02-28 17:15:07	fdo-vcs	systemd zbyszek master * afcd68c src/python-systemd/journal.py
+2013-02-28 17:15:07	fdo-vcs	systemd python: utilize uuid.UUID in logging
+2013-02-28 17:15:07	fdo-vcs	systemd zbyszek master * d489071 src/journal/journalctl.c
+2013-02-28 17:15:10	fdo-vcs	systemd journalct: also print Python code in --new-id
+2013-02-28 17:15:12	fdo-vcs	systemd zbyszek master * 9015fa6 (10 files in 4 dirs)
+2013-02-28 17:15:15	fdo-vcs	systemd python: build html docs using sphinx
+2013-02-28 17:15:18	fdo-vcs	systemd steven master * c4e9b5b Makefile.am src/python-systemd/_reader.c src/python-systemd/journal.py
+2013-02-28 17:15:21	fdo-vcs	systemd systemd-python: add Journal class for reading journal
+2013-02-28 17:15:24	fdo-vcs	systemd steven master * 2d0603b src/python-systemd/ _reader.c journal.py
+2013-02-28 17:15:27	fdo-vcs	systemd systemd-python: moved PyRun_String to journal.py code
+2013-02-28 17:15:29	fdo-vcs	systemd steven master * 3ce2cc2 src/python-systemd/journal.py
+2013-02-28 17:15:32	fdo-vcs	systemd systemd-python: MESSAGE_ID as UUID for Journal
+2013-02-28 17:15:35	fdo-vcs	systemd steven master * 3aa8f08 src/python-systemd/ _reader.c journal.py
+2013-02-28 17:15:38	fdo-vcs	systemd systemd-python: move default call dicts from C to python
+2013-02-28 17:15:40	fdo-vcs	systemd zbyszek master * c1db45c src/python-systemd/docs/journal.rst
+2013-02-28 17:15:43	fdo-vcs	systemd sphinx: document Journal class too
+2013-02-28 17:15:46	fdo-vcs	systemd steven master * 25523db src/python-systemd/ _reader.c journal.py
+2013-02-28 17:15:49	fdo-vcs	systemd systemd-python: Journal log_level moved to python
+2013-02-28 17:15:51	fdo-vcs	systemd steven master * 6a71de7 src/python-systemd/ _reader.c journal.py
+2013-02-28 17:15:54	fdo-vcs	systemd systemd-python: implement this_boot/this_machine in Python
+2013-02-28 17:15:57	fdo-vcs	systemd steven master * bf1ced5 src/python-systemd/ _reader.c journal.py
+2013-02-28 17:16:00	fdo-vcs	systemd systemd-python: some python3 and bug fixes
+2013-02-28 17:16:03	fdo-vcs	systemd steven master * 71766af src/python-systemd/ _reader.c journal.py
+2013-02-28 17:16:06	fdo-vcs	systemd systemd-python: Tidy up _reader error handling
+2013-02-28 17:16:08	fdo-vcs	systemd steven master * 7a1b9cd src/python-systemd/ _reader.c journal.py
+2013-02-28 17:16:11	fdo-vcs	systemd systemd-python: Moved _reader datetime usage to python
+2013-02-28 17:16:14	fdo-vcs	systemd steven master * d2dd026 src/python-systemd/_reader.c
+2013-02-28 17:16:17	fdo-vcs	systemd systemd-python: updated _reader header to standard license
+2013-02-28 17:16:19	fdo-vcs	systemd steven master * a49f4d1 src/python-systemd/_reader.c
+2013-02-28 17:16:22	fdo-vcs	systemd systemd-python: correct data_threshold error return value
+2013-02-28 17:16:25	fdo-vcs	systemd steven master * 5bb2b8d src/python-systemd/ _reader.c journal.py
+2013-02-28 17:16:28	fdo-vcs	systemd systemd-python: _reader add_match takes single string
+2013-02-28 17:16:30	fdo-vcs	systemd steven master * 83718af src/python-systemd/_reader.c
+2013-02-28 17:16:33	fdo-vcs	systemd systemd-python: Update _reader docstrings
+2013-02-28 17:16:36	fdo-vcs	systemd steven master * 518dc5d src/python-systemd/ _reader.c journal.py
+2013-02-28 17:16:39	fdo-vcs	systemd systemd-python: _reader now takes unix timestamp in seconds
+2013-02-28 17:16:41	fdo-vcs	systemd steven master * dd37d56 src/python-systemd/_reader.c
+2013-02-28 17:16:44	fdo-vcs	systemd systemd-python: remove unneeded ifdef for query_unique
+2013-02-28 17:16:47	fdo-vcs	systemd steven master * 301ae16 src/python-systemd/journal.py
+2013-02-28 17:16:50	fdo-vcs	systemd systemd-python: Journal this_boot/machine now accepts ID
+2013-02-28 17:16:52	fdo-vcs	systemd steven master * b835982 src/python-systemd/ _reader.c journal.py
+2013-02-28 17:16:55	fdo-vcs	systemd systemd-python: tidy up import names in journal
+2013-02-28 17:16:58	fdo-vcs	systemd steven master * c71f26e src/python-systemd/ _reader.c journal.py
+2013-02-28 17:17:01	fdo-vcs	systemd systemd-python: update Journal python docstrings
+2013-02-28 17:17:04	fdo-vcs	systemd steven master * 6d0c634 src/python-systemd/_reader.c
+2013-02-28 17:17:06	fdo-vcs	systemd systemd-python: fix memory leak in _reader and minor bugs
+2013-02-28 17:17:09	fdo-vcs	systemd steven master * 89d9a23 src/python-systemd/journal.py
+2013-02-28 17:17:12	fdo-vcs	systemd systemd-python: add Journal method to add MESSAGE_ID match
+2013-02-28 17:17:15	fdo-vcs	systemd steven master * eccc9e7 src/python-systemd/journal.py
+2013-02-28 17:17:17	fdo-vcs	systemd systemd-python: Journal convert_unicode exception handling change
+2013-02-28 17:17:20	fdo-vcs	systemd steven master * cac40fb src/python-systemd/journal.py
+2013-02-28 17:17:21	↩	Jesin (~Jessin_@Dyn157099.cc.lehigh.edu) has quit (Ping timeout: 240 seconds)
+2013-02-28 17:17:23	fdo-vcs	systemd systemd-python: Added doc string for Journal
+2013-02-28 17:17:26	fdo-vcs	systemd zbyszek master * e82e4f4 src/python-systemd/_reader.c
+2013-02-28 17:17:28	fdo-vcs	systemd systemd-python: introduce error setting helper
+2013-02-28 17:17:31	fdo-vcs	systemd zbyszek master * ecb6dfe src/python-systemd/_reader.c
+2013-02-28 17:17:34	fdo-vcs	systemd systemd-python: wrap some python differences using macros
+2013-02-28 17:17:36	fdo-vcs	systemd zbyszek master * 118bf4b src/python-systemd/_reader.c
+2013-02-28 17:17:39	fdo-vcs	systemd systemd-python: add casts and fix unused variable warnings in _reader
+2013-02-28 17:17:42	fdo-vcs	systemd zbyszek master * 0d92ee9 src/python-systemd/_reader.c
+2013-02-28 17:17:45	fdo-vcs	systemd systemd-python: downgrade _reader.c to C89
+2013-02-28 17:17:47	fdo-vcs	systemd zbyszek master * 33ed376 src/python-systemd/_reader.c
+2013-02-28 17:17:50	fdo-vcs	systemd systemd-python: indenation and style tweaks
+2013-02-28 17:17:53	fdo-vcs	systemd zbyszek master * 2c07646 src/python-systemd/ _reader.c id128.c journal.py
+2013-02-28 17:17:56	fdo-vcs	systemd systemd-python: polish the docstrings
+2013-02-28 17:17:58	fdo-vcs	systemd zbyszek master * 603c0b7 Makefile.am configure.ac
+2013-02-28 17:17:58	ohsix	i like that downgrade language :>
+2013-02-28 17:18:01	fdo-vcs	systemd build-sys: make sphinx support uncoditional
+2013-02-28 17:18:04	fdo-vcs	systemd zbyszek master * a244c09 src/python-systemd/id128.c
+2013-02-28 17:18:06	fdo-vcs	systemd systemd-python: use PyModule_AddObject in id128
+2013-02-28 17:18:09	fdo-vcs	systemd zbyszek master * df2795d src/python-systemd/docs/ id128.rst journal.rst
+2013-02-28 17:18:12	fdo-vcs	systemd systemd-python: document attributes
+2013-02-28 17:18:15	fdo-vcs	systemd zbyszek master * 5c083fa src/python-systemd/journal.py
+2013-02-28 17:18:17	fdo-vcs	systemd systemd-python: hide ChainMap import
+2013-02-28 17:18:20	fdo-vcs	systemd zbyszek master * d426d8c Makefile.am
+2013-02-28 17:18:22	fdo-vcs	systemd build-sys: upload python documentation to freedesktop.org
+2013-02-28 17:18:26	fdo-vcs	systemd zbyszek master * 6a6633a (6 files in 2 dirs)
+2013-02-28 17:18:28	fdo-vcs	systemd python-systemd: check all errors and use automatic cleanup
+2013-02-28 17:18:31	fdo-vcs	systemd zbyszek master * 86e3d32 src/python-systemd/ _reader.c docs/journal.rst journal.py
+2013-02-28 17:18:34	fdo-vcs	systemd systemd-python: return both parts of sd_journal_get_monotonic_usec
+2013-02-28 17:18:37	fdo-vcs	systemd zbyszek master * 7f41820 src/python-systemd/ _reader.c docs/journal.rst journal.py
+2013-02-28 17:18:40	fdo-vcs	systemd python-systemd: rename Journal to Reader
+2013-02-28 17:18:42	fdo-vcs	systemd zbyszek master * 37d3ab1 Makefile.am configure.ac src/journal/journalctl.c
+2013-02-28 17:18:45	fdo-vcs	systemd Merge branch 'python-systemd-reader'
+2013-02-28 17:18:50	↪	dhaval (~dhaval@174.114.30.112) has joined #systemd
+2013-02-28 17:19:26	↩	kmacleod (~ken@mail.trafficware.com) has quit (Ping timeout: 272 seconds)
+2013-02-28 17:19:36	jenkins-systemd	Project build-master build #543: SUCCESS in 2 min 17 sec: http://systemd.getpantheon.com:8080/jenkins/job/build-master/543/
+2013-02-28 17:19:37		[http://is.gd/fRK3oL]
+2013-02-28 17:21:37	↪	Genolo (~ivesound@2001:470:b9a3::81) has joined #systemd
+2013-02-28 17:32:04	|	sofar golfclaps for zbyszek 
+2013-02-28 17:37:00	megustavo	huh?
+2013-02-28 17:51:17	↪	kmacleod (~ken@71.29.218.138) has joined #systemd
+2013-02-28 17:54:56	↪	Jesin (~Jessin_@Dyn088178.dept.Lehigh.EDU) has joined #systemd
+2013-02-28 17:56:47	⇄	numeral is now known as sqrtnegone
+2013-02-28 18:06:04	KaiSforza	wut
+2013-02-28 18:06:16	KaiSforza	push ALL THE THINGS!
+2013-02-28 18:08:48	↩	Error404NotFound (~Error404N@unaffiliated/error404notfound) has quit (Disconnected by services)
+2013-02-28 18:08:52	↪	Err404NotFound (~Error404N@unaffiliated/error404notfound) has joined #systemd
+2013-02-28 18:13:24	↩	nedko (~nedko@unaffiliated/nedko) has quit (Quit: Ex-Chat)
+2013-02-28 18:18:40	↩	Skaarj (~quassel@p57AD08F3.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2013-02-28 18:26:49	⇄	sqrtnegone is now known as numeral
+2013-02-28 18:30:13	↩	davidz (zeuthen@nat/google/x-khkxosnvsfiejsic) has quit (Quit: Word of advice: If you meet yourself on the testing track, don't make eye contact.)
+2013-02-28 18:30:46	↩	klapperl (~k@p4FC97D67.dip.t-dialin.net) has quit (Ping timeout: 246 seconds)
+2013-02-28 18:31:17	↪	bochecha_ (~bochecha@175.45.17.220) has joined #systemd
+2013-02-28 18:31:17	↩	bochecha_ (~bochecha@175.45.17.220) has quit (Changing host)
+2013-02-28 18:31:17	↪	bochecha_ (~bochecha@fedora/bochecha) has joined #systemd
+2013-02-28 18:33:12	↪	klapperl (~k@93.219.22.100) has joined #systemd
+2013-02-28 18:38:38	↩	franck (~franck@63.100.100.5) has quit (Quit: Leaving)
+2013-02-28 18:39:58	↩	loswillios (~jan@unaffiliated/loswillios) has quit (Ping timeout: 244 seconds)
+2013-02-28 18:40:08	↩	dhaval (~dhaval@174.114.30.112) has quit (Ping timeout: 245 seconds)
+2013-02-28 18:40:40	↪	dhaval (~dhaval@CPEbcc810004cde-CMbcc810004cdb.cpe.net.cable.rogers.com) has joined #systemd
+2013-02-28 18:47:31	↪	dvdhrm__ (~david@stgt-5f719994.pool.mediaWays.net) has joined #systemd
+2013-02-28 18:51:16	↩	dvdhrm (~david@stgt-5f71b529.pool.mediaWays.net) has quit (Ping timeout: 272 seconds)
+2013-02-28 18:52:04	↩	dhaval (~dhaval@CPEbcc810004cde-CMbcc810004cdb.cpe.net.cable.rogers.com) has quit (Ping timeout: 248 seconds)
+2013-02-28 19:12:45	↪	diegoviola (~diego@host-1-19.b9.cvc.com.py) has joined #systemd
+2013-02-28 19:14:24	↪	e1ch1 (~idkfa@2001:67c:e8:12:20e:4ff:feb7:16a6) has joined #systemd

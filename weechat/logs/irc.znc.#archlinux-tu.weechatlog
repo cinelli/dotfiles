@@ -1,0 +1,310 @@
+2013-02-27 23:27:30	↪	cinelli (~boss@cpe-142-136-63-210.socal.res.rr.com) has joined #archlinux-tu
+2013-02-27 23:27:30	⇄	Topic for #archlinux-tu is "http://media.tumblr.com/tumblr_m0r4txQAev1r27y9z.jpg || adopt the orphans! http://tinyurl.com/8k5wlvs (jelly1)"
+2013-02-27 23:27:30	⇄	Topic set by phrik (~archbot@archlinux/bot/phrik) on Sat, 04 Aug 2012 14:49:39
+2013-02-27 23:27:30	⇄	Nicks #archlinux-tu: [@ChanServ Atsutane bash` BlackIkeEagle Bluewind bpiotrowski cinelli CryptoCrack Daenyth falconindy felixonmars gtmanfred Guest5355 heftig ioni jelly1 jsteel keenerd lordheavy noclaf petelewis phrik schuay seblu svenstaro td123 thestinger xyproto]
+2013-02-27 23:27:30	⇄	Channel #archlinux-tu: 28 nicks (1 op, 0 halfops, 0 voices, 27 normals)
+2013-02-27 23:27:34	⇄	Mode #archlinux-tu [+ckns 712u573d]
+2013-02-27 23:27:34	⇄	Channel created on Tue, 13 Feb 2007 07:28:18
+2013-02-27 23:37:19	↪	cinelli (~boss@archlinux/trusteduser/cinelli) has joined #archlinux-tu
+2013-02-27 23:37:19	⇄	Topic for #archlinux-tu is "http://media.tumblr.com/tumblr_m0r4txQAev1r27y9z.jpg || adopt the orphans! http://tinyurl.com/8k5wlvs (jelly1)"
+2013-02-27 23:37:19	⇄	Topic set by phrik (~archbot@archlinux/bot/phrik) on Sat, 04 Aug 2012 14:49:39
+2013-02-27 23:37:19	⇄	Nicks #archlinux-tu: [@ChanServ Atsutane bash` BlackIkeEagle Bluewind bpiotrowski cinelli CryptoCrack Daenyth falconindy felixonmars gtmanfred Guest5355 heftig ioni jelly1 jsteel keenerd lordheavy noclaf petelewis phrik schuay seblu svenstaro td123 thestinger xyproto]
+2013-02-27 23:37:19	⇄	Channel #archlinux-tu: 28 nicks (1 op, 0 halfops, 0 voices, 27 normals)
+2013-02-27 23:37:21	⇄	Mode #archlinux-tu [+ckns 712u573d]
+2013-02-27 23:37:21	⇄	Channel created on Tue, 13 Feb 2007 07:28:18
+2013-02-27 23:44:38	↩	noclaf (~noclaf@archlinux/developer/falconindy) has quit (Ping timeout: 255 seconds)
+2013-02-27 23:45:10	↪	noclaf (~noclaf@archlinux/developer/falconindy) has joined #archlinux-tu
+2013-02-28 00:07:17	↩	thestinger (~strcat@archlinux/trusteduser/thestinger) has quit (Quit: WeeChat 0.4.0)
+2013-02-28 00:10:11	⇄	bash` is now known as ascarpino
+2013-02-28 00:11:14	ascarpino	svenstaro: ping
+2013-02-28 00:14:28	↩	felixonmars (~felix@archlinux/trusteduser/felixonmars) has quit (Remote host closed the connection)
+2013-02-28 00:17:46	↪	vihcs (~schiv@archlinux/developer/schiv) has joined #archlinux-tu
+2013-02-28 00:44:00	⇄	vihcs is now known as schiv
+2013-02-28 00:48:54	ascarpino	xyproto: stop pushing packages to community-staging, mesa is in [extra]! :)
+2013-02-28 00:55:38	svenstaro	ascarpino: pong
+2013-02-28 01:00:17	↩	schiv (~schiv@archlinux/developer/schiv) has quit (Ping timeout: 244 seconds)
+2013-02-28 01:07:31	ascarpino	svenstaro: I'd like to know if you have some suggestion about the qmake/qmake4 issue
+2013-02-28 01:08:11	xyproto	ascarpino: dang, will do, thx
+2013-02-28 01:11:34	svenstaro	ascarpino: you mean the profile sourcing?
+2013-02-28 01:11:53	ascarpino	I mean cmake that uses qmake from 5.0 when it should use qmake from 4.0
+2013-02-28 01:12:06	ascarpino	svenstaro: though, I don't see a real issue with qmake, as I want that `qmake` refers to the 5.0 version when installed...
+2013-02-28 01:12:27	svenstaro	well what is the problem here?
+2013-02-28 01:12:53	ascarpino	do you remember the PYTHON=/usr/bin/python2 fix in the pkgbuilds?
+2013-02-28 01:13:01	svenstaro	yes
+2013-02-28 01:13:18	ascarpino	well, we should add -DQT_QMAKE_EXECUTABLE=qmake4 to every pkgbuild that use qt4
+2013-02-28 01:13:37	ascarpino	both directly and indirectly (e.g. all kde* packages)
+2013-02-28 01:13:58	svenstaro	that would make sense
+2013-02-28 01:14:48	↪	felixonmars (~felix@archlinux/trusteduser/felixonmars) has joined #archlinux-tu
+2013-02-28 01:16:54	felixonmars	is there something like "package operation history" for an aur package?
+2013-02-28 01:17:03	ascarpino	felixonmars: the git thing
+2013-02-28 01:17:36	felixonmars	hmm, i mean things like disown/adopt
+2013-02-28 01:17:44	ascarpino	uhm, no
+2013-02-28 01:18:26	felixonmars	well, im innocent in this: https://aur.archlinux.org/packages/adobe-air/?comments=all
+2013-02-28 01:18:27		[http://is.gd/uOorIm]
+2013-02-28 01:18:28	felixonmars	:(
+2013-02-28 01:18:28	phrik	Title: AUR (en) - adobe-air (at aur.archlinux.org)
+2013-02-28 01:18:34	ascarpino	you lie!
+2013-02-28 01:19:10	cinelli	felixonmars: hah
+2013-02-28 01:24:48	↪	stativ (~lukas@archlinux/trusteduser/stativ) has joined #archlinux-tu
+2013-02-28 01:28:07	↪	stativ_ (~lukas@archlinux/trusteduser/stativ) has joined #archlinux-tu
+2013-02-28 01:29:24	↩	stativ (~lukas@archlinux/trusteduser/stativ) has quit (Ping timeout: 248 seconds)
+2013-02-28 01:44:34	↩	BlackIkeEagle (~BlackIkeE@archlinux/trusteduser/blackikeeagle) has quit (Quit: KVIrc 4.2.0 Equilibrium http://www.kvirc.net/)
+2013-02-28 01:45:29	↪	BlackIkeEagle (~BlackIkeE@d5153016B.static.telenet.be) has joined #archlinux-tu
+2013-02-28 01:45:29	↩	BlackIkeEagle (~BlackIkeE@d5153016B.static.telenet.be) has quit (Changing host)
+2013-02-28 01:45:29	↪	BlackIkeEagle (~BlackIkeE@archlinux/trusteduser/blackikeeagle) has joined #archlinux-tu
+2013-02-28 01:50:36	↪	stativ (~lukas@31.205.104.151) has joined #archlinux-tu
+2013-02-28 01:50:36	↩	stativ (~lukas@31.205.104.151) has quit (Changing host)
+2013-02-28 01:50:36	↪	stativ (~lukas@archlinux/trusteduser/stativ) has joined #archlinux-tu
+2013-02-28 01:50:44	↩	stativ_ (~lukas@archlinux/trusteduser/stativ) has quit (Ping timeout: 248 seconds)
+2013-02-28 02:01:49	↪	faidoc (~faidoc@78.234.27.77.dynamic.mundo-r.com) has joined #archlinux-tu
+2013-02-28 02:04:53	↪	alucryd (~alucryd@dou59-8-78-249-146-19.fbx.proxad.net) has joined #archlinux-tu
+2013-02-28 02:06:37	alucryd	hi guys
+2013-02-28 02:07:50	felixonmars	alucryd: hi
+2013-02-28 02:10:32	alucryd	2 days ago I accidentally ran stagingpkg instead of community-stagingpkg on one of my packages, I've immediately reverted the svn commit, but the package is still awaiting sign-off, is there a way to revert that too?
+2013-02-28 02:11:06	ascarpino	every package wait for signoff
+2013-02-28 02:11:27	ascarpino	we don't care about signoff in [extra], [community],... repositories. only [core]
+2013-02-28 02:11:41	alucryd	okay thx
+2013-02-28 02:35:50	↩	felixonmars (~felix@archlinux/trusteduser/felixonmars) has quit (Quit: Leaving.)
+2013-02-28 02:59:43	faidoc	could be the last mesa update the reason why something like pantheon-greeter for lightdm crash with nouveau driver but work with nvidia? :S
+2013-02-28 03:02:23	↪	felixonmars (~felix@archlinux/trusteduser/felixonmars) has joined #archlinux-tu
+2013-02-28 03:15:29	↪	drizztbsd (~drizzt@archlinux/trusteduser/DrizztBSD) has joined #archlinux-tu
+2013-02-28 03:16:32	↪	schiv (~schiv@archlinux/developer/schiv) has joined #archlinux-tu
+2013-02-28 03:20:09	↪	stativ_ (~lukas@31.205.104.151) has joined #archlinux-tu
+2013-02-28 03:20:09	↩	stativ_ (~lukas@31.205.104.151) has quit (Changing host)
+2013-02-28 03:20:09	↪	stativ_ (~lukas@archlinux/trusteduser/stativ) has joined #archlinux-tu
+2013-02-28 03:21:10	↩	stativ (~lukas@archlinux/trusteduser/stativ) has quit (Ping timeout: 276 seconds)
+2013-02-28 03:28:28	↩	ascarpino (~andrea@archlinux/developer/andrea) has quit (Quit: Konversation terminated!)
+2013-02-28 03:30:48	↩	stativ_ (~lukas@archlinux/trusteduser/stativ) has quit (Ping timeout: 252 seconds)
+2013-02-28 03:33:43	xyproto	TIL, ${var#pattern} can be used for removing substrings at the start and ${var%pattern} can be used for removing substrings at the end. Kinda neat.
+2013-02-28 03:34:10	↪	stativ_ (~lukas@31.205.104.151) has joined #archlinux-tu
+2013-02-28 03:34:10	↩	stativ_ (~lukas@31.205.104.151) has quit (Changing host)
+2013-02-28 03:34:10	↪	stativ_ (~lukas@archlinux/trusteduser/stativ) has joined #archlinux-tu
+2013-02-28 03:36:03	alucryd	xyproto: you can also use ${var:2:-3} to remove the first 2 characters and the last 3
+2013-02-28 03:36:39	xyproto	alucryd: nice :)
+2013-02-28 03:38:40	↩	alucryd (~alucryd@dou59-8-78-249-146-19.fbx.proxad.net) has quit (Quit: rebooting)
+2013-02-28 03:38:51	↪	felixonmars1 (~felix@archlinux/trusteduser/felixonmars) has joined #archlinux-tu
+2013-02-28 03:40:16	↪	ascarpino (~andrea@lacamnf.di.uniba.it) has joined #archlinux-tu
+2013-02-28 03:40:16	↩	ascarpino (~andrea@lacamnf.di.uniba.it) has quit (Changing host)
+2013-02-28 03:40:16	↪	ascarpino (~andrea@archlinux/developer/andrea) has joined #archlinux-tu
+2013-02-28 03:40:57	↩	felixonmars (~felix@archlinux/trusteduser/felixonmars) has quit (Ping timeout: 276 seconds)
+2013-02-28 03:41:17	↩	felixonmars1 (~felix@archlinux/trusteduser/felixonmars) has quit (Read error: Connection reset by peer)
+2013-02-28 03:41:22	↪	felixonmars (~felix@archlinux/trusteduser/felixonmars) has joined #archlinux-tu
+2013-02-28 03:44:27	↪	alucryd (~alucryd@dou59-8-78-249-146-19.fbx.proxad.net) has joined #archlinux-tu
+2013-02-28 03:51:01	jsteel	I just installed cower (new computer) and I have this issue http://pastie.org/6353793 any ideas?
+2013-02-28 03:51:03	phrik	Title: #6353793 - Pastie (at pastie.org)
+2013-02-28 03:55:39	xyproto	jsteel: does strace say anything?
+2013-02-28 03:56:20	xyproto	jsteel: do you have /lib64/ld-linux-x86-64.so.2 ?
+2013-02-28 03:56:41	xyproto	jsteel: do you have glibc 2.17-3 ?
+2013-02-28 03:57:57	jsteel	execve("/usr/bin/cower", ["cower"], [/* 32 vars */]) = -1 ENOENT (No such file or directory)
+2013-02-28 03:58:00	jsteel	yes
+2013-02-28 03:58:03	jsteel	yes
+2013-02-28 03:58:52	xyproto	jsteel: hmmmm. Have you tried turning it off and on again? :P
+2013-02-28 03:59:33	xyproto	jsteel: what happens if you run it with gdb? It works here, btw.
+2013-02-28 04:03:24	jsteel	xyproto: just tried restarting again, but no luck. running gdb cower doesn't complain; is that what I'm supposed to do? not used gdb before
+2013-02-28 04:03:56	svenstaro	faidoc: yes, what's the backtrace?
+2013-02-28 04:05:12	jsteel	I've tried uninstalling and reinstalling
+2013-02-28 04:05:53	faidoc	svenstaro, was that for me?
+2013-02-28 04:06:10	svenstaro	faidoc: yes
+2013-02-28 04:06:50	faidoc	svenstaro, ah sorry, you mean using gdb with pantheon-greeter or something like that?
+2013-02-28 04:07:06	svenstaro	yes
+2013-02-28 04:07:11	svenstaro	where does it crash?
+2013-02-28 04:07:30	xyproto	jsteel: sometimes executables work in gdb but not outside of gdb, and the reasons are usually weird
+2013-02-28 04:07:48	jsteel	xyproto: I found I was using v7, v8 is out now; that works :)
+2013-02-28 04:07:54	jsteel	strange how v7 gives me that issue
+2013-02-28 04:07:57	xyproto	jsteel: ah, great :(
+2013-02-28 04:07:59	xyproto	:)
+2013-02-28 04:08:01	xyproto	smileytypo
+2013-02-28 04:08:32	faidoc	svenstaro, I didn't look with gdb, just the greeter log which doesn't came up with anything usefull. I will do it, I have it in other pc
+2013-02-28 04:08:59	xyproto	jsteel: if you tried running "gdb /usr/bin/cower" and then type "r" it should run it with gdb
+2013-02-28 04:09:57	jsteel	zsh:1: no such file or directory: /usr/bin/cower
+2013-02-28 04:09:59	jsteel	During startup program exited with code 127.
+2013-02-28 04:10:27	xyproto	jsteel: sounds like it's looking for the wrong file to execute itself with
+2013-02-28 04:10:35	xyproto	jsteel: like /lib64/ld-linux-x86-64.so.2 or similar
+2013-02-28 04:10:45	xyproto	jsteel: if you open the elf in an editor, you can often see which file it's looking for
+2013-02-28 04:11:11	xyproto	jsteel: or even better: strings /usr/bin/cower | grep ld-linux
+2013-02-28 04:12:42	jsteel	ah ok I see what's happened
+2013-02-28 04:12:57	jsteel	yes that showed /lib/ld-linux.so.2
+2013-02-28 04:13:10	xyproto	aha! :)
+2013-02-28 04:13:28	jsteel	my old computer was i686, now it's x86_64. I rebuild the package, but something must have been left over in srcdir or something...
+2013-02-28 04:13:40	xyproto	probably
+2013-02-28 04:13:45	jsteel	I deleted srcdir and pkgdir and rebuilt, and now it's fine
+2013-02-28 04:14:18	jsteel	xyproto: thanks for the help, it's nice to know what went wrong
+2013-02-28 04:14:40	xyproto	it's really confusing when running a binary produces a message that says that the binary in question isn't there, but in my experience, it's always the issue with which .so file it should run itself with, for that case
+2013-02-28 04:14:52	xyproto	silly error message, though
+2013-02-28 04:16:41	↪	stativ (~lukas@archlinux/trusteduser/stativ) has joined #archlinux-tu
+2013-02-28 04:17:00	↩	stativ_ (~lukas@archlinux/trusteduser/stativ) has quit (Ping timeout: 264 seconds)
+2013-02-28 04:26:41	faidoc	svenstaro, I used gdb and get this http://paste.cinnarch.com/1044/
+2013-02-28 04:26:53	faidoc	svenstaro, clutter can't be initialized
+2013-02-28 04:27:48	svenstaro	this is not a mesa problem as far as the backtrace is concerned
+2013-02-28 04:31:06	faidoc	but it's weird that using nvidia instead of nouveau works right? :S
+2013-02-28 04:31:37	↪	bpiotrow1ki (~barthalio@bpiotrowski.pl) has joined #archlinux-tu
+2013-02-28 04:35:45	↩	bpiotrowski (~barthalio@archlinux/developer/barthalion) has quit (*.net *.split)
+2013-02-28 04:35:47	↩	phrik (~archbot@archlinux/bot/phrik) has quit (*.net *.split)
+2013-02-28 04:49:17	↩	stativ (~lukas@archlinux/trusteduser/stativ) has quit (Ping timeout: 255 seconds)
+2013-02-28 05:06:02	↪	phrik (~archbot@archlinux/bot/phrik) has joined #archlinux-tu
+2013-02-28 05:42:19	BlackIkeEagle	ascarpino: you know anyone else having plasma-desktop restarting itself from time to time
+2013-02-28 05:43:29	BlackIkeEagle	during the rc's i did not have this issue, now i have frequent restarts of plasma-desktop, and it doesnt even show drkonqi anymore, just restarts itself, can be several days before it happens, can be hours :p
+2013-02-28 05:56:10	ascarpino	BlackIkeEagle: no idea, do you use something from AUR or installed manually?
+2013-02-28 05:56:30	BlackIkeEagle	related to kde ? no
+2013-02-28 05:56:43	BlackIkeEagle	all sorts of wine trash work related :p
+2013-02-28 05:57:30	BlackIkeEagle	i have the same issue at home, there also all testing repos enabled
+2013-02-28 06:03:06	BlackIkeEagle	its just strange since the 4.10 rc's were a pleasure to work with and the stable gives issues :(
+2013-02-28 06:03:48	BlackIkeEagle	i'll try with a fresh config at home, maybe its polluted by something, now just have to work with it :p
+2013-02-28 06:13:47	↩	faidoc (~faidoc@78.234.27.77.dynamic.mundo-r.com) has quit (Remote host closed the connection)
+2013-02-28 07:03:25	↩	drizztbsd (~drizzt@archlinux/trusteduser/DrizztBSD) has quit (Remote host closed the connection)
+2013-02-28 07:34:04	td123	CryptoCrack: ping
+2013-02-28 08:00:26	↪	stativ (~lukas@31.205.104.151) has joined #archlinux-tu
+2013-02-28 08:00:26	↩	stativ (~lukas@31.205.104.151) has quit (Changing host)
+2013-02-28 08:00:26	↪	stativ (~lukas@archlinux/trusteduser/stativ) has joined #archlinux-tu
+2013-02-28 08:19:54	↩	BlackIkeEagle (~BlackIkeE@archlinux/trusteduser/blackikeeagle) has quit (Ping timeout: 264 seconds)
+2013-02-28 08:24:36	↩	stativ (~lukas@archlinux/trusteduser/stativ) has quit (Ping timeout: 244 seconds)
+2013-02-28 08:26:27	↪	stativ (~lukas@archlinux/trusteduser/stativ) has joined #archlinux-tu
+2013-02-28 08:36:53	↩	alucryd (~alucryd@dou59-8-78-249-146-19.fbx.proxad.net) has quit (Quit: Leaving)
+2013-02-28 08:51:14	↪	drizztbsd (~drizzt@archlinux/trusteduser/DrizztBSD) has joined #archlinux-tu
+2013-02-28 08:55:39	↪	BlackIkeEagle (~BlackIkeE@d5153016B.static.telenet.be) has joined #archlinux-tu
+2013-02-28 08:55:39	↩	BlackIkeEagle (~BlackIkeE@d5153016B.static.telenet.be) has quit (Changing host)
+2013-02-28 08:55:39	↪	BlackIkeEagle (~BlackIkeE@archlinux/trusteduser/blackikeeagle) has joined #archlinux-tu
+2013-02-28 09:01:35	↪	alucryd (~Alucryd@dou59-1-82-238-54-125.fbx.proxad.net) has joined #archlinux-tu
+2013-02-28 09:10:44	svenstaro	ioni: there currently is a problem with blender and ffmpeg where blender can't decode mp3 files but flac and wav works fine
+2013-02-28 09:10:53	svenstaro	ioni: is there anything in the ffmpeg package about that?
+2013-02-28 09:13:34	↩	drizztbsd (~drizzt@archlinux/trusteduser/DrizztBSD) has quit (Remote host closed the connection)
+2013-02-28 09:13:56	ioni	svenstaro, mp3 should be enabled
+2013-02-28 09:14:08	svenstaro	I know, and it actually decodes its fine
+2013-02-28 09:14:17	svenstaro	but when linked to blender it doesn't, mh
+2013-02-28 09:14:25	svenstaro	so there are no known problems about that?
+2013-02-28 09:15:13	ioni	no idea
+2013-02-28 09:15:20	svenstaro	ok
+2013-02-28 09:22:52	↩	ascarpino (~andrea@archlinux/developer/andrea) has quit (Quit: Konversation terminated!)
+2013-02-28 09:25:38	↪	drizztbsd (~drizzt@archlinux/trusteduser/DrizztBSD) has joined #archlinux-tu
+2013-02-28 09:38:38	↪	Snowman (~eric@69.157.187.34) has joined #archlinux-tu
+2013-02-28 09:38:38	↩	Snowman (~eric@69.157.187.34) has quit (Changing host)
+2013-02-28 09:38:38	↪	Snowman (~eric@archlinux/developer/snowman) has joined #archlinux-tu
+2013-02-28 09:57:49	↪	vihcs (~schiv@archlinux/developer/schiv) has joined #archlinux-tu
+2013-02-28 09:58:22	↩	schiv (~schiv@archlinux/developer/schiv) has quit (Ping timeout: 240 seconds)
+2013-02-28 10:03:30	↩	stativ (~lukas@archlinux/trusteduser/stativ) has quit (Quit: Konversation terminated!)
+2013-02-28 10:04:28	↪	stativ (~lukas@31.205.104.151) has joined #archlinux-tu
+2013-02-28 10:04:28	↩	stativ (~lukas@31.205.104.151) has quit (Client Quit)
+2013-02-28 10:10:31	↪	BlackIkeEagle|2 (~BlackIkeE@81.11.162.246) has joined #archlinux-tu
+2013-02-28 10:11:04	↪	stativ (~lukas@31.205.104.151) has joined #archlinux-tu
+2013-02-28 10:11:04	↩	stativ (~lukas@31.205.104.151) has quit (Changing host)
+2013-02-28 10:11:04	↪	stativ (~lukas@archlinux/trusteduser/stativ) has joined #archlinux-tu
+2013-02-28 10:34:43	↩	falconindy (~noclaf@archlinux/developer/falconindy) has quit (Quit: leaving)
+2013-02-28 10:35:23	↪	falconindy (~noclaf@archlinux/developer/falconindy) has joined #archlinux-tu
+2013-02-28 10:47:33	⇄	bpiotrow1ki is now known as bpiotrowski
+2013-02-28 10:47:35	↩	bpiotrowski (~barthalio@bpiotrowski.pl) has quit (Changing host)
+2013-02-28 10:47:35	↪	bpiotrowski (~barthalio@archlinux/developer/barthalion) has joined #archlinux-tu
+2013-02-28 11:23:15	↩	stativ (~lukas@archlinux/trusteduser/stativ) has quit (Ping timeout: 248 seconds)
+2013-02-28 11:36:15	↩	alucryd (~Alucryd@dou59-1-82-238-54-125.fbx.proxad.net) has quit (Quit: Leaving)
+2013-02-28 11:42:08	jsteel	for https://www.archlinux.org/todo/libarchive-31x-rebuild/ should I have run stagingpkg or community-stagingpkg? and what if I ran the wrong one?
+2013-02-28 11:42:09		[http://is.gd/8pvewO]
+2013-02-28 11:42:11	phrik	Title: Arch Linux - Developer Login (at www.archlinux.org)
+2013-02-28 11:42:43	bpiotrowski	Nothing, you don't have access to [staging]
+2013-02-28 11:43:00	bpiotrowski	Allan will be mad that you pushed to wrong svn repo.
+2013-02-28 11:43:07	bpiotrowski	Use community-stagingpkg.
+2013-02-28 11:43:34	jsteel	damn, thought so.
+2013-02-28 11:48:12	↪	cinelli (~boss@cpe-142-136-63-210.socal.res.rr.com) has joined #archlinux-tu
+2013-02-28 11:48:12	⇄	Topic for #archlinux-tu is "http://media.tumblr.com/tumblr_m0r4txQAev1r27y9z.jpg || adopt the orphans! http://tinyurl.com/8k5wlvs (jelly1)"
+2013-02-28 11:48:12	⇄	Topic set by phrik (~archbot@archlinux/bot/phrik) on Sat, 04 Aug 2012 14:49:39
+2013-02-28 11:48:12	⇄	Nicks #archlinux-tu: [@ChanServ Atsutane BlackIkeEagle BlackIkeEagle|2 Bluewind bpiotrowski cinelli CryptoCrack Daenyth drizztbsd falconindy felixonmars gtmanfred Guest5355 heftig ioni jelly1 jsteel keenerd lordheavy noclaf petelewis phrik schuay seblu Snowman svenstaro td123 vihcs xyproto]
+2013-02-28 11:48:12	⇄	Channel #archlinux-tu: 30 nicks (1 op, 0 halfops, 0 voices, 29 normals)
+2013-02-28 11:48:12	***	Buffer Playback...
+2013-02-28 11:48:12	bpiotrowski	[11:46:57] Nothing here.
+2013-02-28 11:48:12	falconindy	[11:47:08] no, it's there
+2013-02-28 11:48:12	falconindy	[11:47:08] A    dgen-sdl/repos/staging-i686
+2013-02-28 11:48:12	falconindy	[11:47:08] A    dgen-sdl/repos/staging-i686/PKGBUILD
+2013-02-28 11:48:12	falconindy	[11:47:08] A    dgen-sdl/repos/staging-x86_64
+2013-02-28 11:48:12	falconindy	[11:47:09] A    dgen-sdl/repos/staging-x86_64/PKGBUILD
+2013-02-28 11:48:12	falconindy	[11:47:18] svm rm those directories
+2013-02-28 11:48:12	falconindy	[11:47:23] and run community-stagingpkg
+2013-02-28 11:48:12	falconindy	[11:47:49] and clean out your staging dir on nymeria
+2013-02-28 11:48:12	***	Playback Complete.
+2013-02-28 11:48:16	⇄	Mode #archlinux-tu [+ckns 712u573d]
+2013-02-28 11:48:16	⇄	Channel created on Tue, 13 Feb 2007 07:28:18
+2013-02-28 11:48:24	jsteel	is "svn rm dgen-sdl" good enough? or the directories inside?
+2013-02-28 11:48:27	falconindy	no no
+2013-02-28 11:48:37	falconindy	you don't wnat to rm the whole package
+2013-02-28 11:48:39	falconindy	just repos/staging-*
+2013-02-28 11:48:47	jsteel	ah ok thanks
+2013-02-28 11:50:10	falconindy	nothing you do in SVN alone can break the repos, just ABS
+2013-02-28 11:51:10	jsteel	thanks all done
+2013-02-28 11:51:42	falconindy	np
+2013-02-28 11:52:44	jsteel	after communitypkg I do a dbupdate, is community-stagingpkg all I need to do?
+2013-02-28 11:53:13	falconindy	no, you still need to update the repos
+2013-02-28 11:53:23	falconindy	*pkg is for SVN, db-update is for the repos
+2013-02-28 11:53:48	falconindy	always need to update both if you're doing a package release
+2013-02-28 11:54:17	jsteel	ah ok, I think it was because I ran db-update after my mistake, and nothing happened so wondered if it was needed, but yet I see now
+2013-02-28 11:54:27	jsteel	*yes I see
+2013-02-28 11:59:53	↩	drizztbsd (~drizzt@archlinux/trusteduser/DrizztBSD) has quit (Remote host closed the connection)
+2013-02-28 12:00:25	jsteel	what do you suggest I do? Ask Allan nicely to fix it?
+2013-02-28 12:00:25	falconindy	doesn't look like anything was committed to staging
+2013-02-28 12:00:25	falconindy	what did you run?
+2013-02-28 12:00:25	jsteel	stagingpkg
+2013-02-28 12:00:25	falconindy	for dgen-sdl?
+2013-02-28 12:00:25	jsteel	yes
+2013-02-28 12:00:25	↩	cinelli (~boss@cpe-142-136-63-210.socal.res.rr.com) has left #archlinux-tu
+2013-02-28 12:13:55	↪	ascarpino (~andrea@93-43-143-8.ip92.fastwebnet.it) has joined #archlinux-tu
+2013-02-28 12:13:55	↩	ascarpino (~andrea@93-43-143-8.ip92.fastwebnet.it) has quit (Changing host)
+2013-02-28 12:13:55	↪	ascarpino (~andrea@archlinux/developer/andrea) has joined #archlinux-tu
+2013-02-28 12:16:10	xyproto	Gah, anybody into Erlang? I'm trying to build Wings3D with the latest version of Erlang and I think I'm almost there, but the compilation process doesn't discover one of the produced .beam files and I have no idea why.
+2013-02-28 12:16:36	xyproto	The developer of Wings3D is notified and on the case, but it could take some time.
+2013-02-28 12:47:40	↪	stativ (~lukas@31.205.104.151) has joined #archlinux-tu
+2013-02-28 12:47:41	↩	stativ (~lukas@31.205.104.151) has quit (Changing host)
+2013-02-28 12:47:41	↪	stativ (~lukas@archlinux/trusteduser/stativ) has joined #archlinux-tu
+2013-02-28 12:52:06	↪	stativ_ (~lukas@31.205.104.151) has joined #archlinux-tu
+2013-02-28 12:52:06	↩	stativ_ (~lukas@31.205.104.151) has quit (Changing host)
+2013-02-28 12:52:06	↪	stativ_ (~lukas@archlinux/trusteduser/stativ) has joined #archlinux-tu
+2013-02-28 12:52:15	↩	stativ (~lukas@archlinux/trusteduser/stativ) has quit (Ping timeout: 244 seconds)
+2013-02-28 13:10:12	↩	BlackIkeEagle|2 (~BlackIkeE@81.11.162.246) has quit (Quit: KVIrc 4.2.0 Equilibrium http://www.kvirc.net/)
+2013-02-28 13:14:25	↩	stativ_ (~lukas@archlinux/trusteduser/stativ) has quit (Quit: Konversation terminated!)
+2013-02-28 13:20:54	bpiotrowski	Manually-specified variables were not used by the project: CMAKE_INSTALL_LIBDIR
+2013-02-28 13:21:01	bpiotrowski	fffuuuuu
+2013-02-28 13:22:57	↪	stativ (~lukas@archlinux/trusteduser/stativ) has joined #archlinux-tu
+2013-02-28 13:27:22	↩	stativ (~lukas@archlinux/trusteduser/stativ) has quit (Client Quit)
+2013-02-28 13:28:38	bpiotrowski	I really believe that libftdi upstream switched to cmake just because.
+2013-02-28 13:29:42	ascarpino	bpiotrowski: I hate when they do that
+2013-02-28 13:51:08	↪	faidoc (~faidoc@78.234.27.77.dynamic.mundo-r.com) has joined #archlinux-tu
+2013-02-28 13:57:48	↩	ascarpino (~andrea@archlinux/developer/andrea) has quit (Ping timeout: 264 seconds)
+2013-02-28 14:06:06	↪	ascarpino (~andrea@93-43-143-8.ip92.fastwebnet.it) has joined #archlinux-tu
+2013-02-28 14:06:06	↩	ascarpino (~andrea@93-43-143-8.ip92.fastwebnet.it) has quit (Changing host)
+2013-02-28 14:06:06	↪	ascarpino (~andrea@archlinux/developer/andrea) has joined #archlinux-tu
+2013-02-28 14:13:20	↩	faidoc (~faidoc@78.234.27.77.dynamic.mundo-r.com) has quit (Read error: Connection reset by peer)
+2013-02-28 14:14:50	↪	cinelli (~boss@cpe-142-136-63-210.socal.res.rr.com) has joined #archlinux-tu
+2013-02-28 14:14:50	⇄	Topic for #archlinux-tu is "http://media.tumblr.com/tumblr_m0r4txQAev1r27y9z.jpg || adopt the orphans! http://tinyurl.com/8k5wlvs (jelly1)"
+2013-02-28 14:14:50	⇄	Topic set by phrik (~archbot@archlinux/bot/phrik) on Sat, 04 Aug 2012 14:49:39
+2013-02-28 14:14:50	⇄	Nicks #archlinux-tu: [@ChanServ ascarpino Atsutane BlackIkeEagle Bluewind bpiotrowski cinelli CryptoCrack Daenyth falconindy felixonmars gtmanfred Guest5355 heftig ioni jelly1 jsteel keenerd lordheavy noclaf petelewis phrik schuay seblu Snowman svenstaro td123 vihcs xyproto]
+2013-02-28 14:14:50	⇄	Channel #archlinux-tu: 29 nicks (1 op, 0 halfops, 0 voices, 28 normals)
+2013-02-28 14:32:45	↪	cinelli (~boss@archlinux/trusteduser/cinelli) has joined #archlinux-tu
+2013-02-28 14:32:45	⇄	Topic for #archlinux-tu is "http://media.tumblr.com/tumblr_m0r4txQAev1r27y9z.jpg || adopt the orphans! http://tinyurl.com/8k5wlvs (jelly1)"
+2013-02-28 14:32:45	⇄	Topic set by phrik (~archbot@archlinux/bot/phrik) on Sat, 04 Aug 2012 14:49:39
+2013-02-28 14:32:45	⇄	Nicks #archlinux-tu: [@ChanServ ascarpino Atsutane BlackIkeEagle Bluewind bpiotrowski cinelli CryptoCrack Daenyth falconindy felixonmars gtmanfred Guest5355 heftig ioni jelly1 jsteel keenerd lordheavy noclaf petelewis phrik schuay seblu Snowman svenstaro td123 vihcs xyproto]
+2013-02-28 14:32:45	⇄	Channel #archlinux-tu: 29 nicks (1 op, 0 halfops, 0 voices, 28 normals)
+2013-02-28 14:32:46	⇄	Mode #archlinux-tu [+ckns 712u573d]
+2013-02-28 14:32:46	⇄	Channel created on Tue, 13 Feb 2007 07:28:18
+2013-02-28 14:45:40	↩	vihcs (~schiv@archlinux/developer/schiv) has quit (Ping timeout: 248 seconds)
+2013-02-28 14:58:13	↪	faidoc (~faidoc@78.234.27.77.dynamic.mundo-r.com) has joined #archlinux-tu
+2013-02-28 15:31:39	↩	faidoc (~faidoc@78.234.27.77.dynamic.mundo-r.com) has quit (Read error: Connection reset by peer)
+2013-02-28 16:17:23	↪	bash` (~andrea@93-43-143-8.ip92.fastwebnet.it) has joined #archlinux-tu
+2013-02-28 16:17:23	↩	bash` (~andrea@93-43-143-8.ip92.fastwebnet.it) has quit (Changing host)
+2013-02-28 16:17:24	↪	bash` (~andrea@archlinux/developer/andrea) has joined #archlinux-tu
+2013-02-28 16:17:36	↩	ascarpino (~andrea@archlinux/developer/andrea) has quit (Disconnected by services)
+2013-02-28 16:17:39	⇄	bash` is now known as ascarpino
+2013-02-28 17:54:43	cinelli	When it comes to uploading and committing the changes I've made in a package. What am I to do if I'm can't test the x86_64 arch?
+2013-02-28 18:00:53	td123	cinelli: ask people?
+2013-02-28 18:01:04	td123	cinelli: usually if it's not a critical package, I would just push it
+2013-02-28 18:02:06	td123	or leave it in testing repos for a while longer
+2013-02-28 18:02:50	td123	also, what kind of machine do you work on that doesn't have x86_64?
+2013-02-28 18:02:57	cinelli	td123: this particular one i build on my desktop which i guess i could always so just in case... was just wondering in case it comes up.
+2013-02-28 18:03:20	cinelli	ls
+2013-02-28 18:03:55	td123	.  ..  porn/ archlinux/ fake_moon_landing_vids/
+2013-02-28 18:04:41	cinelli	... i know right.
+2013-02-28 18:13:50	cinelli	Can someone check [arch-commit] let me know if I did that right?
+2013-02-28 18:17:43	cinelli	s/commit/commits
+2013-02-28 18:31:53	Snowman	cinelli: that doesn't look right
+2013-02-28 18:32:04	Snowman	you should update the pkgrel
+2013-02-28 18:34:25	cinelli	Snowman: other than that? 
+2013-02-28 18:35:13	Snowman	i think that should fix it
+2013-02-28 18:36:03	cinelli	Snowman: so there's nothing else I need to do after that?.. other than get on to the next one
+2013-02-28 18:37:45	felixonmars	has the nvidia driver rebuilt for 3.8.1?
+2013-02-28 18:38:10	Snowman	cinelli: you need to build the pkg with the new pkgrel and push it in the repo
+2013-02-28 18:43:09	cinelli	k
+2013-02-28 19:07:31	cinelli	Snowman: all fixed. Thank you for checking on that for me.

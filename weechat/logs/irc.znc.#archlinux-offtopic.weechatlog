@@ -1,0 +1,2016 @@
+2013-02-27 23:27:33	↪	cinelli (~boss@cpe-142-136-63-210.socal.res.rr.com) has joined #archlinux-offtopic
+2013-02-27 23:27:33	⇄	Topic for #archlinux-offtopic is "Welcome to #archlinux-offtopic, the friendliest dictatorship in the world. <+> http://arch.har-ikkje.net/gfx/caturday/caturday29.jpg"
+2013-02-27 23:27:33	⇄	Topic set by tigrmesh (~arch@archlinux/op/tigrmesh) on Sat, 23 Feb 2013 10:57:52
+2013-02-27 23:27:33	⇄	Nicks #archlinux-offtopic: [`lorim acuzio alexwh alienvenom Arcalyth autumn axanon azradric Bane^ BitterPeter bjoe2k4 bkc_ BladedThesis BlankVerse bleomycin Boohbah bougyman Brookie brotatos Buggy2k camerin carharttjimmy caveat- ChauffeR chee cheesecakes china cinelli classix codependant comhack companion Cor-Ai Corey crazedpsyc CryptoNaut cyberspace- Daenyth Dan39 Danio danmackay dario dasbjo DaZ ddv desmond Die18ink5 dimeshake DinCahill djinni dunz0r du|dx dxtr e36freak eir Ertyle eto faen favadi felipe` frojnd frots Genolo GGLucas gholen GlitchMr gridcol GSF1200S gtmanfred gz1978 Hardolaf heftig hejki hekel hi117 hobbily hrnz HuMu Hwkiller ikonia ioni iotku iv597 JakeDust james147_ jchen jdahm jdost Jeaye joeda john_f johnhamelink johskar jrd0 KaiSforza kamada kerrick-work kevku King_Ozzy Kirito kubit kungsgeten laumars linduxed linux_probe LookTJ Lorem-Ipsum LysergicDreams matteotom megustavo memand meskarune Mezenir mikeplus64 Moridin mquin MrElendig mrmackie MrRee MutantTurkey Nabobalis ninjabox Nisstyre nixin nodame Nuck numeral Overand Paul-S petantik phrik pieman_ poseidon PrincessSomasis prinny pythonsnake r4 realeyes reashlin rmd Roukoswarf ruan sa1 sammyf setkeh Shados Shapeshifter sheep shrp Shyde silentmike sjihs skope skrblr smilefreak Sn4keBite Sornaensis spY|da stackofcats stufe Stupendoussteve sudokode sw0rdfish SyAchmed syrinx_ t0x7bb Tam^ taotetek tasidus Tear__ thehoff TheMaverick` thr tigrmesh timi tlonim Tom^ vee velcroshooz velusip Vithon vodik Votan webspid0r wizzo Wntrvnm woddf2 wry xcrustyx XReaper Zanny ZekeS zendeavor zml2008 Zom ZWolf zyklon]
+2013-02-27 23:27:33	⇄	Channel #archlinux-offtopic: 197 nicks (0 ops, 0 halfops, 0 voices, 197 normals)
+2013-02-27 23:27:35	⇄	Mode #archlinux-offtopic [+Ccnt]
+2013-02-27 23:27:35	⇄	Channel created on Wed, 28 Mar 2007 21:10:02
+2013-02-27 23:28:20	↪	cinelli (~boss@cpe-142-136-63-210.socal.res.rr.com) has joined #archlinux-offtopic
+2013-02-27 23:28:20	⇄	Topic for #archlinux-offtopic is "Welcome to #archlinux-offtopic, the friendliest dictatorship in the world. <+> http://arch.har-ikkje.net/gfx/caturday/caturday29.jpg"
+2013-02-27 23:28:20	⇄	Topic set by tigrmesh (~arch@archlinux/op/tigrmesh) on Sat, 23 Feb 2013 10:57:52
+2013-02-27 23:28:20	⇄	Nicks #archlinux-offtopic: [`lorim acuzio alexwh alienvenom Arcalyth autumn axanon azradric Bane^ BitterPeter bjoe2k4 bkc_ BladedThesis BlankVerse bleomycin Boohbah bougyman Brookie brotatos Buggy2k camerin carharttjimmy caveat- ChauffeR chee cheesecakes china cinelli classix codependant comhack companion Cor-Ai Corey crazedpsyc CryptoNaut cyberspace- Daenyth Dan39 Danio danmackay dario dasbjo DaZ ddv desmond Die18ink5 dimeshake DinCahill djinni dunz0r du|dx dxtr e36freak eir Ertyle eto faen favadi felipe` frojnd frots Genolo GGLucas gholen GlitchMr gridcol GSF1200S gtmanfred gz1978 Hardolaf heftig hejki hekel hi117 hobbily hrnz HuMu Hwkiller ikonia ioni iotku iv597 JakeDust james147_ jchen jdahm jdost Jeaye joeda john_f johnhamelink johskar jrd0 KaiSforza kamada kerrick-work kevku King_Ozzy Kirito kubit kungsgeten laumars linduxed linux_probe LookTJ Lorem-Ipsum LysergicDreams matteotom megustavo memand meskarune Mezenir mikeplus64 Moridin mquin MrElendig mrmackie MrRee MutantTurkey Nabobalis ninjabox Nisstyre nixin nodame Nuck numeral Overand Paul-S petantik phrik pieman_ poseidon PrincessSomasis prinny pythonsnake r4 realeyes reashlin rmd Roukoswarf ruan sa1 sammyf setkeh Shados Shapeshifter sheep shrp Shyde silentmike sjihs skope skrblr smilefreak Sn4keBite Sornaensis spY|da stackofcats stufe Stupendoussteve sudokode sw0rdfish SyAchmed syrinx_ t0x7bb Tam^ taotetek tasidus Tear__ thehoff TheMaverick` thr tigrmesh timi tlonim Tom^ vee velcroshooz velusip Vithon vodik Votan webspid0r wizzo Wntrvnm woddf2 wry xcrustyx XReaper Zanny ZekeS zendeavor zml2008 Zom ZWolf zyklon]
+2013-02-27 23:28:20	⇄	Channel #archlinux-offtopic: 197 nicks (0 ops, 0 halfops, 0 voices, 197 normals)
+2013-02-27 23:28:22	⇄	Mode #archlinux-offtopic [+Ccnt]
+2013-02-27 23:28:22	⇄	Channel created on Wed, 28 Mar 2007 21:10:02
+2013-02-27 23:30:52	King_Ozzy	vodik y u no pastebin?
+2013-02-27 23:30:58	↩	HuMu (~Huub@41.73.119.209) has quit (Quit: Lost terminal)
+2013-02-27 23:31:02	vodik	pastebin what?
+2013-02-27 23:31:08	King_Ozzy	quit spammin, foo
+2013-02-27 23:31:21	vodik	    _    _
+2013-02-27 23:31:23	vodik	   / \__/ \_____
+2013-02-27 23:31:26	vodik	  /  /  \  \    `\
+2013-02-27 23:31:27	vodik	  )  \''/  (     |\
+2013-02-27 23:31:29	vodik	  `\__)/__/'_\  / `
+2013-02-27 23:31:31	vodik	     //_|_|~|_|_|
+2013-02-27 23:31:33	vodik	     ^""'"' ""'"'
+2013-02-27 23:31:34	King_Ozzy	!boring
+2013-02-27 23:32:00	⇄	Mode #archlinux-offtopic [+o vodik] by ChanServ
+2013-02-27 23:32:02	⇄	Mode #archlinux-offtopic [+mv King_Ozzy] by vodik
+2013-02-27 23:32:08	@vodik	King_Ozzy: gogogo
+2013-02-27 23:32:23	+King_Ozzy	wait what
+2013-02-27 23:32:29	@vodik	only you can talk
+2013-02-27 23:32:40	+King_Ozzy	I. Am. GOD!
+2013-02-27 23:32:42	@vodik	enlighten us
+2013-02-27 23:32:49	@vodik	thats it?
+2013-02-27 23:32:53	+King_Ozzy	of course not!
+2013-02-27 23:33:15	⇄	Mode #archlinux-offtopic [-mvo King_Ozzy vodik] by vodik
+2013-02-27 23:33:30	↪	yoshi314 (~mkowalski@lubfw-ext.assecobs.pl) has joined #archlinux-offtopic
+2013-02-27 23:33:34	King_Ozzy	http://i.imgur.com/Kdc7qg4.gif
+2013-02-27 23:37:38	↪	th3voic3 (~th3voic3@ip-95-223-103-158.unitymediagroup.de) has joined #archlinux-offtopic
+2013-02-27 23:39:20	|	ZWolf attempted to optimize am image and ended up with a 9 times larger file O.o
+2013-02-27 23:39:23	ZWolf	Logic
+2013-02-27 23:41:07	numeral	vodik: if you're still here https://github.com/thestinger/termite/pull/64
+2013-02-27 23:41:08	King_Ozzy	quit logicing and look at beautiful womens, you fool
+2013-02-27 23:41:08	phrik	Title: Smarter hint urls by numerical · Pull Request #64 · thestinger/termite · GitHub (at github.com)
+2013-02-27 23:41:29	↩	MrElendig (~oh@archlinux/op/pdpc.supporter.active.mrelendig) has quit (Ping timeout: 255 seconds)
+2013-02-27 23:43:02	↩	camerin (hoax@newelite.bshellz.net) has quit (Remote host closed the connection)
+2013-02-27 23:43:43	↪	camerin (hoax@newelite.bshellz.net) has joined #archlinux-offtopic
+2013-02-27 23:43:45	vodik	numeral: passed it on the thestinger
+2013-02-27 23:44:18	↩	Kirito (~iymovies@pdpc/supporter/student/kirito) has quit (Ping timeout: 272 seconds)
+2013-02-27 23:44:35	numeral	vodik: no rush to merge, just not sure where I should put the new function
+2013-02-27 23:44:44	vodik	numeral: why malloc?
+2013-02-27 23:44:54	↪	Kirito (~iymovies@pdpc/supporter/student/kirito) has joined #archlinux-offtopic
+2013-02-27 23:44:58	numeral	err I'm used to it? :/
+2013-02-27 23:45:23	numeral	I do a lot of C :/
+2013-02-27 23:45:40	vodik	numeral: you don't have to use malloc there in c either
+2013-02-27 23:45:43	vodik	not since c99
+2013-02-27 23:45:54	vodik	char max_url[base10_digits]
+2013-02-27 23:45:59	vodik	sizeof(char) will be 1 anyhow
+2013-02-27 23:46:22	numeral	makes it easier to read :/ old habits die hard
+2013-02-27 23:46:59	vodik	anyhow, gn
+2013-02-27 23:47:07	vodik	feel free to update the pullrequest though
+2013-02-27 23:47:21	numeral	nod, I'll get rid of the malloc
+2013-02-27 23:47:37	numeral	good to know though, always good to keep up to date heh
+2013-02-27 23:47:41	vodik	numeral: also try to keep the whitespace consisten
+2013-02-27 23:47:49	vodik	put a space after if/for/while/etc
+2013-02-27 23:49:22	|	numeral nods
+2013-02-27 23:49:32	|	King_Ozzy boogies
+2013-02-27 23:51:06	King_Ozzy	vodik break it down now
+2013-02-27 23:52:32	|	vodik breaks it down
+2013-02-27 23:52:44	|	numeral is broken down
+2013-02-27 23:53:46	↩	King_Ozzy (~King_Ozzy@unaffiliated/king-ozzy/x-3073847) has quit (Quit: Pimp out.)
+2013-02-27 23:57:11	↪	Anders_J (~anders@unaffiliated/anders-j/x-0508776) has joined #archlinux-offtopic
+2013-02-27 23:59:00	↩	kevku (~kevku@2001:470:27:773:0:feed:c0f:fee) has quit (Ping timeout: 264 seconds)
+2013-02-28 00:00:18	↩	hobbily (~hobbily@unaffiliated/hobbily) has quit (Quit: Lost terminal)
+2013-02-28 00:01:56	↩	Arcalyth (~arcalyth@unaffiliated/arcalyth) has quit (Ping timeout: 248 seconds)
+2013-02-28 00:03:44	↩	Lorem-Ipsum (~Lorem-Ips@unaffiliated/lorem-ipsum) has quit (Ping timeout: 256 seconds)
+2013-02-28 00:04:31	↪	xoddf2 (~woddf2@unaffiliated/woddfellow2) has joined #archlinux-offtopic
+2013-02-28 00:04:54	↩	woddf2 (~woddf2@unaffiliated/woddfellow2) has quit (Disconnected by services)
+2013-02-28 00:05:02	⇄	xoddf2 is now known as woddf2
+2013-02-28 00:05:20	↩	Roukoswarf (~Roukoswar@unaffiliated/roukoswarf) has quit (Read error: Connection reset by peer)
+2013-02-28 00:05:28	woddf2	Excuse me, 32?: 03:04:57 -!- Irssi: Join to #archlinux-offtopic was synced in 32 secs
+2013-02-28 00:05:46	↪	Roukoswarf (~Roukoswar@unaffiliated/roukoswarf) has joined #archlinux-offtopic
+2013-02-28 00:06:04	↪	Roukoswarf-M (~Roukoswar@unaffiliated/roukoswarf) has joined #archlinux-offtopic
+2013-02-28 00:06:26	↪	HuMu (~Huub@41.221.190.222) has joined #archlinux-offtopic
+2013-02-28 00:07:23	↩	djinni (~djinni@li125-242.members.linode.com) has quit (Ping timeout: 240 seconds)
+2013-02-28 00:09:31	↪	djinni (~djinni@li125-242.members.linode.com) has joined #archlinux-offtopic
+2013-02-28 00:11:21	↪	See- (~mva@glo44-4-82-239-69-98.fbx.proxad.net) has joined #archlinux-offtopic
+2013-02-28 00:12:57	↩	Zanny (~zanny@pool-72-92-95-9.phlapa.east.verizon.net) has quit (Quit: Konversation terminated!)
+2013-02-28 00:16:46	↪	iflema (~Ian_Flemi@CPE-124-183-86-50.lns13.ken.bigpond.net.au) has joined #archlinux-offtopic
+2013-02-28 00:16:50	↪	mar77i (~martti@213.221.253.66) has joined #archlinux-offtopic
+2013-02-28 00:17:15	↪	Lorem-Ipsum (~Lorem-Ips@unaffiliated/lorem-ipsum) has joined #archlinux-offtopic
+2013-02-28 00:18:17	↩	Roukoswarf-M (~Roukoswar@unaffiliated/roukoswarf) has quit (Remote host closed the connection)
+2013-02-28 00:18:42	↪	Roukoswarf-M (~Roukoswar@unaffiliated/roukoswarf) has joined #archlinux-offtopic
+2013-02-28 00:20:43	↪	cravip (~snooze@49.213.57.233) has joined #archlinux-offtopic
+2013-02-28 00:21:07	↩	cravip (~snooze@49.213.57.233) has quit (Changing host)
+2013-02-28 00:21:07	↪	cravip (~snooze@unaffiliated/cravip) has joined #archlinux-offtopic
+2013-02-28 00:22:32	↪	NiHP (~nhp@5.56.158.218) has joined #archlinux-offtopic
+2013-02-28 00:24:04	↪	hh4a (~hh4a@84-255-197-79.static.t-2.net) has joined #archlinux-offtopic
+2013-02-28 00:33:41	↩	johskar (~johskar@h.skartland.net) has quit (Ping timeout: 255 seconds)
+2013-02-28 00:34:25	hh4a	hey
+2013-02-28 00:34:35	Roukoswarf	!hai
+2013-02-28 00:34:36	phrik	ur in #archlinux-offtopic!!! plz can has !rules 4 mai rulez and infos!!! im in ur channel sendin u http://tinyurl.com/smart-questions so don't ask DUM QUESTIONS kthxbye!!! lol
+2013-02-28 00:34:41	↩	Votan (~Viking@unaffiliated/votan) has quit (Ping timeout: 248 seconds)
+2013-02-28 00:35:15	mar77i	o/
+2013-02-28 00:35:48	ruan	!hai |jeffk|moar|jeffk|moar
+2013-02-28 00:35:49	phrik	moaarrr MOAARRR !!! MMMOOOOOAAAAAARRRRRRR!!! L0LL0LHA JERKS~!!~~!!!~:):):) JEFFK <TETX> UR IN #ARCLHLOINUX-OFFTOOPIC!!! PLZ CAN HAS !RULLES 4 MIAO RULEZ ADN IONFOS!!! IOM ION UR CHANNEL SENDIN U HTPT://TINYURLL.COM/SMART-QUETSOIONS SO DOTN ASK DUM QUESTIONS KTXHEYE!!! LOLL!!! MMMOOOOOAAAAAARRRRRRR!!!:-):-):-)
+2013-02-28 00:36:03	↪	johskar (~johskar@h.skartland.net) has joined #archlinux-offtopic
+2013-02-28 00:36:42	↩	Roukoswarf-M (~Roukoswar@unaffiliated/roukoswarf) has quit (Quit: Konversation terminated!)
+2013-02-28 00:37:07	↪	Votan (~Viking@unaffiliated/votan) has joined #archlinux-offtopic
+2013-02-28 00:38:14	↪	Roukoswarf-M (~Roukoswar@unaffiliated/roukoswarf) has joined #archlinux-offtopic
+2013-02-28 00:50:48	↩	cravip (~snooze@unaffiliated/cravip) has quit (Ping timeout: 272 seconds)
+2013-02-28 00:53:47	woddf2	It turns out to be not tmux that stole those keybindings, but rather, the Linux console.
+2013-02-28 00:55:44	↪	th3voic3_ (~th3voic3@p57B7999A.dip.t-dialin.net) has joined #archlinux-offtopic
+2013-02-28 00:56:44	↪	cravip (~snooze@49.213.59.192) has joined #archlinux-offtopic
+2013-02-28 00:58:33	↩	cravip (~snooze@49.213.59.192) has quit (Changing host)
+2013-02-28 00:58:33	↪	cravip (~snooze@unaffiliated/cravip) has joined #archlinux-offtopic
+2013-02-28 00:59:19	↪	kevku (~kevku@2a01:d0:ffff:34a::8:3) has joined #archlinux-offtopic
+2013-02-28 00:59:41	↩	brotatos (~robin@unaffiliated/brotatos) has quit (Quit: WeeChat 0.4.0)
+2013-02-28 00:59:47	↩	syrinx_ (~quassel@unaffiliated/syrinx-/x-4255893) has quit (Read error: Connection reset by peer)
+2013-02-28 01:00:05	↪	syrinx (~quassel@ip68-1-175-223.ri.ri.cox.net) has joined #archlinux-offtopic
+2013-02-28 01:00:05	↩	syrinx (~quassel@ip68-1-175-223.ri.ri.cox.net) has quit (Changing host)
+2013-02-28 01:00:05	↪	syrinx (~quassel@unaffiliated/syrinx-/x-4255893) has joined #archlinux-offtopic
+2013-02-28 01:03:54	↪	omeringen (~loL@88.241.223.131) has joined #archlinux-offtopic
+2013-02-28 01:06:29	↪	crooksey_ (~quassel@mail.solentwholesale.co.uk) has joined #archlinux-offtopic
+2013-02-28 01:07:39	↪	Anaphaxeton (~george@ppp005054013236.access.hol.gr) has joined #archlinux-offtopic
+2013-02-28 01:10:44	↪	frankyboy_ (~frankyboy@128-68-24-173.broadband.corbina.ru) has joined #archlinux-offtopic
+2013-02-28 01:11:16	↪	camilasan (~camilasan@91-64-80-97-dynip.superkabel.de) has joined #archlinux-offtopic
+2013-02-28 01:13:37	↩	camilasan (~camilasan@91-64-80-97-dynip.superkabel.de) has quit (Remote host closed the connection)
+2013-02-28 01:14:24	↩	vodik (~root@archlinux/op/vodik) has quit (Ping timeout: 252 seconds)
+2013-02-28 01:15:32	↪	camilasan (~camilasan@91-64-80-97-dynip.superkabel.de) has joined #archlinux-offtopic
+2013-02-28 01:19:49	↩	camilasan (~camilasan@91-64-80-97-dynip.superkabel.de) has quit (Read error: Connection reset by peer)
+2013-02-28 01:20:25	↪	camilasan (~camilasan@91-64-80-97-dynip.superkabel.de) has joined #archlinux-offtopic
+2013-02-28 01:21:49	↪	opt1mus (~~@unaffiliated/opt1mus) has joined #archlinux-offtopic
+2013-02-28 01:28:50	↩	iflema (~Ian_Flemi@CPE-124-183-86-50.lns13.ken.bigpond.net.au) has quit (Quit: WeeChat 0.4.0)
+2013-02-28 01:31:24	↪	iflema (~Ian_Flemi@CPE-124-183-86-50.lns13.ken.bigpond.net.au) has joined #archlinux-offtopic
+2013-02-28 01:37:54	↪	MrElendig (~oh@archlinux/op/pdpc.supporter.active.mrelendig) has joined #archlinux-offtopic
+2013-02-28 01:42:46	↪	polterge|st (~polt@cpe-76-184-117-237.tx.res.rr.com) has joined #archlinux-offtopic
+2013-02-28 01:45:25	↪	Metallica (~ident@68-112-238-27.dhcp.oxfr.ma.charter.com) has joined #archlinux-offtopic
+2013-02-28 01:45:25	↩	cyberspace- (20253@ninthfloor.org) has quit (Remote host closed the connection)
+2013-02-28 01:47:35	↪	cyberspace- (20253@ninthfloor.org) has joined #archlinux-offtopic
+2013-02-28 01:47:37	Metallica	syrinx
+2013-02-28 01:48:09	Metallica	DinCahill
+2013-02-28 01:50:47	opt1mus	Poopfeast
+2013-02-28 01:50:53	woddf2	!grab opt1mus
+2013-02-28 01:50:54	phrik	woddf2: Tada!
+2013-02-28 01:51:25	opt1mus	always lurking for those weird grabs, woddf2
+2013-02-28 01:52:00	Metallica	hi woddf2!
+2013-02-28 01:52:06	woddf2	Metallica: \o
+2013-02-28 01:52:13	Metallica	long time no talk
+2013-02-28 01:52:17	Metallica	i havent been here in a while
+2013-02-28 01:52:18	Metallica	;O
+2013-02-28 01:53:12	↪	JakobekS (~JakobekS@85-202-223-200.internetia.net.pl) has joined #archlinux-offtopic
+2013-02-28 01:53:37	↩	cravip (~snooze@unaffiliated/cravip) has left #archlinux-offtopic
+2013-02-28 01:54:53	mar77i	!multirq mar77i
+2013-02-28 01:54:54	phrik	<mar77i> meh, at this rate of ass-off-laughing I'll need a new box of ass next week <mar77i> yummy yummy yummy, I have hungarians in my tummy. <mar77i> "you're the reason I have cumstains in my pants" <mar77i> no, especially in this case, it's an extremely important definition that candelabrum is greater than potato. I mean, if you can count to potato and someone can count to candelabrum, you *should* lose (1 more message)
+2013-02-28 01:55:07	woddf2	!more mar77i
+2013-02-28 01:55:07	phrik	woddf2: the argument. <mar77i> welcome to php land, home to the heisenbug and suicide rates in the range of hungary
+2013-02-28 01:55:43	↪	t0m5k1 (~t0m5k1@8ta-151-242-61.telkomadsl.co.za) has joined #archlinux-offtopic
+2013-02-28 01:55:45	mar77i	!g hungarians and suicide
+2013-02-28 01:55:47	phrik	mar77i: Gloomy Sunday - Are Hungarians The Gloomiest Nation On Earth?: <http://www.phespirit.info/gloomysunday/article_02.htm>
+2013-02-28 01:55:49		[http://is.gd/QWtJSU]
+2013-02-28 01:57:31	opt1mus	!g Alaskans and suicide
+2013-02-28 01:57:32	phrik	opt1mus: Suicide Prevention Council - Alaska Department of Health and ...: <http://hss.alaska.gov/suicideprevention/statistics.htm>
+2013-02-28 01:57:33		[http://is.gd/Y5DNXo]
+2013-02-28 02:00:22	CryptoNaut	!yt manic street preachers umbrella
+2013-02-28 02:00:22	phrik	CryptoNaut: Umbrella - Manic Street Preachers (Rihanna Cover) - YouTube: <http://www.youtube.com/watch?v=3G-wZ5uY0_o>
+2013-02-28 02:00:32	CryptoNaut	Real music is really nice, really, istn't it?
+2013-02-28 02:00:37	CryptoNaut	~.~
+2013-02-28 02:01:51	↪	gosshedd (~gosshedd@94.26.11.146) has joined #archlinux-offtopic
+2013-02-28 02:02:53	↩	iflema (~Ian_Flemi@CPE-124-183-86-50.lns13.ken.bigpond.net.au) has quit (Quit: WeeChat 0.4.0)
+2013-02-28 02:04:14	opt1mus	!yt Merriman Weir Die
+2013-02-28 02:04:15	phrik	opt1mus: Merriman Weir - Die Die ( Man To Man With Dean Learner ) - YouTube: <http://www.youtube.com/watch?v=EEMIVfYNrZ4>
+2013-02-28 02:05:31	t0m5k1	!yt Cabert Voltaire Easy Life
+2013-02-28 02:05:33	phrik	t0m5k1: CABARET VOLTAIRE; easy life - YouTube: <http://www.youtube.com/watch?v=elM0KCO6wvI>
+2013-02-28 02:07:18	↩	desmond (~desmond@rrcs-97-77-52-179.sw.biz.rr.com) has quit (Ping timeout: 264 seconds)
+2013-02-28 02:10:17	sammyf	!g finn and suicide
+2013-02-28 02:10:19	phrik	sammyf: February 2010: William D. Cohan on the Caspersen Suicide | Vanity ...: <http://www.vanityfair.com/culture/features/2010/02/caspersen-suicide-201002>
+2013-02-28 02:10:21		[http://is.gd/dZlmPk]
+2013-02-28 02:10:44	sammyf	!g finnland and suicide
+2013-02-28 02:10:45	phrik	sammyf: Nokia, suicide and murder: Finland world's top country?: <http://www.cafebabel.co.uk/article/34857/finland-world-top-country-newsweek-citizen-reply.html>
+2013-02-28 02:10:47		[http://is.gd/iLxeag]
+2013-02-28 02:11:06	sammyf	more what I was looking for
+2013-02-28 02:14:37	↩	wizzo (~wizzo@124-148-208-107.dyn.iinet.net.au) has quit (Changing host)
+2013-02-28 02:14:37	↪	wizzo (~wizzo@unaffiliated/wizzomafizzo) has joined #archlinux-offtopic
+2013-02-28 02:14:41	wizzo	hi CryptoNaut
+2013-02-28 02:14:59	⇄	Roukoswarf is now known as MrSmith
+2013-02-28 02:16:01	↪	iflema (~Ian_Flemi@CPE-124-183-86-50.lns13.ken.bigpond.net.au) has joined #archlinux-offtopic
+2013-02-28 02:16:09	DinCahill	hey Metallica
+2013-02-28 02:19:00	⇄	MrSmith is now known as Roukoswarf
+2013-02-28 02:24:51	↩	rmd (~rmd_@64.237.37.123) has quit (Quit: leaving)
+2013-02-28 02:26:20	CryptoNaut	wizzo: hello?
+2013-02-28 02:31:15	↩	acuzio (~acuzio@unaffiliated/acuzio) has quit (Quit: leaving)
+2013-02-28 02:33:56	↩	crooksey_ (~quassel@mail.solentwholesale.co.uk) has quit (Read error: No route to host)
+2013-02-28 02:38:16	↪	crooksey_ (~quassel@195.149.4.197) has joined #archlinux-offtopic
+2013-02-28 02:39:00	thr	!multirq
+2013-02-28 02:39:01	phrik	<badipod_> I just ate sykopomp <d_garbage> you're not an alcoholic as long as you can hold down your day job.. <kiyura> Super Smash Bros <iamsthitha> gentoo rocks yo momma! <gunfire007> sercik: ok trying to  launch compiz :)
+2013-02-28 02:41:00	↪	acuzio (~acuzio@unaffiliated/acuzio) has joined #archlinux-offtopic
+2013-02-28 02:44:38	↩	joeda (~jo@HSI-KBW-46-223-227-5.hsi.kabel-badenwuerttemberg.de) has quit (Quit: Lost terminal)
+2013-02-28 02:48:00	↪	czardoz (~czardoz@117.195.17.152) has joined #archlinux-offtopic
+2013-02-28 02:48:13	hh4a	wololo
+2013-02-28 02:49:10	wizzo	CryptoNaut: how's it going?
+2013-02-28 02:50:24	hh4a	alright
+2013-02-28 02:50:28	↩	HuMu (~Huub@41.221.190.222) has quit (Ping timeout: 248 seconds)
+2013-02-28 02:50:30	hh4a	who wants some brot
+2013-02-28 02:52:22	↪	HuMu (~Huub@41.221.178.233) has joined #archlinux-offtopic
+2013-02-28 02:54:29	CryptoNaut	wizzo: do I know you, or have I got alzheimers?
+2013-02-28 02:54:35	CryptoNaut	either/or, neither/both?
+2013-02-28 02:56:06	↪	fogobogo (~fogobogo@unaffiliated/fogobogo) has joined #archlinux-offtopic
+2013-02-28 03:00:58	taotetek	o/
+2013-02-28 03:02:40	hh4a	\o
+2013-02-28 03:02:46	hh4a	all hail oh great taotetek
+2013-02-28 03:03:11	CryptoNaut	Nein!
+2013-02-28 03:03:51	CryptoNaut	The Chemical Brother's Believe video is amusing
+2013-02-28 03:04:20	CryptoNaut	Hallucinations on industrial robots going rogue
+2013-02-28 03:04:24	CryptoNaut	being ghostly lurkers
+2013-02-28 03:04:26	CryptoNaut	somethinglike that
+2013-02-28 03:04:39	CryptoNaut	stalkers*
+2013-02-28 03:05:55	↩	Roukoswarf (~Roukoswar@unaffiliated/roukoswarf) has quit (Quit: TTFN)
+2013-02-28 03:09:09	↩	HuMu (~Huub@41.221.178.233) has quit (Ping timeout: 252 seconds)
+2013-02-28 03:11:24	↩	omeringen (~loL@88.241.223.131) has quit (Ping timeout: 272 seconds)
+2013-02-28 03:11:43	wizzo	CryptoNaut: just thought I'd say hi
+2013-02-28 03:13:31	CryptoNaut	Yes, well hello =)
+2013-02-28 03:13:52	hh4a	#1 in deutchland
+2013-02-28 03:13:58	hh4a	number 1
+2013-02-28 03:14:30	hh4a	time is running out
+2013-02-28 03:14:36	hh4a	gentlemen, its a nuclear device
+2013-02-28 03:14:39	hh4a	time is running out
+2013-02-28 03:14:55	↩	hh4a (~hh4a@84-255-197-79.static.t-2.net) has quit (Quit: going away and always astray)
+2013-02-28 03:16:13	↪	rmd (~rmd_@173-165-191-203-atlanta.hfc.comcastbusiness.net) has joined #archlinux-offtopic
+2013-02-28 03:18:17	↪	Roukoswarf (~Roukoswar@unaffiliated/roukoswarf) has joined #archlinux-offtopic
+2013-02-28 03:21:03	↪	bin7me (~kvirc@p4FC0F930.dip.t-dialin.net) has joined #archlinux-offtopic
+2013-02-28 03:25:34	CryptoNaut	!w cyber intelligence sharing and protection act
+2013-02-28 03:25:36	phrik	CryptoNaut: Cyber Intelligence Sharing and Protection Act - Wikipedia, the free ...: <http://en.wikipedia.org/wiki/Cyber_Intelligence_Sharing_and_Protection_Act>
+2013-02-28 03:25:37		[http://is.gd/xgAGmD]
+2013-02-28 03:25:37	CryptoNaut	ouch =\
+2013-02-28 03:27:14	CryptoNaut	moar technopolitical head-bumping
+2013-02-28 03:27:57	↪	HuMu (~Huub@41.221.178.233) has joined #archlinux-offtopic
+2013-02-28 03:28:58	wizzo	where is rabbitear?
+2013-02-28 03:30:33	↩	Roukoswarf (~Roukoswar@unaffiliated/roukoswarf) has quit (Quit: TTFN)
+2013-02-28 03:31:58	↪	Roukoswarf (~Roukoswar@unaffiliated/roukoswarf) has joined #archlinux-offtopic
+2013-02-28 03:32:04	tasidus	hello
+2013-02-28 03:32:31	woddf2	wizzo: Anchorage, AK
+2013-02-28 03:33:35	wizzo	what a terrible fate
+2013-02-28 03:33:52	↩	czardoz (~czardoz@117.195.17.152) has quit (Remote host closed the connection)
+2013-02-28 03:36:27	↩	sjihs (~chandan@122.248.161.59) has quit (Quit: WeeChat 0.4.0)
+2013-02-28 03:38:28	↪	Sicp (~ongoing@unaffiliated/odaym) has joined #archlinux-offtopic
+2013-02-28 03:38:30	↩	Tear__ (~tear@user-5-173-163-75.play-internet.pl) has quit (Ping timeout: 264 seconds)
+2013-02-28 03:41:09	↪	Tear (~tear@user-109-243-221-217.play-internet.pl) has joined #archlinux-offtopic
+2013-02-28 03:42:56	↪	HuMu_ (~Huub@196.200.83.160) has joined #archlinux-offtopic
+2013-02-28 03:43:42	↩	velusip (~velusip@CPE001d73111113-CM18593340f926.cpe.net.cable.rogers.com) has quit (Ping timeout: 272 seconds)
+2013-02-28 03:45:13	↩	HuMu (~Huub@41.221.178.233) has quit (Ping timeout: 276 seconds)
+2013-02-28 03:45:47	fogobogo	wizzo: hey, you can see russia from the kitchen window!
+2013-02-28 03:46:53	CryptoNaut	lawl
+2013-02-28 03:48:11	taotetek	acc add jabber taotetek@gmail.com
+2013-02-28 03:48:15	taotetek	grrrr
+2013-02-28 03:48:28	taotetek	wrong window :)
+2013-02-28 03:48:39	woddf2	taotetek: I assume that was supposed to go to &bitlbee at your BitlBee server.
+2013-02-28 03:48:45	woddf2	!wrongterminal
+2013-02-28 03:48:47	taotetek	woddf2: indeed :D
+2013-02-28 03:52:31	taotetek	how goes woddf2
+2013-02-28 03:52:36	woddf2	taotetek: Fine
+2013-02-28 03:53:20	↩	Tear (~tear@user-109-243-221-217.play-internet.pl) has quit (Ping timeout: 246 seconds)
+2013-02-28 03:53:47	↩	xcrustyx (~archbox@ip124-1-208-87.adsl2.static.versatel.nl) has quit (Remote host closed the connection)
+2013-02-28 03:55:26	wizzo	fogobogo: he must see a lot of metors
+2013-02-28 03:55:28	wizzo	eors
+2013-02-28 03:55:34	fogobogo	auroras
+2013-02-28 03:55:42	wizzo	taotetek: now we all know your email
+2013-02-28 03:55:50	wizzo	and jabber!
+2013-02-28 03:55:54	↩	camilasan (~camilasan@91-64-80-97-dynip.superkabel.de) has quit (Ping timeout: 276 seconds)
+2013-02-28 03:56:21	↪	xcrustyx (~archbox@ip124-1-208-87.adsl2.static.versatel.nl) has joined #archlinux-offtopic
+2013-02-28 03:56:27	taotetek	wizzo: it's not particularly hard to find
+2013-02-28 03:56:37	wizzo	I've spent years
+2013-02-28 03:56:43	taotetek	privacy is dead
+2013-02-28 03:57:00	CryptoNaut	guyse, grayed out coloring/shading theme for passivated buffers is for the win
+2013-02-28 03:57:02	CryptoNaut	you know?
+2013-02-28 03:57:15	wizzo	screenshot?
+2013-02-28 03:57:19	↪	halosghost (~halosghos@lit75-4-88-167-34-46.fbx.proxad.net) has joined #archlinux-offtopic
+2013-02-28 03:57:46	halosghost	KaiSforza: I know you probably don't care, but I have a beautiful status-bar setup in ttwm now :)
+2013-02-28 03:57:51	Metallica	hi CryptoNaut
+2013-02-28 03:59:59	taotetek	ugh. think I'm finally over this cold enough to write some code today.
+2013-02-28 04:00:31	wizzo	taotetek: do you use emacs?
+2013-02-28 04:00:34	taotetek	vim
+2013-02-28 04:00:38	wizzo	damn
+2013-02-28 04:00:43	wizzo	hmmm
+2013-02-28 04:00:46	wizzo	can I see your config anyway?
+2013-02-28 04:00:54	taotetek	it's not very exciting
+2013-02-28 04:02:11	wizzo	oh well it's up to you
+2013-02-28 04:02:38	CryptoNaut	taotetek: how 'confidential' that jabber command's contents used to be? I caught it on mah screenshot
+2013-02-28 04:02:40	CryptoNaut	=\
+2013-02-28 04:02:44	CryptoNaut	Metallica: hello?
+2013-02-28 04:03:01	mar77i	o/
+2013-02-28 04:03:07	Metallica	•CryptoNaut• Remember me? :O
+2013-02-28 04:03:09	taotetek	CryptoNaut: oh, it's just the command to add a jabber account to bitlbee, there's no password or anything, just my email.
+2013-02-28 04:03:29	mar77i	Metallica: no one remembers you. all your stuff sounds exactly the same to me
+2013-02-28 04:03:40	Metallica	mar77i: fack you!
+2013-02-28 04:03:44	mar77i	:D
+2013-02-28 04:03:49	CryptoNaut	wizzo, taotetek: http://picpaste.com/pics/2013-02-28-140008_1366x768_scrot.1362052885.png
+2013-02-28 04:03:50		[http://is.gd/leckB5]
+2013-02-28 04:03:50	phrik	Title: PicPaste - 2013-02-28-140008_1366x768_scrot.png (at picpaste.com)
+2013-02-28 04:03:55	taotetek	wizzo: seriously - it's just nerdtree + clang complete + syntax color highlight setting
+2013-02-28 04:04:31	CryptoNaut	Just an example of the effect, could be used with merged buffers, I don't really use split window like that =\
+2013-02-28 04:04:36	taotetek	CryptoNaut: hey, that's neat
+2013-02-28 04:04:45	CryptoNaut	taotetek: IKR
+2013-02-28 04:04:53	CryptoNaut	I do have to clean up my color scheming tho
+2013-02-28 04:05:07	CryptoNaut	it used to look muchos betterers on lxterminal and tty too I believe
+2013-02-28 04:05:09	CryptoNaut	=\
+2013-02-28 04:05:35	wizzo	taotetek: okay you've talked me out of it :P
+2013-02-28 04:05:40	taotetek	wizzo: haha
+2013-02-28 04:06:23	wizzo	CryptoNaut: wow that's pimped
+2013-02-28 04:06:33	wizzo	why don't you use a better theme?!
+2013-02-28 04:06:59	CryptoNaut	uhh, tehre's no such thing? also, I've been too lazy to change it. Making it was my passtime when I was stuck in tty purgatory
+2013-02-28 04:07:01	CryptoNaut	=p
+2013-02-28 04:07:06	↩	Metallica (~ident@68-112-238-27.dhcp.oxfr.ma.charter.com) has quit (Quit: —I-n-v-i-s-i-o-n— 3.3 (November '11))
+2013-02-28 04:07:26	mar77i	tty isn't even purgatory
+2013-02-28 04:07:34	CryptoNaut	mar77i: stfu mang
+2013-02-28 04:07:36	CryptoNaut	=p
+2013-02-28 04:07:48	wizzo	I dunno it's just the blue default looks weird among everything else
+2013-02-28 04:08:10	wizzo	tty is comfortable
+2013-02-28 04:08:30	↩	iflema (~Ian_Flemi@CPE-124-183-86-50.lns13.ken.bigpond.net.au) has quit (Quit: WeeChat 0.4.0)
+2013-02-28 04:08:34	CryptoNaut	wizzo: I'd much rather have dark red as the indicator tone for all the dark-blue framey stuff around my chat, but there's only so much I can do with default colors
+2013-02-28 04:08:40	CryptoNaut	and going beyond those is crazy madness
+2013-02-28 04:08:42	CryptoNaut	for now
+2013-02-28 04:08:51	CryptoNaut	the blue is good for being dark
+2013-02-28 04:09:13	CryptoNaut	blue in fact gives us the weakest luminance stimulus
+2013-02-28 04:09:15	CryptoNaut	so meh
+2013-02-28 04:09:43	CryptoNaut	red is over towards the softer focus of things too, so I kinda like it
+2013-02-28 04:10:04	wizzo	buddy, are we lookin at the same screenshot
+2013-02-28 04:10:09	CryptoNaut	oh darn, that screenshot didn't pimp how the traffic messages ar emade all nice and darkened out
+2013-02-28 04:10:24	CryptoNaut	yeah, what of it?
+2013-02-28 04:10:37	wizzo	it doesn't matter how strong the luminance stimilus might be, that blue is really bright
+2013-02-28 04:11:21	CryptoNaut	it might feel to you that way, it is however the darkest of the colors in the palette
+2013-02-28 04:11:40	CryptoNaut	and my eye barely even notices it as intense unless I'm looking for it
+2013-02-28 04:12:21	CryptoNaut	Smile!
+2013-02-28 04:12:29	wizzo	okay if you say so
+2013-02-28 04:13:18	⇄	pythonsnake is now known as sob
+2013-02-28 04:13:21	⇄	sob is now known as pythonsnake
+2013-02-28 04:13:42	pythonsnake	hi
+2013-02-28 04:14:01	CryptoNaut	pythonsnake: hello rabid ruby rastafarian
+2013-02-28 04:14:05	CryptoNaut	^_^
+2013-02-28 04:14:11	pythonsnake	sup crypt 'o' naut
+2013-02-28 04:15:09	↩	frots (root@unaffiliated/frots) has quit (Ping timeout: 252 seconds)
+2013-02-28 04:15:59	mar77i	13:07 < CryptoNaut> mar77i: stfu mang << wow never been misspelled this badly
+2013-02-28 04:16:36	CryptoNaut	!give mar77i ud mang
+2013-02-28 04:16:37	phrik	mar77i: Urban Dictionary: mang: <http://www.urbandictionary.com/define.php?term=mang>
+2013-02-28 04:16:39		[http://is.gd/x8gomR]
+2013-02-28 04:16:40	CryptoNaut	learn to slang mang?
+2013-02-28 04:16:42	CryptoNaut	=D
+2013-02-28 04:18:37	↪	henkye (~henkye@32.111.broadband13.iol.cz) has joined #archlinux-offtopic
+2013-02-28 04:19:09	mar77i	CryptoNaut: it's mar77i. I'll talk to you again when you learned it.
+2013-02-28 04:21:47	CryptoNaut	mar77i: are you completely bonkers-bonkers now?
+2013-02-28 04:21:53	CryptoNaut	=S
+2013-02-28 04:23:14	↪	camilasan (~camilasan@91-64-80-97-dynip.superkabel.de) has joined #archlinux-offtopic
+2013-02-28 04:24:37	↪	cirrus_minor (~cirrus_mi@unaffiliated/cirrus-minor/x-6868843) has joined #archlinux-offtopic
+2013-02-28 04:25:36	wizzo	did you just say bonker-bonkers?
+2013-02-28 04:29:07	↪	james147 (~quassel@unaffiliated/james147) has joined #archlinux-offtopic
+2013-02-28 04:29:22	↪	axanon_ (~axanon@unaffiliated/axanon) has joined #archlinux-offtopic
+2013-02-28 04:29:53	↪	ayres (~camilasan@91-64-80-97-dynip.superkabel.de) has joined #archlinux-offtopic
+2013-02-28 04:30:07	↩	henkye (~henkye@32.111.broadband13.iol.cz) has quit (Quit: Leaving)
+2013-02-28 04:30:54	↪	spY|da_ (~spychodel@linuxjunkies.de) has joined #archlinux-offtopic
+2013-02-28 04:31:22	↩	camerin (hoax@newelite.bshellz.net) has quit (Disconnected by services)
+2013-02-28 04:31:35	↩	cyberspace- (20253@ninthfloor.org) has quit (Disconnected by services)
+2013-02-28 04:31:36	↪	bougyman_ (~bougyman@99-89-30-220.uvs.rcsntx.sbcglobal.net) has joined #archlinux-offtopic
+2013-02-28 04:31:54	↪	cyberspace- (20253@ninthfloor.org) has joined #archlinux-offtopic
+2013-02-28 04:31:59	↪	camerin (hoax@newelite.bshellz.net) has joined #archlinux-offtopic
+2013-02-28 04:32:13	↪	iflema (~Ian@CPE-124-183-86-50.lns13.ken.bigpond.net.au) has joined #archlinux-offtopic
+2013-02-28 04:33:55	CryptoNaut	http://imgur.com/gallery/398iC
+2013-02-28 04:33:57	CryptoNaut	woah
+2013-02-28 04:34:37	↪	treehugger (~tim@unaffiliated/timi0tree) has joined #archlinux-offtopic
+2013-02-28 04:35:44	↩	camilasan (~camilasan@91-64-80-97-dynip.superkabel.de) has quit (*.net *.split)
+2013-02-28 04:35:45	↩	pythonsnake (~pythonsna@fedora/pythonsnake) has quit (*.net *.split)
+2013-02-28 04:35:45	↩	axanon (~axanon@unaffiliated/axanon) has quit (*.net *.split)
+2013-02-28 04:35:45	↩	timi (~tim@unaffiliated/timi0tree) has quit (*.net *.split)
+2013-02-28 04:35:45	↩	bougyman (~bougyman@pdpc/supporter/gold/bougyman) has quit (*.net *.split)
+2013-02-28 04:35:47	↩	james147_ (~quassel@94-193-40-236.zone7.bethere.co.uk) has quit (*.net *.split)
+2013-02-28 04:35:47	↩	phrik (~archbot@archlinux/bot/phrik) has quit (*.net *.split)
+2013-02-28 04:35:47	↩	spY|da (~spychodel@linuxjunkies.de) has quit (*.net *.split)
+2013-02-28 04:35:47	⇄	treehugger is now known as timi
+2013-02-28 04:36:12	fogobogo	CryptoNaut: another useful contribution to mankinds legacy
+2013-02-28 04:36:16	CryptoNaut	So checking out the imgur uploading/editing facilities was fun, until the apparently infinite loop of animation+ Your work was saved. Please wait while we finish up... lingered
+2013-02-28 04:36:18	CryptoNaut	=D
+2013-02-28 04:37:53	CryptoNaut	And I was gonna provide evidnce of blue=darkest in the context of my theme's palette
+2013-02-28 04:37:55	CryptoNaut	=\
+2013-02-28 04:38:36	↩	cirrus_minor (~cirrus_mi@unaffiliated/cirrus-minor/x-6868843) has quit (Quit: .'Anything You Say Will Be Taken Down & May Be Used Against You'..ᗧ ....ᗣᗣ...⚠)
+2013-02-28 04:38:56	↪	cirrus_minor (~cirrus_mi@unaffiliated/cirrus-minor/x-6868843) has joined #archlinux-offtopic
+2013-02-28 04:44:18	↪	pythonsnake (~pythonsna@fedora/pythonsnake) has joined #archlinux-offtopic
+2013-02-28 04:51:12	↩	Lorem-Ipsum (~Lorem-Ips@unaffiliated/lorem-ipsum) has quit (Ping timeout: 264 seconds)
+2013-02-28 04:52:17	↪	Lorem-Ipsum (~Lorem-Ips@unaffiliated/lorem-ipsum) has joined #archlinux-offtopic
+2013-02-28 04:53:36	↩	Lorem-Ipsum (~Lorem-Ips@unaffiliated/lorem-ipsum) has quit (Read error: Connection reset by peer)
+2013-02-28 04:53:50	↪	Lorem-Ipsum (~Lorem-Ips@193.60.143.15) has joined #archlinux-offtopic
+2013-02-28 04:53:50	↩	Lorem-Ipsum (~Lorem-Ips@193.60.143.15) has quit (Changing host)
+2013-02-28 04:53:50	↪	Lorem-Ipsum (~Lorem-Ips@unaffiliated/lorem-ipsum) has joined #archlinux-offtopic
+2013-02-28 04:53:54	↩	cirrus_minor (~cirrus_mi@unaffiliated/cirrus-minor/x-6868843) has quit (Quit: .'Anything You Say Will Be Taken Down & May Be Used Against You'..ᗧ ....ᗣᗣ...⚠)
+2013-02-28 04:54:27	Lorem-Ipsum	Hiah. Anyone here using Herbstluftwm? As of this morning when I start X it's completely ignoring my config even if I specify it. Ideas?
+2013-02-28 04:55:00	Lorem-Ipsum	If I manually run the config afterwards it works fine
+2013-02-28 04:55:43	↪	AndrevS (~andre_bk@2001:980:55e0:1:20f:eaff:fe58:28f8) has joined #archlinux-offtopic
+2013-02-28 04:56:25	CryptoNaut	john_f: great font suggestion there. That doesn't happen to be your own fave?
+2013-02-28 04:56:54	|	CryptoNaut gives Lorem-Ipsum a fast forward to #archlinux
+2013-02-28 04:56:56	CryptoNaut	=p
+2013-02-28 04:56:57	↪	cirrus_minor (~cirrus_mi@unaffiliated/cirrus-minor/x-6868843) has joined #archlinux-offtopic
+2013-02-28 04:57:02	john_f	it has many utf gliphs
+2013-02-28 04:57:12	CryptoNaut	many indeed
+2013-02-28 04:57:26	john_f	inconsolata or terminus are better
+2013-02-28 04:57:47	john_f	but not as complete
+2013-02-28 04:57:52	Lorem-Ipsum	CryptoNaut: It's in the AUR so I doubt #archlinux will help
+2013-02-28 04:58:56	CryptoNaut	yeah well, they're all -offtopic much of the time there, I'm sure someone will appreciate a troubleshooting challenge
+2013-02-28 04:58:58	CryptoNaut	or not, beats me
+2013-02-28 04:59:17	john_f	CryptoNaut: http://sprunge.us/bhjV as ~/.config/fonts.conf
+2013-02-28 04:59:26	john_f	and set things to monospace
+2013-02-28 04:59:42	↪	frots (root@unaffiliated/frots) has joined #archlinux-offtopic
+2013-02-28 05:00:32	↩	Sicp (~ongoing@unaffiliated/odaym) has quit (Ping timeout: 244 seconds)
+2013-02-28 05:02:28	↪	Lorem-Ip1 (~Lorem-Ips@unaffiliated/lorem-ipsum) has joined #archlinux-offtopic
+2013-02-28 05:04:46	CryptoNaut	Ahh, a mere fallback =p
+2013-02-28 05:06:06	↪	phrik (~archbot@archlinux/bot/phrik) has joined #archlinux-offtopic
+2013-02-28 05:07:14	CryptoNaut	Oh man oh man oh man, my pixel graphix graphing efforts are producing unexpected 'eyecandy' results
+2013-02-28 05:07:17	CryptoNaut	nice
+2013-02-28 05:07:35	↩	iflema (~Ian@CPE-124-183-86-50.lns13.ken.bigpond.net.au) has quit (Ping timeout: 252 seconds)
+2013-02-28 05:08:14	↪	eeeddd (~Ian@101.174.6.226) has joined #archlinux-offtopic
+2013-02-28 05:08:46	↩	eeeddd (~Ian@101.174.6.226) has quit (Client Quit)
+2013-02-28 05:09:50	↪	iflema (~Ian@101.174.6.226) has joined #archlinux-offtopic
+2013-02-28 05:10:40	↪	yogiman321 (~janko@kemtV4RES17.fei.tuke.sk) has joined #archlinux-offtopic
+2013-02-28 05:11:49	↪	omeringen (~loL@88.241.230.58) has joined #archlinux-offtopic
+2013-02-28 05:13:45	↪	Sicp (~ongoing@unaffiliated/odaym) has joined #archlinux-offtopic
+2013-02-28 05:15:34	↩	HuMu_ (~Huub@196.200.83.160) has quit (Ping timeout: 276 seconds)
+2013-02-28 05:15:51	mar77i	CryptoNaut: it's mar77i. I'll talk to you again when you learned it.
+2013-02-28 05:17:40	CryptoNaut	mar77i... wtfh are you on about?
+2013-02-28 05:18:03	CryptoNaut	Am I trippin guys, or his he?
+2013-02-28 05:18:05	CryptoNaut	This is surreal
+2013-02-28 05:18:14	↪	HuMu (~Huub@41.221.178.52) has joined #archlinux-offtopic
+2013-02-28 05:19:13	john_f	surreal tournament
+2013-02-28 05:19:22	halosghost	oooh
+2013-02-28 05:19:24	halosghost	That sounds fun
+2013-02-28 05:19:27	john_f	is-that-a-head shot!
+2013-02-28 05:19:44	CryptoNaut	Sleep deprivation is being a murderous bitch. Nee. Moa. Coff.
+2013-02-28 05:19:48	CryptoNaut	~~O~~
+2013-02-28 05:21:00	↩	Lorem-Ipsum (~Lorem-Ips@unaffiliated/lorem-ipsum) has quit (Quit: WeeChat 0.4.0)
+2013-02-28 05:21:08	↩	tasidus (~tasos@unaffiliated/tasidus) has quit (Quit: WeeChat 0.3.2)
+2013-02-28 05:21:41	↪	Lorem-Ipsum (~Lorem-Ips@unaffiliated/lorem-ipsum) has joined #archlinux-offtopic
+2013-02-28 05:23:05	↪	tasidus (~tasos@unaffiliated/tasidus) has joined #archlinux-offtopic
+2013-02-28 05:23:51	↪	sjihs (~chandan@117.192.128.226) has joined #archlinux-offtopic
+2013-02-28 05:29:33	mar77i	MAR77I!!!
+2013-02-28 05:29:39	mar77i	I'm telling ya!
+2013-02-28 05:29:42	tasidus	!grab mar77i
+2013-02-28 05:29:43	phrik	tasidus: Tada!
+2013-02-28 05:29:45	tasidus	fuu
+2013-02-28 05:29:52	mar77i	MAR77I!!!
+2013-02-28 05:29:54	mar77i	fuu
+2013-02-28 05:30:00	tasidus	forget it
+2013-02-28 05:30:04	mar77i	boo
+2013-02-28 05:30:20	tasidus	what's up besides the cat?
+2013-02-28 05:30:33	mar77i	(remember when I said I never say 'boo'?)
+2013-02-28 05:30:42	tasidus	no
+2013-02-28 05:30:44	mar77i	I'm up
+2013-02-28 05:30:53	mar77i	I'm up all the way :)
+2013-02-28 05:31:02	↪	Caleb (~Caleb@cpe-098-121-134-089.nc.res.rr.com) has joined #archlinux-offtopic
+2013-02-28 05:31:02	↩	Caleb (~Caleb@cpe-098-121-134-089.nc.res.rr.com) has quit (Changing host)
+2013-02-28 05:31:02	↪	Caleb (~Caleb@archlinux/op/caleb) has joined #archlinux-offtopic
+2013-02-28 05:32:21	tasidus	i have headache all the way :)
+2013-02-28 05:32:40	↪	ethail (~ethail@unaffiliated/ethail) has joined #archlinux-offtopic
+2013-02-28 05:32:43	mar77i	http://24.media.tumblr.com/tumblr_mef6aaLGTJ1qgej6io1_500.png almost never go full derp
+2013-02-28 05:32:44		[http://is.gd/K4qk0x]
+2013-02-28 05:33:07	↩	ayres (~camilasan@91-64-80-97-dynip.superkabel.de) has quit (Ping timeout: 276 seconds)
+2013-02-28 05:33:27	tasidus	what's with the face? he realised the cats are going to kill him one day?
+2013-02-28 05:34:58	↩	syrinx (~quassel@unaffiliated/syrinx-/x-4255893) has quit (Read error: Connection reset by peer)
+2013-02-28 05:35:12	↪	syrinx (~quassel@ip68-1-175-223.ri.ri.cox.net) has joined #archlinux-offtopic
+2013-02-28 05:35:12	↩	syrinx (~quassel@ip68-1-175-223.ri.ri.cox.net) has quit (Changing host)
+2013-02-28 05:35:12	↪	syrinx (~quassel@unaffiliated/syrinx-/x-4255893) has joined #archlinux-offtopic
+2013-02-28 05:35:52	↩	HuMu (~Huub@41.221.178.52) has quit (Ping timeout: 240 seconds)
+2013-02-28 05:36:03	↩	Lorem-Ipsum (~Lorem-Ips@unaffiliated/lorem-ipsum) has quit (Quit: WeeChat 0.4.0)
+2013-02-28 05:45:25	↪	Tharugrim (~Tharugrim@62-46-145-46.adsl.highway.telekom.at) has joined #archlinux-offtopic
+2013-02-28 05:45:33	mar77i	CryptoNaut: stop denying the facts CryptoNaut, you're not even trying
+2013-02-28 05:49:35	↩	halosghost (~halosghos@lit75-4-88-167-34-46.fbx.proxad.net) has quit (Quit: The strongest of thunderstorms is no more than Nature's shower.)
+2013-02-28 05:50:16	↪	halosghost (~halosghos@lit75-4-88-167-34-46.fbx.proxad.net) has joined #archlinux-offtopic
+2013-02-28 05:52:09	CryptoNaut	mar77i: I'm just gonna go ahead and pretend as if what ever I'm doing, or not, is ruining your joke
+2013-02-28 05:52:12	CryptoNaut	so meh
+2013-02-28 05:52:24	↩	kevku (~kevku@2a01:d0:ffff:34a::8:3) has quit (Ping timeout: 264 seconds)
+2013-02-28 05:54:55	CryptoNaut	mar77i: you know, I'd bet money on "you're gonna like seeing this!" when my math/algorithmically inspired polyplet chart is ready for draft publishing
+2013-02-28 05:54:57	CryptoNaut	=D
+2013-02-28 05:55:32	CryptoNaut	I'm thinking some venue like xkcd fan forums might facilitate recieving some level of constructive criticism
+2013-02-28 05:55:50	CryptoNaut	Cause I have no clue where else to find fun recreational math interested peoples
+2013-02-28 05:55:58	↩	t0m5k1 (~t0m5k1@8ta-151-242-61.telkomadsl.co.za) has quit (Remote host closed the connection)
+2013-02-28 05:56:01	CryptoNaut	Any ideas?
+2013-02-28 05:56:29	taotetek	CryptoNaut: http://www.processing.org/
+2013-02-28 05:56:31	phrik	Title: Processing.org (at www.processing.org)
+2013-02-28 05:57:58	↪	rob``` (~rob@gtng-4d08a2be.pool.mediaWays.net) has joined #archlinux-offtopic
+2013-02-28 06:00:30	↩	hejki (~hejki@80.221.26.20) has quit (Ping timeout: 272 seconds)
+2013-02-28 06:03:21	pythonsnake	hey guys
+2013-02-28 06:03:31	↪	Sadin (~sadin@205.235.35.130) has joined #archlinux-offtopic
+2013-02-28 06:03:44	pythonsnake	gonna get a sport class in 1h
+2013-02-28 06:03:48	CryptoNaut	pythonsnake: hey ladies?
+2013-02-28 06:03:49	pythonsnake	any advices plz?
+2013-02-28 06:03:50	CryptoNaut	Sup?
+2013-02-28 06:04:16	pythonsnake	hm
+2013-02-28 06:04:35	pythonsnake	PANIC PANIC PANIC PANIC PANIC
+2013-02-28 06:04:39	pythonsnake	PANIC PANIC PANIC PANIC PANICPANIC PANIC PANIC PANIC PANICPANIC PANIC PANIC PANIC PANICPANIC PANIC PANIC PANIC PANICPANIC PANIC PANIC PANIC PANICPANIC PANIC PANIC PANIC PANICPANIC PANIC PANIC PANIC PANICPANIC PANIC PANIC PANIC PANICPANIC PANIC PANIC PANIC PANICPANIC PANIC PANIC PANIC PANIC
+2013-02-28 06:04:42	CryptoNaut	pythonsnake: travel back in time and get yourself into shape a month in advance
+2013-02-28 06:04:52	CryptoNaut	sports is nothing to be fidgety about
+2013-02-28 06:04:54	CryptoNaut	it's enjoyable fun
+2013-02-28 06:04:56	CryptoNaut	=\
+2013-02-28 06:04:58	pythonsnake	no
+2013-02-28 06:05:09	pythonsnake	i gotta do sports i dont like
+2013-02-28 06:05:14	pythonsnake	notfun at all bro
+2013-02-28 06:05:16	|	CryptoNaut wonders WTH kinda fun wouldn't be
+2013-02-28 06:05:20	CryptoNaut	@.@
+2013-02-28 06:05:30	↩	cirrus_minor (~cirrus_mi@unaffiliated/cirrus-minor/x-6868843) has quit (Quit: .'Anything You Say Will Be Taken Down & May Be Used Against You'..ᗧ ....ᗣᗣ...⚠)
+2013-02-28 06:05:55	CryptoNaut	pythonsnake: what do you mean doing sports you don't like? Don't be all judgemental about irrelevant things, take it as a challenge
+2013-02-28 06:06:00	CryptoNaut	a meditation exercise
+2013-02-28 06:06:08	ZWolf	pythonsnake: OH GOD!
+2013-02-28 06:06:11	CryptoNaut	erasing ill feelings and focussing at the task at hand
+2013-02-28 06:06:11	ZWolf	pythonsnake: Hi
+2013-02-28 06:06:13	CryptoNaut	=)
+2013-02-28 06:06:24	pythonsnake	hi ZWolf
+2013-02-28 06:06:34	ZWolf	How are you pythonsnake ?
+2013-02-28 06:06:35	pythonsnake	CryptoNaut: like
+2013-02-28 06:06:38	pythonsnake	gym
+2013-02-28 06:06:42	pythonsnake	i wanna tennis table
+2013-02-28 06:06:45	CryptoNaut	archeydevil: oh it's you?
+2013-02-28 06:06:49	pythonsnake	ZWolf: fine :D
+2013-02-28 06:06:52	pythonsnake	you?
+2013-02-28 06:06:56	↩	DaZ (~derp@87-205-201-178.adsl.inetia.pl) has quit (Ping timeout: 252 seconds)
+2013-02-28 06:07:02	CryptoNaut	pythonsnake: what do you mean by gym, that's very fucking vague, did you know?
+2013-02-28 06:07:04	CryptoNaut	=\
+2013-02-28 06:07:10	ZWolf	pythonsnake: :D
+2013-02-28 06:07:11	CryptoNaut	PS: weight training is great
+2013-02-28 06:07:12	ZWolf	pythonsnake: Crap :P
+2013-02-28 06:07:14	CryptoNaut	maaaahn!
+2013-02-28 06:07:16	pythonsnake	 gymnastics sh*t
+2013-02-28 06:08:05	↩	iflema (~Ian@101.174.6.226) has quit (Ping timeout: 252 seconds)
+2013-02-28 06:08:08	↪	cyrus1 (89c9f282@gateway/web/freenode/ip.137.201.242.130) has joined #archlinux-offtopic
+2013-02-28 06:08:08	CryptoNaut	pythonsnake: acrobatics are fun dewd, it's awesome cool body control exercise!
+2013-02-28 06:08:13	CryptoNaut	it's a brain teaser
+2013-02-28 06:08:23	ZWolf	CryptoNaut: Yupp :P
+2013-02-28 06:08:45	CryptoNaut	now going on a long run for instance, I'd struggle taking that in a positive perspective
+2013-02-28 06:08:50	CryptoNaut	well, wholly positive that is
+2013-02-28 06:08:52	ZWolf	CryptoNaut: I have more nicks :)
+2013-02-28 06:09:05	CryptoNaut	ZWolf: did I tell you I hate you, right? =p
+2013-02-28 06:09:11	CryptoNaut	ok, not you personally
+2013-02-28 06:09:13	pythonsnake	CryptoNaut: it's not fun if you dont want it
+2013-02-28 06:09:15	CryptoNaut	nick-chameleonism
+2013-02-28 06:09:17	CryptoNaut	it's weird
+2013-02-28 06:09:30	woddf2	CryptoNaut: He could be a Wntrvnm case.
+2013-02-28 06:09:33	ZWolf	pythonsnake: masterkorp shell acc for me -> Might be worth deleting. I'm never on it and I'm contributing with meskarune's shell.
+2013-02-28 06:09:36	ZWolf	:)
+2013-02-28 06:09:46	CryptoNaut	pythonsnake: I'm telling you you've only gotta change your pointless value judgement about doing ufamiliar exercise
+2013-02-28 06:09:48	↩	ethail (~ethail@unaffiliated/ethail) has quit (Ping timeout: 264 seconds)
+2013-02-28 06:09:48	pythonsnake	ZWolf: kk, will let him know
+2013-02-28 06:09:49	|	ZWolf will tell masterkorp when
+2013-02-28 06:09:52	ZWolf	pythonsnake: I will
+2013-02-28 06:09:54	CryptoNaut	woddf2: learn to whois/nickserv-info?
+2013-02-28 06:09:55	pythonsnake	kk
+2013-02-28 06:09:56	CryptoNaut	=D
+2013-02-28 06:10:04	woddf2	!give CryptoNaut g irssi Stalker
+2013-02-28 06:10:06	phrik	CryptoNaut: Symkat - Stalker - Nickname History For IRSSI: <http://www.symkat.com/stalker>
+2013-02-28 06:10:09	woddf2	CryptoNaut: I do not use that, though.
+2013-02-28 06:10:09	ZWolf	CryptoNaut: You hate my nick changes? D:
+2013-02-28 06:10:23	CryptoNaut	woddf2: that's an epic script, you know I want you to port it to my weechat, right?
+2013-02-28 06:10:25	CryptoNaut	=D
+2013-02-28 06:10:35	pythonsnake	CryptoNaut: wut
+2013-02-28 06:10:41	CryptoNaut	ZWolf: I hate it with everyone for whom it's pathological
+2013-02-28 06:10:42	ZWolf	woddf2: HAha
+2013-02-28 06:10:45	CryptoNaut	such as yourself ;D
+2013-02-28 06:10:53	ZWolf	CryptoNaut: I have 128 different irc nicks.
+2013-02-28 06:11:03	ZWolf	64 of which are similar enough (groups)
+2013-02-28 06:11:16	ZWolf	32 are 100% unique
+2013-02-28 06:11:17	cyrus1	I have 1 irc nick.
+2013-02-28 06:11:20	woddf2	I have some for GHOSTing impostors.
+2013-02-28 06:11:22	ZWolf	CryptoNaut: Tempt me to play?
+2013-02-28 06:11:28	woddf2	cyrus1: I saw cyrus2 in a log.
+2013-02-28 06:11:31	ZWolf	woddf2: Haha
+2013-02-28 06:11:44	pythonsnake	hm
+2013-02-28 06:11:51	cyrus1	woddf2: yeah, that was probably only until I ghosted that bastard cyrus1 and stole my nick back
+2013-02-28 06:12:04	cyrus1	it was evil cyrus1 from the mirror universe.
+2013-02-28 06:12:05	woddf2	cyrus1: I think I also saw cyrus1_ once.
+2013-02-28 06:12:15	cyrus1	well, I can't explain that one...
+2013-02-28 06:12:19	CryptoNaut	ZWolf; DID YOU just pry my tab key off of my laptop?
+2013-02-28 06:12:22	pythonsnake	ZWolf: you gotta quit server so he can delete it
+2013-02-28 06:12:25	woddf2	cyrus1: IIRC a simple /nick cyrus1 fixed that one.
+2013-02-28 06:12:26	ZWolf	cyrus1: /msg nickserv help set
+2013-02-28 06:12:28	↪	DaZ (~derp@77-253-103-224.adsl.inetia.pl) has joined #archlinux-offtopic
+2013-02-28 06:12:29	CryptoNaut	that darned slab just wiggled itself outta there just now
+2013-02-28 06:12:31	CryptoNaut	creepy
+2013-02-28 06:12:31	ZWolf	Secure your acc
+2013-02-28 06:12:33	pythonsnake	ZWolf: userdel: user archeydevil is currently logged in
+2013-02-28 06:12:47	ZWolf	pythonsnake: Lies
+2013-02-28 06:12:49	↪	jemofthewest (~jeremy@rover-208-63.rovernet.mtu.edu) has joined #archlinux-offtopic
+2013-02-28 06:13:13	CryptoNaut	Ohhh yeah, it's back in it's socket, mmmmh
+2013-02-28 06:13:17	CryptoNaut	tabbin'!
+2013-02-28 06:13:22	cyrus1	hooray, merger finalized.
+2013-02-28 06:13:24	halosghost	I need to get better with regexps
+2013-02-28 06:13:28	ZWolf	~ >> ssh germany    archeydevil@boobierack:~$ w     archeyde pts/17
+2013-02-28 06:13:30	ZWolf	Only one of me
+2013-02-28 06:13:57	pythonsnake	ZWolf: dude `exit`
+2013-02-28 06:14:06	ZWolf	pythonsnake: Dude not even online
+2013-02-28 06:14:11	ZWolf	~ >> ssh germany w
+2013-02-28 06:14:15	ZWolf	Not even there :P
+2013-02-28 06:14:19	woddf2	ZWolf: A hostname of boobierack is consistent with masterkorp's "i like boobs" schtick.
+2013-02-28 06:14:22	woddf2	:-P
+2013-02-28 06:14:36	cyrus1	woddf2: oh yeah, once I logged in under cyrus1 and cyrus2 at the same time, for general silly irc tomfoolery.
+2013-02-28 06:14:41	ZWolf	woddf2: xD
+2013-02-28 06:14:51	woddf2	cyrus1: cyrus2: Electric Boogaloo
+2013-02-28 06:14:52	woddf2	o_O
+2013-02-28 06:15:01	cyrus1	heh
+2013-02-28 06:15:18	pythonsnake	CryptoNaut: why is it fun
+2013-02-28 06:15:24	↩	sjihs (~chandan@117.192.128.226) has quit (Ping timeout: 252 seconds)
+2013-02-28 06:15:26	ZWolf	pythonsnake: I'm not connected to masterkorp's shell
+2013-02-28 06:15:41	↪	jryan (~jryan@inet-hqmc01-o.oracle.com) has joined #archlinux-offtopic
+2013-02-28 06:15:47	woddf2	ZWolf: Yes, because s/asterkorp/eskarune/
+2013-02-28 06:15:49	ZWolf	no sshfs, no ssh, no ssh mastercontrol sockets.
+2013-02-28 06:15:49	pythonsnake	kk
+2013-02-28 06:15:50	ZWolf	Nothing
+2013-02-28 06:16:09	woddf2	ZWolf: ...meskakorp? ...masterrune?
+2013-02-28 06:16:12	woddf2	!give ZWolf nothing2
+2013-02-28 06:16:14	phrik	ZWolf: http://www.youtube.com/watch?v=KezvwARhBIc&t=1m27s
+2013-02-28 06:16:20	ZWolf	woddf2: No, I am talking to pythonsnake about my acc on masterkorp's shell
+2013-02-28 06:16:21	cyrus1	I think I'm going to train my kids in cyberterrorism and espionage tactics, so they are better prepared to defend themselves against cyber bullying in high-school.
+2013-02-28 06:16:33	pythonsnake	ZWolf: bro meskarune's shell is free?
+2013-02-28 06:16:34	↪	sjihs (~chandan@117.192.128.226) has joined #archlinux-offtopic
+2013-02-28 06:16:37	ZWolf	Which I will ask masterkorp to remove despite the fact that I would love to have many shells.
+2013-02-28 06:16:45	↩	Sadin (~sadin@205.235.35.130) has quit (Remote host closed the connection)
+2013-02-28 06:16:50	ZWolf	But ... new jersey > germany
+2013-02-28 06:16:51	↪	HuMu (~Huub@41.221.178.207) has joined #archlinux-offtopic
+2013-02-28 06:16:51	ZWolf	:D
+2013-02-28 06:16:54	woddf2	!give ZWolf g How to be l33t
+2013-02-28 06:16:54	↪	ethail (~ethail@unaffiliated/ethail) has joined #archlinux-offtopic
+2013-02-28 06:16:56	phrik	ZWolf: How to become l33t (Linux Reviews): <http://linuxreviews.org/howtos/l33t/>
+2013-02-28 06:16:57	cyrus1	one must have many shells with eggdrops to be 1337
+2013-02-28 06:17:10	ZWolf	pythonsnake: I'm contributing
+2013-02-28 06:17:14	woddf2	ZWolf: If you get masterkorp to delete your account at his server, you will be less 1337.
+2013-02-28 06:17:17	woddf2	:-P
+2013-02-28 06:17:23	ZWolf	woddf2: No
+2013-02-28 06:17:24	cyrus1	woddf2: that article always makes me laugh.
+2013-02-28 06:17:29	↪	hejki (~hejki@hoasnet-50dd1a-20.dhcp.inet.fi) has joined #archlinux-offtopic
+2013-02-28 06:17:32	ZWolf	woddf2: I could login to pythonsnake before I could login as archeydevil
+2013-02-28 06:17:35	ZWolf	:P
+2013-02-28 06:17:58	cyrus1	woddf2: huh, 404 not found on that link
+2013-02-28 06:18:02	pythonsnake	ZWolf: kill your processes bro
+2013-02-28 06:18:05	↪	dishaze (~burn@unaffiliated/burnreich) has joined #archlinux-offtopic
+2013-02-28 06:18:14	ZWolf	pythonsnake: GOT NONE!
+2013-02-28 06:18:15	woddf2	cyrus1: Was it the > at the end?
+2013-02-28 06:18:16	ZWolf	Do I?
+2013-02-28 06:18:20	pythonsnake	yeah
+2013-02-28 06:18:25	pythonsnake	those -bash
+2013-02-28 06:18:36	ZWolf	~ >> ssh germany -t tmux a
+2013-02-28 06:18:37	halosghost	What does \s do inside of a sed regexp?
+2013-02-28 06:18:38	ZWolf	no sessions
+2013-02-28 06:18:39	cyrus1	woddf2: good catch
+2013-02-28 06:18:43	halosghost	I'm having trouble googling for it
+2013-02-28 06:19:03	halosghost	because backslash
+2013-02-28 06:19:06	pythonsnake	ok done ZWolf
+2013-02-28 06:19:12	pythonsnake	ZWolf: bro meskarune's shell is free?
+2013-02-28 06:19:17	ZWolf	archeydevil@boobierack.masterkorp.net's password:
+2013-02-28 06:19:19	ZWolf	I noticed
+2013-02-28 06:19:22	ZWolf	pythonsnake: No
+2013-02-28 06:19:24	cyrus1	somebody cleaned my desk.... this troubles me.
+2013-02-28 06:19:32	ZWolf	pythonsnake: I am contributing to the development etc.
+2013-02-28 06:19:39	pythonsnake	dev ? how
+2013-02-28 06:19:43	woddf2	!grab cyrus1
+2013-02-28 06:19:45	phrik	woddf2: Tada!
+2013-02-28 06:19:51	halosghost	good grab
+2013-02-28 06:20:23	woddf2	pythonsnake: I may very well have been her guinea pig the entire time: http://hackerhaven.net/
+2013-02-28 06:20:24	phrik	Title: Rainbow Colors (at hackerhaven.net)
+2013-02-28 06:20:26	woddf2	o_O
+2013-02-28 06:20:37	↩	Lorem-Ip1 (~Lorem-Ips@unaffiliated/lorem-ipsum) has quit (Ping timeout: 244 seconds)
+2013-02-28 06:20:48	↩	yoshi314 (~mkowalski@lubfw-ext.assecobs.pl) has quit (Quit: leaving)
+2013-02-28 06:21:01	woddf2	pythonsnake: (I have been IRCing from her Linode since before she decided to found a shell provider.)
+2013-02-28 06:21:01	↪	yoshi314 (yoshi314@gateway/shell/sundance.i-rpg.net/x-yeilocwncwmuvgoe) has joined #archlinux-offtopic
+2013-02-28 06:21:22	↩	jemofthewest (~jeremy@rover-208-63.rovernet.mtu.edu) has quit (Ping timeout: 240 seconds)
+2013-02-28 06:21:44	ZWolf	pythonsnake: register program, I am writing in haskell. Token server, also in haskell. The tokens are created on demand and are gone by reboot. The tokenserver if everything goes as I see it will auto start in systemd and the register program checks/uses tokens to register a user with a public_key (or multiple).
+2013-02-28 06:21:49	ZWolf	:)
+2013-02-28 06:21:55	ZWolf	halosghost: Good grab indeed. woddf2++
+2013-02-28 06:22:12	CryptoNaut	pythonsnake: it's fun because it's not not-fun
+2013-02-28 06:22:26	CryptoNaut	you're just making yourself think it's not
+2013-02-28 06:22:35	CryptoNaut	=D
+2013-02-28 06:22:40	|	ZWolf loves meskarune and her shell. ^_^
+2013-02-28 06:23:11	CryptoNaut	meskarune is a shell?
+2013-02-28 06:23:13	CryptoNaut	hmmmm
+2013-02-28 06:24:05	cyrus1	meskarune is a bot
+2013-02-28 06:24:06	ZWolf	pythonsnake: http://archeydevil.hackerhaven.net whoo!
+2013-02-28 06:24:09	woddf2	!grab cyrus1
+2013-02-28 06:24:09	phrik	woddf2: Tada!
+2013-02-28 06:24:11	ZWolf	cyrus1: Nope
+2013-02-28 06:24:24	ZWolf	woddf2: Not so good grab
+2013-02-28 06:24:25	ZWolf	:(
+2013-02-28 06:24:54	woddf2	!qfind peroid
+2013-02-28 06:24:56	phrik	woddf2: #9351: when a woman has her peroid as big as this and #6314: Arch is like a "De Shevo" which can...
+2013-02-28 06:25:07	|	ZWolf 's tokenserver's useToken function does the same as adding tokens. :3 (currently)
+2013-02-28 06:25:09	woddf2	What the?
+2013-02-28 06:25:10	ZWolf	Hehe
+2013-02-28 06:25:21	ZWolf	pythonsnake: dldr code ftw ;)
+2013-02-28 06:25:25	woddf2	!qsay 18693
+2013-02-28 06:25:47	halosghost	!qsay 9351
+2013-02-28 06:25:49	phrik	halosghost: <rabbitear> when a woman has her peroid as big as this (Said by: rabbitear!~juice@209-112-186-147-rb1.nwc.dsl.dynamic.acsalaska.net; grabbed by wizzo!~callan@67-23-34-173.slicehost.net at 06:55 AM, September 13, 2010)
+2013-02-28 06:25:59	halosghost	yep, that's rabbitear
+2013-02-28 06:26:02	woddf2	(What happened to 18693?)
+2013-02-28 06:26:04	cyrus1	lol, that guy
+2013-02-28 06:26:24	woddf2	cyrus1: Anyway, 21:32:14 < phrik> archsg: <carharttjimmy> cyrus1: we all know meskarune is a 40 year old man luring in young boys with the talk of her peroid... (Said by: carharttjimmy!1828b629@gateway/web/freenode/ip.24.40.182.41; grabbed by woddf2!~woddf2@unaffiliated/woddfellow2 at 08:29 PM, November 16, 2012)
+2013-02-28 06:26:34	woddf2	o_O
+2013-02-28 06:26:38	↩	dishaze (~burn@unaffiliated/burnreich) has quit (Quit: dishaze)
+2013-02-28 06:26:45	mar77i	taotetek: O_O
+2013-02-28 06:26:53	mar77i	yay, just saw your url
+2013-02-28 06:27:04	↪	dishaze (~burn@unaffiliated/burnreich) has joined #archlinux-offtopic
+2013-02-28 06:27:05	gtmanfred	Tom^: what aboutit?
+2013-02-28 06:27:06	cyrus1	hah, I remember that
+2013-02-28 06:27:25	woddf2	I still don't know what happened to that.
+2013-02-28 06:28:43	↩	sjihs (~chandan@117.192.128.226) has quit (Quit: WeeChat 0.4.0)
+2013-02-28 06:32:20	↩	dishaze (~burn@unaffiliated/burnreich) has quit (Quit: dishaze)
+2013-02-28 06:32:42	mar77i	hmm
+2013-02-28 06:32:46	↪	dishaze (~burn@unaffiliated/burnreich) has joined #archlinux-offtopic
+2013-02-28 06:33:04	mar77i	I can't even imagine how much spam the holder of admin@admin.com gets
+2013-02-28 06:33:31	mar77i	just noticed I was sending greetings to him :)
+2013-02-28 06:33:46	↪	Lorem-Ip1 (~Lorem-Ips@unaffiliated/lorem-ipsum) has joined #archlinux-offtopic
+2013-02-28 06:34:34	↩	dishaze (~burn@unaffiliated/burnreich) has quit (Client Quit)
+2013-02-28 06:35:01	↪	dishaze (~burn@unaffiliated/burnreich) has joined #archlinux-offtopic
+2013-02-28 06:35:19	mar77i	!q cyrus1
+2013-02-28 06:35:19	phrik	mar77i: <cyrus1> meskarune is a bot
+2013-02-28 06:35:38	halosghost	It's true
+2013-02-28 06:35:48	mar77i	you're true
+2013-02-28 06:35:53	halosghost	aww :(
+2013-02-28 06:35:59	halosghost	s/(/)/
+2013-02-28 06:36:52	mar77i	regex: unmatched parentheses
+2013-02-28 06:37:01	halosghost	eh
+2013-02-28 06:37:09	halosghost	the weechat plugin reports the correction correctly
+2013-02-28 06:37:20	halosghost	like I said, I need to get better at regexp :)
+2013-02-28 06:37:22	mar77i	I only ever use ere
+2013-02-28 06:37:39	↩	dishaze (~burn@unaffiliated/burnreich) has quit (Client Quit)
+2013-02-28 06:37:48	mar77i	because who ever came up with \( being the command and ( the character was a sick mind
+2013-02-28 06:37:53	woddf2	s/\(/)/ # Amidoinitrite?
+2013-02-28 06:38:00	halosghost	haha
+2013-02-28 06:38:01	↪	dishaze (~burn@unaffiliated/burnreich) has joined #archlinux-offtopic
+2013-02-28 06:38:22	halosghost	It would be s,\(,\), I think
+2013-02-28 06:40:55	skope	hih hih
+2013-02-28 06:41:17	mar77i	nope second operands are literal strings
+2013-02-28 06:41:25	mar77i	to s
+2013-02-28 06:42:43	halosghost	oh
+2013-02-28 06:42:46	halosghost	that's really good to know
+2013-02-28 06:42:50	halosghost	thanks :)
+2013-02-28 06:43:04	mar77i	the only thing that gets replaced is \1
+2013-02-28 06:43:15	mar77i	and the like
+2013-02-28 06:43:30	↩	Caleb (~Caleb@archlinux/op/caleb) has quit (Quit: Nettalk6 - www.ntalk.de)
+2013-02-28 06:44:37	halosghost	sed and s/regexp are kind of amazing
+2013-02-28 06:45:25	↩	HuMu (~Huub@41.221.178.207) has quit (Ping timeout: 244 seconds)
+2013-02-28 06:45:32	mar77i	meh
+2013-02-28 06:45:35	mar77i	!meh
+2013-02-28 06:45:37	phrik	meh...
+2013-02-28 06:45:38	↪	dontknow (~dontknow@unaffiliated/dontknow) has joined #archlinux-offtopic
+2013-02-28 06:46:25	mar77i	you need -r for sane regexes as I described it. also sed doesn't support combining arguments as you'd expect -rn or something won't do
+2013-02-28 06:46:35	mar77i	there one would -r -n
+2013-02-28 06:48:02	halosghost	mm
+2013-02-28 06:48:11	halosghost	still, it's a hugely powerful tool
+2013-02-28 06:48:26	mar77i	it's pretty okay
+2013-02-28 06:48:41	mar77i	note to self: halosghost is easily impressed today
+2013-02-28 06:48:46	halosghost	haha
+2013-02-28 06:49:07	halosghost	I'm not very familiar with sed, so seeing what can be done with it is pretty cool
+2013-02-28 06:49:36	webspid0r	it's a stream editor, you know
+2013-02-28 06:49:51	mar77i	you can theoretically do full-blown structured editing sessions with it
+2013-02-28 06:50:16	↪	ayres (~camilasan@91-64-80-97-dynip.superkabel.de) has joined #archlinux-offtopic
+2013-02-28 06:50:24	mar77i	you might even feel smart one day and instead of nano call sed :)
+2013-02-28 06:51:08	webspid0r	theoretically
+2013-02-28 06:51:22	webspid0r	just like using ex mode in vi and doing all stuff bling
+2013-02-28 06:51:33	mar77i	people seem to prefer awk tho, because the syntax is more easily to grasp. I don't even know if you can go through stuff multiple times...
+2013-02-28 06:52:27	↩	halosghost (~halosghos@lit75-4-88-167-34-46.fbx.proxad.net) has quit (Quit: The strongest of thunderstorms is no more than Nature's shower.)
+2013-02-28 06:52:31	↪	ahungry (~null@66.184.106.97) has joined #archlinux-offtopic
+2013-02-28 06:52:46	webspid0r	*blind
+2013-02-28 06:52:56	cyrus1	lol, bling
+2013-02-28 06:53:05	|	cyrus1 does bling stuff in vim all the time
+2013-02-28 06:53:21	↪	halosghost (~halosghos@lit75-4-88-167-34-46.fbx.proxad.net) has joined #archlinux-offtopic
+2013-02-28 06:53:44	↩	dontknow (~dontknow@unaffiliated/dontknow) has quit (Quit: Leaving)
+2013-02-28 06:54:16	taotetek	o/
+2013-02-28 06:54:49	↩	halosghost (~halosghos@lit75-4-88-167-34-46.fbx.proxad.net) has quit (Client Quit)
+2013-02-28 06:55:13	skope	penis
+2013-02-28 06:55:47	woddf2	!grab skope
+2013-02-28 06:55:49	phrik	woddf2: Tada!
+2013-02-28 06:56:07	↪	halosghost (~halosghos@lit75-4-88-167-34-46.fbx.proxad.net) has joined #archlinux-offtopic
+2013-02-28 06:56:22	halosghost	sorry about that set of join/parts
+2013-02-28 06:56:38	halosghost	I needed to stop my statusbar script from hammering a webserver :P
+2013-02-28 06:57:27	↪	vodik (~root@archlinux/op/vodik) has joined #archlinux-offtopic
+2013-02-28 06:57:55	↪	ncmcxx (ncmcxx@71.45.20.14) has joined #archlinux-offtopic
+2013-02-28 06:58:05	↩	ncmcxx (ncmcxx@71.45.20.14) has left #archlinux-offtopic
+2013-02-28 06:58:14	webspid0r	explain
+2013-02-28 06:59:08	↪	_Caleb_ (~Caleb@cpe-098-121-134-089.nc.res.rr.com) has joined #archlinux-offtopic
+2013-02-28 06:59:08	↩	_Caleb_ (~Caleb@cpe-098-121-134-089.nc.res.rr.com) has quit (Changing host)
+2013-02-28 06:59:08	↪	_Caleb_ (~Caleb@archlinux/op/caleb) has joined #archlinux-offtopic
+2013-02-28 07:00:26	halosghost	I have my statusbar script check my external IP address using http://checkip.dyndns.org
+2013-02-28 07:00:27	phrik	Title: Current IP Check (at checkip.dyndns.org)
+2013-02-28 07:00:47	halosghost	And the way my WM was running the script had it check the IP every second
+2013-02-28 07:00:55	halosghost	so, I needed/wanted to change that
+2013-02-28 07:01:05	webspid0r	hmm
+2013-02-28 07:01:26	webspid0r	that thing should be checked whenever dhcpcd/dhclient grabs a new lease
+2013-02-28 07:01:55	taotetek	check it every millisecond
+2013-02-28 07:02:03	halosghost	that sounds like a great idea taotetek
+2013-02-28 07:02:23	halosghost	however, I now need to reload my WM again to check something, so I'm gonna part and not come back till I have this all worked out
+2013-02-28 07:02:24	halosghost	sorry
+2013-02-28 07:02:28	↩	halosghost (~halosghos@lit75-4-88-167-34-46.fbx.proxad.net) has quit (Quit: The strongest of thunderstorms is no more than Nature's shower.)
+2013-02-28 07:03:55	↪	halosghost (~halosghos@lit75-4-88-167-34-46.fbx.proxad.net) has joined #archlinux-offtopic
+2013-02-28 07:04:03	halosghost	I win
+2013-02-28 07:04:33	↪	hasufell (~jule@blfd-4d08f9d3.pool.mediaWays.net) has joined #archlinux-offtopic
+2013-02-28 07:04:33	↩	hasufell (~jule@blfd-4d08f9d3.pool.mediaWays.net) has quit (Changing host)
+2013-02-28 07:04:33	↪	hasufell (~jule@gentoo/developer/hasufell) has joined #archlinux-offtopic
+2013-02-28 07:05:29	↪	vodik_ (~root@archlinux/op/vodik) has joined #archlinux-offtopic
+2013-02-28 07:07:18	↩	vodik (~root@archlinux/op/vodik) has quit (Ping timeout: 264 seconds)
+2013-02-28 07:07:25	halosghost	81 sloc is a pretty hefty statusbar script
+2013-02-28 07:07:38	halosghost	but it looks great and works beautifully now
+2013-02-28 07:07:42	halosghost	so I'm okay with it
+2013-02-28 07:08:22	↩	dishaze (~burn@unaffiliated/burnreich) has quit (Quit: dishaze)
+2013-02-28 07:08:35	↪	Tear (~tear@user-164-126-54-233.play-internet.pl) has joined #archlinux-offtopic
+2013-02-28 07:08:49	↩	frots (root@unaffiliated/frots) has quit (Ping timeout: 248 seconds)
+2013-02-28 07:10:49	webspid0r	show me a screenshot
+2013-02-28 07:11:42	halosghost	alright, let me get it
+2013-02-28 07:12:59	halosghost	webspid0r: http://ompldr.org/vaG02cA
+2013-02-28 07:13:41	webspid0r	wait, you can't be serious
+2013-02-28 07:13:48	halosghost	?
+2013-02-28 07:14:20	webspid0r	I've expected more than date, battery level, external ip and volume for 81 lines
+2013-02-28 07:14:29	halosghost	haha
+2013-02-28 07:15:03	halosghost	the WM only provides the backend for the colorization and the icons. Getting the colors and icons to change based on the relevant values is up to me
+2013-02-28 07:15:06	webspid0r	and better colors
+2013-02-28 07:15:57	carharttjimmy	use  xmonad and xmobarr or dzen1
+2013-02-28 07:16:04	carharttjimmy	dzen2*
+2013-02-28 07:16:06	halosghost	webspid0r: http://ix.io/4yV
+2013-02-28 07:16:11	halosghost	That's the status script
+2013-02-28 07:16:12	carharttjimmy	!next
+2013-02-28 07:16:13	phrik	Another satisfied customer! NEXT!
+2013-02-28 07:16:26	halosghost	feel free to give a pull request
+2013-02-28 07:16:31	halosghost	carharttjimmy: I don't know haskell
+2013-02-28 07:16:42	halosghost	and ttwm is really quite nice
+2013-02-28 07:16:45	webspid0r	I have connectivity, up/downspeed, cpu, ram, battery and date all managed by conky and a few lines
+2013-02-28 07:16:51	carharttjimmy	its pretty easy to learn
+2013-02-28 07:17:09	webspid0r	plus color changes on some max values
+2013-02-28 07:17:11	halosghost	webspid0r: yeah, I've contemplated just using conky
+2013-02-28 07:17:21	halosghost	we'll see
+2013-02-28 07:17:26	↩	ayres (~camilasan@91-64-80-97-dynip.superkabel.de) has quit (Ping timeout: 255 seconds)
+2013-02-28 07:17:27	↪	frots (root@unaffiliated/frots) has joined #archlinux-offtopic
+2013-02-28 07:17:29	halosghost	this is very good for the moment though
+2013-02-28 07:17:46	webspid0r	http://ix.io/4yW
+2013-02-28 07:18:22	halosghost	yeah, haha
+2013-02-28 07:18:30	webspid0r	wonderful isn't it :>
+2013-02-28 07:18:31	halosghost	I should probably just do something like that
+2013-02-28 07:18:48	webspid0r	but no icons
+2013-02-28 07:18:56	↩	vodik_ (~root@archlinux/op/vodik) has quit (Quit: WeeChat 0.4.1-dev)
+2013-02-28 07:19:00	↩	bougyman_ (~bougyman@99-89-30-220.uvs.rcsntx.sbcglobal.net) has quit (Changing host)
+2013-02-28 07:19:01	↪	bougyman_ (~bougyman@pdpc/supporter/gold/bougyman) has joined #archlinux-offtopic
+2013-02-28 07:19:01	halosghost	Adding the icons would be very simple
+2013-02-28 07:19:02	⇄	bougyman_ is now known as bougyman
+2013-02-28 07:20:09	webspid0r	and some sort of indication whether I have internet access or not would be cool
+2013-02-28 07:20:51	webspid0r	because that has nothing to do with the signal strength of the next available network
+2013-02-28 07:21:32	carharttjimmy	http://www.youtube.com/watch?v=MTpsx1EruV0&feature=youtube_gdata_player
+2013-02-28 07:21:33		[http://is.gd/bWhQtO]
+2013-02-28 07:21:33	phrik	Title: The High Kings - "Star of the County Down" - YouTube (at www.youtube.com)
+2013-02-28 07:21:52	webspid0r	ping -c1 8.8.8.8 > /dev/null && echo YES || echo NO
+2013-02-28 07:22:36	↪	sjihs (~chandan@117.192.128.226) has joined #archlinux-offtopic
+2013-02-28 07:35:30	↩	th3voic3_ (~th3voic3@p57B7999A.dip.t-dialin.net) has quit (Ping timeout: 256 seconds)
+2013-02-28 07:36:20	↪	kevku (~kevku@2001:470:27:773:0:feed:c0f:fee) has joined #archlinux-offtopic
+2013-02-28 07:38:37	↩	gz1978 (gz@nat/ibm/x-mdmuxbnyncheeqxc) has quit (Quit: Leaving.)
+2013-02-28 07:41:26	↩	sjihs (~chandan@117.192.128.226) has quit (Quit: WeeChat 0.4.0)
+2013-02-28 07:43:01	↪	bin_bash (~bin_bash@unaffiliated/bin-bash/x-0273453) has joined #archlinux-offtopic
+2013-02-28 07:45:41	↩	_Caleb_ (~Caleb@archlinux/op/caleb) has quit (Quit: Nettalk6 - www.ntalk.de)
+2013-02-28 07:47:31	↪	nojan (~nojan@bullernedre26.bitnet.nu) has joined #archlinux-offtopic
+2013-02-28 07:48:11	↪	HuMu (~Huub@41.221.178.207) has joined #archlinux-offtopic
+2013-02-28 07:52:28	↪	hh4a (~hh4a@84-255-197-79.static.t-2.net) has joined #archlinux-offtopic
+2013-02-28 07:52:53	hh4a	hey
+2013-02-28 07:52:55	hh4a	hi
+2013-02-28 07:52:57	hh4a	wololo
+2013-02-28 07:53:09	hh4a	halosghost: carharttjimmy xonotic toime?
+2013-02-28 07:53:51	↪	Lorem-Ipsum (~Lorem-Ips@host217-39-13-219.in-addr.btopenworld.com) has joined #archlinux-offtopic
+2013-02-28 07:53:51	↩	Lorem-Ipsum (~Lorem-Ips@host217-39-13-219.in-addr.btopenworld.com) has quit (Changing host)
+2013-02-28 07:53:51	↪	Lorem-Ipsum (~Lorem-Ips@unaffiliated/lorem-ipsum) has joined #archlinux-offtopic
+2013-02-28 07:54:05	Lorem-Ipsum	Hiah guys
+2013-02-28 07:55:50	Lorem-Ipsum	Is anyone actually here?
+2013-02-28 07:56:46	↩	Lorem-Ip1 (~Lorem-Ips@unaffiliated/lorem-ipsum) has quit (Ping timeout: 276 seconds)
+2013-02-28 07:56:48	webspid0r	nope
+2013-02-28 07:56:53	webspid0r	we're all pretending to be dead
+2013-02-28 07:58:53	china	whoa, what the fu-
+2013-02-28 07:59:01	Lorem-Ipsum	I'm currently in starbucks as I thought I'd get more work done here than elsewhere. However I've just been browsing reddit.
+2013-02-28 07:59:19	china	the national broadcasting company in norway has had a show about firewood
+2013-02-28 07:59:22	china	which ran for 12 hours
+2013-02-28 07:59:27	Lorem-Ipsum	china: LOL
+2013-02-28 07:59:39	halosghost	hh4a: I'm just about to eat, so it'll be a while before I can play
+2013-02-28 07:59:41	halosghost	Sorry :(
+2013-02-28 08:00:26	↪	_eye (~eye@unaffiliated/eye/x-1653358) has joined #archlinux-offtopic
+2013-02-28 08:00:45	carharttjimmy	nah class hh4a
+2013-02-28 08:00:49	↩	nixin (~nixin@unaffiliated/nixin) has quit (Ping timeout: 264 seconds)
+2013-02-28 08:01:32	halosghost	/out
+2013-02-28 08:01:36	↩	halosghost (~halosghos@lit75-4-88-167-34-46.fbx.proxad.net) has quit (Quit: The strongest of thunderstorms is no more than Nature's shower.)
+2013-02-28 08:02:34	hh4a	np
+2013-02-28 08:04:53	↩	opt1mus (~~@unaffiliated/opt1mus) has quit (Quit: opt1mus)
+2013-02-28 08:07:16	china	welp, i managed 12 minutes of that firewood show
+2013-02-28 08:07:41	e36freak	wow, the heat sinks that come with new AMDs are the tiniest little POS's i have ever seen, even for a stock one
+2013-02-28 08:08:28	↪	Lorem-Ip1 (~Lorem-Ips@unaffiliated/lorem-ipsum) has joined #archlinux-offtopic
+2013-02-28 08:10:21	↪	sq-one (~sq-one@p57977E31.dip.t-dialin.net) has joined #archlinux-offtopic
+2013-02-28 08:11:13	↩	NiHP (~nhp@5.56.158.218) has quit (Read error: No route to host)
+2013-02-28 08:12:35	↪	henkye (~henkye@32.111.broadband13.iol.cz) has joined #archlinux-offtopic
+2013-02-28 08:13:06	↪	NiHP (~nhp@5.56.158.218) has joined #archlinux-offtopic
+2013-02-28 08:13:13	↪	_Caleb_ (~Caleb@cpe-098-121-134-089.nc.res.rr.com) has joined #archlinux-offtopic
+2013-02-28 08:13:13	↩	_Caleb_ (~Caleb@cpe-098-121-134-089.nc.res.rr.com) has quit (Changing host)
+2013-02-28 08:13:13	↪	_Caleb_ (~Caleb@archlinux/op/caleb) has joined #archlinux-offtopic
+2013-02-28 08:13:31	↩	henkye (~henkye@32.111.broadband13.iol.cz) has quit (Client Quit)
+2013-02-28 08:14:07	↪	arjovr_ (~sjf@host66.190-225-154.telecom.net.ar) has joined #archlinux-offtopic
+2013-02-28 08:16:23	cyrus1	china: only 11hrs and 48 minutes to go!
+2013-02-28 08:17:14	↪	nsnake (~nsnake@37.212.170.101) has joined #archlinux-offtopic
+2013-02-28 08:25:55	hh4a	what show
+2013-02-28 08:26:18	↩	Lorem-Ipsum (~Lorem-Ips@unaffiliated/lorem-ipsum) has quit (Ping timeout: 276 seconds)
+2013-02-28 08:27:38	cyrus1	hh4a: the Norwegian 12-hour firewood special! http://www.theage.com.au/entertainment/tv-and-radio/my-fireplace-rules-reality-tv-show-lights-passions-20130220-2equi.html
+2013-02-28 08:27:39		[http://is.gd/I0tApc]
+2013-02-28 08:28:24	↪	Tear_ (~tear@46.112.92.28) has joined #archlinux-offtopic
+2013-02-28 08:28:54	↩	Tear (~tear@user-164-126-54-233.play-internet.pl) has quit (Ping timeout: 264 seconds)
+2013-02-28 08:29:15	hh4a	so they chop wood/
+2013-02-28 08:29:36	cyrus1	Norwegians love wood
+2013-02-28 08:30:14	↪	aganders3 (~anderson@128.104.2.73) has joined #archlinux-offtopic
+2013-02-28 08:30:16	hh4a	everybody loves wood
+2013-02-28 08:30:19	hh4a	its awesome
+2013-02-28 08:30:43	hh4a	so this is like superbowl?
+2013-02-28 08:30:54	cyrus1	only with fewer adds and more action!
+2013-02-28 08:31:12	cyrus1	ads.
+2013-02-28 08:31:41	hh4a	cool
+2013-02-28 08:31:44	hh4a	gimme torrent
+2013-02-28 08:32:14	|	cyrus1 is at work right now, they frown on visiting torrent sites...
+2013-02-28 08:32:38	hh4a	cyrus1: no fear
+2013-02-28 08:33:14	cyrus1	iirc it was just 4 hours of show with 8hrs of watching a fire burn.  all in all it sounds like 12 hours well spent, I, however would rather spend 4 hours chopping wood and then watch my own fire burn for 8 hours.
+2013-02-28 08:33:21	↪	nixin (~nixin@unaffiliated/nixin) has joined #archlinux-offtopic
+2013-02-28 08:36:48	↩	Tear_ (~tear@46.112.92.28) has quit (Ping timeout: 245 seconds)
+2013-02-28 08:37:09	↪	Sadin (~sadin@205.235.35.130) has joined #archlinux-offtopic
+2013-02-28 08:40:24	↪	Tear_ (~tear@user-164-126-54-233.play-internet.pl) has joined #archlinux-offtopic
+2013-02-28 08:40:47	↩	nsnake (~nsnake@37.212.170.101) has quit (Remote host closed the connection)
+2013-02-28 08:41:37	↪	nsnake (~nsnake@37.212.170.101) has joined #archlinux-offtopic
+2013-02-28 08:45:24	hh4a	cyrus1: true
+2013-02-28 08:45:53	↪	tlvb (~Leo@c80-217-11-121.bredband.comhem.se) has joined #archlinux-offtopic
+2013-02-28 08:46:33	↪	Zanny (~zanny@pool-72-92-95-9.phlapa.east.verizon.net) has joined #archlinux-offtopic
+2013-02-28 08:46:38	↩	nsnake (~nsnake@37.212.170.101) has quit (Remote host closed the connection)
+2013-02-28 08:47:03	↪	nsnake (~nsnake@37.212.170.101) has joined #archlinux-offtopic
+2013-02-28 08:50:46	↩	AndrevS (~andre_bk@2001:980:55e0:1:20f:eaff:fe58:28f8) has quit (Quit: Leaving)
+2013-02-28 08:51:42	↩	_Caleb_ (~Caleb@archlinux/op/caleb) has quit (Ping timeout: 264 seconds)
+2013-02-28 08:52:52	china	cyrus1: i couldn't take the heat
+2013-02-28 08:53:08	cyrus1	hachacha... we've got a funny-man over here
+2013-02-28 08:53:45	china	also, i think this stream is unrestricted http://tv.nrk.no/serie/nasjonal-vedkveld/dvnr30003513/15-02-2013
+2013-02-28 08:53:46		[http://is.gd/kN0O2R]
+2013-02-28 08:53:46	phrik	Title: NRK TV - Nasjonal vedkveld - 15.02.2013 (at tv.nrk.no)
+2013-02-28 08:53:52	china	if you really want to watch it
+2013-02-28 08:54:05	china	no subs though
+2013-02-28 08:54:05	↩	th3voic3 (~th3voic3@ip-95-223-103-158.unitymediagroup.de) has quit (Remote host closed the connection)
+2013-02-28 08:54:09	↩	crooksey_ (~quassel@195.149.4.197) has quit (Remote host closed the connection)
+2013-02-28 08:54:26	cyrus1	but are subs really necessary?
+2013-02-28 08:54:40	↩	Kirito (~iymovies@pdpc/supporter/student/kirito) has quit (Ping timeout: 272 seconds)
+2013-02-28 08:54:41	china	it is if you don't speak firewood
+2013-02-28 08:55:07	cyrus1	lol
+2013-02-28 08:55:24	china	i was more thinking about the 4 hour content
+2013-02-28 08:55:40	cyrus1	look up the norse words for "axe" "hatchet" and "wood" and you'll probably do fine following the conversation
+2013-02-28 08:55:58	china	øks, ved
+2013-02-28 08:56:32	china	"tre" can be "tree", "wood" and "three"
+2013-02-28 08:56:41	cyrus1	interesting
+2013-02-28 08:56:51	china	et tre = a tree
+2013-02-28 08:56:53	↩	BlankVerse (~pankajm@202.3.77.214) has quit (Quit: leaving)
+2013-02-28 08:56:55	china	laget av tre = made of wood
+2013-02-28 08:56:59	china	en to tre = one two three
+2013-02-28 08:57:15	↩	See- (~mva@glo44-4-82-239-69-98.fbx.proxad.net) has quit (Ping timeout: 260 seconds)
+2013-02-28 08:57:17	cyrus1	so the third wooden tree would roughly be tre tre tre...
+2013-02-28 08:57:54	china	det tredje treet laget av tre, maybe
+2013-02-28 08:58:16	china	i don't know how to translate "wooden"
+2013-02-28 09:01:42	↩	nsnake (~nsnake@37.212.170.101) has quit (Read error: Connection reset by peer)
+2013-02-28 09:02:05	↪	nsnake (~nsnake@37.212.170.101) has joined #archlinux-offtopic
+2013-02-28 09:02:37	hh4a	cyrus1: dammit nice
+2013-02-28 09:03:15	hh4a	iam drooling
+2013-02-28 09:03:56	hh4a	norwegian is nice language
+2013-02-28 09:03:59	↩	wizzo (~wizzo@unaffiliated/wizzomafizzo) has quit (Ping timeout: 255 seconds)
+2013-02-28 09:07:30	hh4a	hh
+2013-02-28 09:10:17	↩	nsnake (~nsnake@37.212.170.101) has quit (Remote host closed the connection)
+2013-02-28 09:10:24	↩	Tharugrim (~Tharugrim@62-46-145-46.adsl.highway.telekom.at) has quit (Quit: WeeChat 0.4.0)
+2013-02-28 09:10:42	↪	nsnake (~nsnake@37.212.170.101) has joined #archlinux-offtopic
+2013-02-28 09:11:53	hh4a	husqvarna und stihl
+2013-02-28 09:11:55	hh4a	lawl
+2013-02-28 09:13:10	cyrus1	both high quality tool manufacturers.
+2013-02-28 09:13:34	hh4a	yup
+2013-02-28 09:13:36	|	cyrus1 would be proud to have any husqvarna lawn care equipment
+2013-02-28 09:13:45	↪	hatake (~ping__@125.162.229.135) has joined #archlinux-offtopic
+2013-02-28 09:13:54	hh4a	lol husqvarna smart lawnmover
+2013-02-28 09:14:50	cyrus1	their weed trimmers are the shit especially. fucking weed-whacker with more power than my car? WHY? WHY NOT I SAY!
+2013-02-28 09:15:13	⇄	china is now known as chilly
+2013-02-28 09:15:22	↩	sq-one (~sq-one@p57977E31.dip.t-dialin.net) has quit (Quit: leaving)
+2013-02-28 09:15:32	⇄	chilly is now known as china
+2013-02-28 09:17:18	↩	Sadin (~sadin@205.235.35.130) has quit (Remote host closed the connection)
+2013-02-28 09:19:43	hh4a	hehe
+2013-02-28 09:19:45	↩	nsnake (~nsnake@37.212.170.101) has quit (Remote host closed the connection)
+2013-02-28 09:20:09	↪	nsnake (~nsnake@37.212.170.101) has joined #archlinux-offtopic
+2013-02-28 09:20:12	ddv	hi hh4a
+2013-02-28 09:20:20	hh4a	ddv: hey there
+2013-02-28 09:20:22	hh4a	bro
+2013-02-28 09:20:27	ddv	hey bro wanna try anal?
+2013-02-28 09:20:51	webspid0r	!grab ddv
+2013-02-28 09:20:52	phrik	webspid0r: Tada!
+2013-02-28 09:21:13	ddv	shit lol
+2013-02-28 09:21:22	↪	ayres (~camilasan@91-64-80-97-dynip.superkabel.de) has joined #archlinux-offtopic
+2013-02-28 09:21:49	↪	cirrus_minor (~cirrus_mi@unaffiliated/cirrus-minor/x-6868843) has joined #archlinux-offtopic
+2013-02-28 09:22:43	↪	_Caleb_ (~Caleb@cpe-098-121-134-089.nc.res.rr.com) has joined #archlinux-offtopic
+2013-02-28 09:22:43	↩	_Caleb_ (~Caleb@cpe-098-121-134-089.nc.res.rr.com) has quit (Changing host)
+2013-02-28 09:22:43	↪	_Caleb_ (~Caleb@archlinux/op/caleb) has joined #archlinux-offtopic
+2013-02-28 09:23:25	hh4a	load average 4 4 4
+2013-02-28 09:24:19	↩	hatake (~ping__@125.162.229.135) has quit (Quit: Leaving)
+2013-02-28 09:26:19	fogobogo	highscore!
+2013-02-28 09:26:33	taotetek	o/
+2013-02-28 09:26:39	fogobogo	\o
+2013-02-28 09:27:31	↩	mar77i (~martti@213.221.253.66) has quit (Quit: "bye ppl")
+2013-02-28 09:28:05	↪	hatake (~ping__@125.162.229.135) has joined #archlinux-offtopic
+2013-02-28 09:28:40	ddv	hi taotetek
+2013-02-28 09:29:13	webspid0r	!multirq ddv
+2013-02-28 09:29:15	phrik	<ddv> the only alternative to the iPhone are Android phones <ddv> I was not only too late to grab but I also forgot being banned from phrik <ddv> I was not only too late to grab but I also forgot being banned from phrik <ddv> Science lets you fly to the moon, religion lets you fly into buildings. <ddv> MrElendig: I thought Vikings only drink Klingon Bloodwine.
+2013-02-28 09:29:43	taotetek	hiya ddv
+2013-02-28 09:30:46	↪	hobbily (~hobbily@198-84-172-75.cpe.teksavvy.com) has joined #archlinux-offtopic
+2013-02-28 09:30:46	↩	hobbily (~hobbily@198-84-172-75.cpe.teksavvy.com) has quit (Changing host)
+2013-02-28 09:30:46	↪	hobbily (~hobbily@unaffiliated/hobbily) has joined #archlinux-offtopic
+2013-02-28 09:35:10	↩	ayres (~camilasan@91-64-80-97-dynip.superkabel.de) has quit (Read error: Operation timed out)
+2013-02-28 09:37:14	↩	Roukoswarf (~Roukoswar@unaffiliated/roukoswarf) has quit (Remote host closed the connection)
+2013-02-28 09:38:03	↪	Roukoswarf (~Roukoswar@unaffiliated/roukoswarf) has joined #archlinux-offtopic
+2013-02-28 09:50:10	↪	AndrevS (~andrevs@2001:610:1108:5011:225:b3ff:fec0:41e1) has joined #archlinux-offtopic
+2013-02-28 09:51:21	pythonsnake	what av do you use on windows?
+2013-02-28 09:53:12	frankyboy_	eset nod
+2013-02-28 09:54:04	↪	Sadin (~sadin@205.235.35.130) has joined #archlinux-offtopic
+2013-02-28 09:54:13	webspid0r	av is snake oil anyways
+2013-02-28 09:54:41	ddv	your mom too
+2013-02-28 09:56:43	↩	rmd (~rmd_@173-165-191-203-atlanta.hfc.comcastbusiness.net) has quit (Quit: driving home)
+2013-02-28 09:57:29	pythonsnake	kaspersky vs nod
+2013-02-28 09:58:19	ddv	pythonsnake: ms security essentials, I believe it is built into Win8
+2013-02-28 09:58:37	pythonsnake	is it really enough
+2013-02-28 09:58:42	ddv	yes
+2013-02-28 09:58:49	ddv	and common sense
+2013-02-28 09:59:09	pythonsnake	kk thx
+2013-02-28 09:59:17	↩	Sadin (~sadin@205.235.35.130) has quit (Ping timeout: 248 seconds)
+2013-02-28 09:59:27	webspid0r	didn't know ms bought security essentials
+2013-02-28 09:59:34	webspid0r	and internet explorer
+2013-02-28 09:59:44	ddv	they bought everything
+2013-02-28 09:59:57	↪	th3voic3 (~th3voic3@ip-95-223-103-158.unitymediagroup.de) has joined #archlinux-offtopic
+2013-02-28 10:00:04	webspid0r	you would have expected internet explorer just sucked because they made it, but no
+2013-02-28 10:00:44	ddv	IE 10 is fine
+2013-02-28 10:00:54	hh4a	ie10 is crap
+2013-02-28 10:01:07	hh4a	ie9 is much better
+2013-02-28 10:01:13	ddv	hh4a: ????
+2013-02-28 10:01:56	pythonsnake	where is hh3a
+2013-02-28 10:02:02	↪	b1tgl0w (~b1tgl0w@unaffiliated/enigmaticcoder) has joined #archlinux-offtopic
+2013-02-28 10:02:17	hh4a	dead
+2013-02-28 10:02:29	hh4a	version 3 was not adequate
+2013-02-28 10:04:01	↩	aganders3 (~anderson@128.104.2.73) has quit (Quit: leaving)
+2013-02-28 10:04:17	↪	aganders3 (~anderson@128.104.2.73) has joined #archlinux-offtopic
+2013-02-28 10:04:30	↩	aganders3 (~anderson@128.104.2.73) has quit (Client Quit)
+2013-02-28 10:04:47	↪	ayres (~camilasan@91-64-80-97-dynip.superkabel.de) has joined #archlinux-offtopic
+2013-02-28 10:04:48	↪	aganders3 (~anderson@128.104.2.73) has joined #archlinux-offtopic
+2013-02-28 10:06:14	↩	gosshedd (~gosshedd@94.26.11.146) has quit (Ping timeout: 272 seconds)
+2013-02-28 10:07:30	↩	nsnake (~nsnake@37.212.170.101) has quit (Remote host closed the connection)
+2013-02-28 10:07:52	↪	nsnake (~nsnake@37.212.170.101) has joined #archlinux-offtopic
+2013-02-28 10:08:49	↪	tenmilestereo (~tnmlstr@212.105.160.70) has joined #archlinux-offtopic
+2013-02-28 10:09:22	↩	ayres (~camilasan@91-64-80-97-dynip.superkabel.de) has quit (Ping timeout: 240 seconds)
+2013-02-28 10:10:26	taotetek	ie 10 is fast
+2013-02-28 10:10:41	taotetek	and it has blocking of tracking cookies built in.
+2013-02-28 10:10:57	taotetek	but go have fun with your lolchrome google spyware.
+2013-02-28 10:14:23	ddv	chrome is nice to be honest, taotetek
+2013-02-28 10:14:34	fogobogo	sooo shiiiinnnyyy
+2013-02-28 10:15:00	fogobogo	and google. google isnt evil. because google says so
+2013-02-28 10:15:44	↩	aganders3 (~anderson@128.104.2.73) has quit (Quit: leaving)
+2013-02-28 10:15:57	ddv	sergey is evil
+2013-02-28 10:16:02	↪	aganders3 (~anderson@128.104.2.73) has joined #archlinux-offtopic
+2013-02-28 10:16:07	ddv	he wants my email
+2013-02-28 10:17:02	↩	nsnake (~nsnake@37.212.170.101) has quit (Quit: Konversation terminated!)
+2013-02-28 10:17:46	↩	aganders3 (~anderson@128.104.2.73) has quit (Client Quit)
+2013-02-28 10:18:14	webspid0r	I think he's just lonely
+2013-02-28 10:18:27	webspid0r	and comforts himself knowing he has tons of email addresses
+2013-02-28 10:20:48	↪	aganders3 (~anderson@128.104.2.73) has joined #archlinux-offtopic
+2013-02-28 10:22:45	↪	ayres (~camilasan@91-64-80-97-dynip.superkabel.de) has joined #archlinux-offtopic
+2013-02-28 10:23:08	ddv	sounds legit webspid0r
+2013-02-28 10:23:34	webspid0r	have you seen that article about google glass and manliness?
+2013-02-28 10:23:44	Tom^	manliness?
+2013-02-28 10:23:56	Tom^	i am the defenition of man
+2013-02-28 10:26:00	webspid0r	http://www.wired.com/business/2013/02/google-glass-at-ted/
+2013-02-28 10:26:01		[http://is.gd/Bsz0yb]
+2013-02-28 10:26:01	phrik	Title: Google Glass Will Make You Manly, Says Sergey Brin | Wired Business | Wired.com (at www.wired.com)
+2013-02-28 10:26:38	↩	Stupendoussteve (~Steve@fedora/scuba) has quit (Quit: Lost terminal)
+2013-02-28 10:26:45	webspid0r	because looking at your smartphone frequently must be womanly
+2013-02-28 10:27:15	↩	hh4a (~hh4a@84-255-197-79.static.t-2.net) has quit (Quit: going away and always astray)
+2013-02-28 10:28:24	↩	sudokode (~ponies@unaffiliated/sudokode) has quit (Ping timeout: 264 seconds)
+2013-02-28 10:29:00	↪	sudokode (~ponies@unaffiliated/sudokode) has joined #archlinux-offtopic
+2013-02-28 10:30:25	↩	taotetek (~taotetek@c-76-123-57-138.hsd1.va.comcast.net) has quit (Quit: WeeChat 0.4.0)
+2013-02-28 10:34:22	numeral	you know what I realized, every news article I read I subconsciously change to capslock
+2013-02-28 10:34:37	↪	vodik (~root@archlinux/op/vodik) has joined #archlinux-offtopic
+2013-02-28 10:34:40	numeral	cause in my head I feel like news reporters are idiots and try and drum up buzz about shit that in the end of the day doesn't matter one iota
+2013-02-28 10:35:04	Tom^	i dont bother with news articles really
+2013-02-28 10:35:09	Tom^	whats the point
+2013-02-28 10:35:20	webspid0r	entertaining the masses
+2013-02-28 10:35:20	Tom^	they just tell me im gonna die or the world is going to explode
+2013-02-28 10:36:39	↩	Tear_ (~tear@user-164-126-54-233.play-internet.pl) has quit (Ping timeout: 260 seconds)
+2013-02-28 10:36:46	numeral	like I was reading today about how someone took a picture of a shadow of an atom which is cool
+2013-02-28 10:37:01	numeral	but in my head it was like "ZOMG PICTURE OF ATOM WILL REVOLUTIONIZE CRYPTOGRAPHY AND COMPUTING"
+2013-02-28 10:37:03	numeral	... no it won't
+2013-02-28 10:37:45	↪	Tear_ (~tear@188.33.85.43) has joined #archlinux-offtopic
+2013-02-28 10:44:48	↪	mikko777 (~quassel@dsl-hkibrasgw2-50de27-167.dhcp.inet.fi) has joined #archlinux-offtopic
+2013-02-28 10:45:37	Tom^	i want a picture of a light particle
+2013-02-28 10:45:44	Tom^	then we can talk
+2013-02-28 10:48:14	↪	taotetek (~taotetek@c-76-123-57-138.hsd1.va.comcast.net) has joined #archlinux-offtopic
+2013-02-28 10:48:57	bin_bash	lol this idiot just came into ##windows, and completely seriously asked about a MS office ISO
+2013-02-28 10:49:04	bin_bash	for Ubuntyu
+2013-02-28 10:49:12	Tom^	why not
+2013-02-28 10:49:24	ddv	it was Tom^
+2013-02-28 10:49:25	bin_bash	...
+2013-02-28 10:49:28	bin_bash	LOL it was not
+2013-02-28 10:49:42	Tom^	the more idiotic thing is not realizing that you can actually get legal iso's of it
+2013-02-28 10:49:47	Tom^	but w/e
+2013-02-28 10:50:06	bin_bash	sure, but it doesn't run natively on Linux. It has to run through WINE
+2013-02-28 10:50:46	taotetek	why do I care?
+2013-02-28 10:51:16	bin_bash	because the lulz
+2013-02-28 10:51:23	cyrus1	I wonder why the person needed Windows, and not one of the many free, compatible, alternatives...
+2013-02-28 10:51:29	↩	jchen (jchen@igotcreameverywhe.re) has quit (Ping timeout: 252 seconds)
+2013-02-28 10:51:31	cyrus1	s/Windows/Office
+2013-02-28 10:51:41	ddv	cyrus1: Because libre office fucking sucks
+2013-02-28 10:51:47	taotetek	ddv++
+2013-02-28 10:51:50	bin_bash	I like libreoffice
+2013-02-28 10:51:53	ddv	cyrus1: and not compatible at all
+2013-02-28 10:51:55	bin_bash	I like it better than MS officwe
+2013-02-28 10:52:00	bin_bash	ddv, how is it not compatible
+2013-02-28 10:52:08	taotetek	libreoffice is a joke.  the spreadsheet has a bug and can't handle more than 1024 columns.
+2013-02-28 10:52:17	ddv	and it looks fugly
+2013-02-28 10:52:30	ddv	like it was designed in 1991
+2013-02-28 10:52:34	Tom^	go make a proper excel presentation in office 2010 and it wont even remotely look the same in libreoffice
+2013-02-28 10:52:36	bin_bash	ddv, you can theme it
+2013-02-28 10:52:41	Tom^	if it even opens
+2013-02-28 10:52:43	bin_bash	also what about gnumeric?
+2013-02-28 10:52:47	taotetek	who cares if you can "theme" it?
+2013-02-28 10:52:56	taotetek	excel can handle 16,384 columns.
+2013-02-28 10:53:00	bin_bash	taotetek, he complained about how it looked.
+2013-02-28 10:53:04	cyrus1	ddv: there are a lot of programs that look like they were designed in the '70's that still work great....
+2013-02-28 10:53:05	taotetek	because it's a real tool for people doing actual, real work.
+2013-02-28 10:53:10	bin_bash	he said "it looks like it was built in 1990"
+2013-02-28 10:53:15	bin_bash	so if he doesn't like it, he can theme it
+2013-02-28 10:53:15	ddv	cyrus1: like emacs
+2013-02-28 10:53:19	cyrus1	and vim
+2013-02-28 10:53:33	ddv	cyrus1: bro vim was not designed in the 70's
+2013-02-28 10:53:34	ddv	jesus
+2013-02-28 10:53:40	cyrus1	ddv: it looks like it was :)
+2013-02-28 10:53:48	ddv	cyrus1: good point :D
+2013-02-28 10:53:53	↩	hekel (~hekel@unaffiliated/hekel) has quit (Read error: Connection reset by peer)
+2013-02-28 10:54:10	taotetek	will "theming" it make it handle actual data?
+2013-02-28 10:54:17	Tom^	you never know
+2013-02-28 10:54:18	bin_bash	vi was designed in the 70s
+2013-02-28 10:54:19	↪	hekel (~hekel@unaffiliated/hekel) has joined #archlinux-offtopic
+2013-02-28 10:54:26	bin_bash	taotetek, you and I are talking about two entirely different things
+2013-02-28 10:54:44	taotetek	my point is I don't care how pretty or not pretty it is
+2013-02-28 10:54:48	taotetek	it can only handle 1024 columns.
+2013-02-28 10:54:56	bin_bash	taotetek, I wasn't talking to you anyway.
+2013-02-28 10:55:00	cyrus1	come to think of it, I never needed a spreadsheet larger than like 2 columns, probably why I never cared about libreoffice spreadsheet.
+2013-02-28 10:55:04	bin_bash	^
+2013-02-28 10:55:14	bin_bash	I've never used anything over 100 i dont think
+2013-02-28 10:55:16	bougyman	the last time I saw a spreadsheet with over 1024 columns was: never.
+2013-02-28 10:55:21	ddv	you know what is retarded
+2013-02-28 10:55:22	bin_bash	^
+2013-02-28 10:55:25	cyrus1	lol
+2013-02-28 10:55:28	bin_bash	bougyman, PM?
+2013-02-28 10:55:33	ddv	ms office uses ; as a delimiter/separator
+2013-02-28 10:55:37	ddv	for csv files
+2013-02-28 10:55:46	bin_bash	ddv, yeahhhh lol
+2013-02-28 10:55:51	cyrus1	they should be scsv files then
+2013-02-28 10:55:56	ddv	indeed
+2013-02-28 10:56:04	KaiSforza	lol
+2013-02-28 10:56:29	cyrus1	I think I have a perl script for that laying around somewhere....
+2013-02-28 10:57:03	taotetek	ddv: I just saved a csv from excel and it has commas.
+2013-02-28 10:57:08	cyrus1	lol
+2013-02-28 10:57:39	bin_bash	TIL taotetek is a windows fanboy
+2013-02-28 10:57:49	ddv	taotetek is nice
+2013-02-28 10:57:58	taotetek	bin_bash: that's not a logical statement from anything I've said.
+2013-02-28 10:58:01	ddv	I look up to taotetek
+2013-02-28 10:58:17	taotetek	bin_bash: but you're free to believe as you wish.
+2013-02-28 10:58:51	taotetek	people who call other people "fanboys" for not 100% agreeing with them are often, in my experience, fanboys.
+2013-02-28 10:59:03	cyrus1	taotetek is a fanboy fanboy
+2013-02-28 10:59:07	|	bin_bash is a Linux fangirl.
+2013-02-28 10:59:31	|	cyrus1 is a vintage sci-fi fanboy...
+2013-02-28 10:59:31	taotetek	bin_bash: so contribute something to linux instead of making fun of people you don't know for asking questions in windows channels
+2013-02-28 11:00:06	↪	eyescream (~eyescream@unaffiliated/eyescream) has joined #archlinux-offtopic
+2013-02-28 11:00:20	bin_bash	taotetek, I'm making fun of stupid trolls
+2013-02-28 11:00:31	bin_bash	taotetek, if you don't like me, there's /ignore :)
+2013-02-28 11:00:39	taotetek	cyrus1: do you like Alfred Bester?
+2013-02-28 11:00:40	ddv	bin_bash: relax, taotetek is cool
+2013-02-28 11:00:45	bin_bash	ddv, I know
+2013-02-28 11:00:48	carharttjimmy	taotetek: is awesome
+2013-02-28 11:00:51	bin_bash	I don't have anything against him
+2013-02-28 11:01:00	bin_bash	I don't have anything against anyone who is currently active in this channel
+2013-02-28 11:01:01	bin_bash	:)
+2013-02-28 11:01:17	carharttjimmy	except for ddv, he's a fuckoff
+2013-02-28 11:01:37	ddv	what is a fuckoff
+2013-02-28 11:01:43	carharttjimmy	you are
+2013-02-28 11:01:45	↪	Tharugrim (~Tharugrim@62-46-145-46.adsl.highway.telekom.at) has joined #archlinux-offtopic
+2013-02-28 11:01:45	cyrus1	ddv: exactly what it sounds like
+2013-02-28 11:01:53	bin_bash	nah I don't mind ddv
+2013-02-28 11:01:58	cyrus1	taotetek: Don't think I've ever read anything by him. looks interesting though
+2013-02-28 11:02:01	taotetek	cyrus1: I highly recommend "The Demolished Man", and "The Stars My Destination"
+2013-02-28 11:02:03	ddv	everyone is so sensitive in here
+2013-02-28 11:02:07	bin_bash	^
+2013-02-28 11:02:23	cyrus1	ddv: NO WE AREN'T! TAKE IT BACK!
+2013-02-28 11:02:36	carharttjimmy	TAKE IT BACK BITCH
+2013-02-28 11:02:39	taotetek	I'm not sensitive I just like trolling bin_bash
+2013-02-28 11:02:39	ddv	I'm glad funslug and rmd are not around
+2013-02-28 11:02:48	bin_bash	I just like trolling taotetek
+2013-02-28 11:02:57	taotetek	it's an equitable arrangement.
+2013-02-28 11:03:05	bin_bash	agreed
+2013-02-28 11:03:11	cyrus1	lol, funslug. that guy gets on my nerves...
+2013-02-28 11:03:15	bin_bash	I like funslug
+2013-02-28 11:03:20	↩	NiHP (~nhp@5.56.158.218) has quit (Ping timeout: 255 seconds)
+2013-02-28 11:03:22	ddv	cyrus1: He's such a downer
+2013-02-28 11:03:22	ddv	:D
+2013-02-28 11:03:27	bin_bash	there's only a few people I genuinely don't like
+2013-02-28 11:03:40	bin_bash	and I don't think they even come here anymore
+2013-02-28 11:03:41	↩	JakobekS (~JakobekS@85-202-223-200.internetia.net.pl) has quit (Quit: JakobekS)
+2013-02-28 11:03:45	|	cyrus1 even likes rabbitear
+2013-02-28 11:03:48	bin_bash	^
+2013-02-28 11:04:02	ddv	did he take those meds already?
+2013-02-28 11:04:15	carharttjimmy	I love rabbitear
+2013-02-28 11:04:18	bin_bash	^^
+2013-02-28 11:04:18	cyrus1	he takes a bunch of meds, but I think most of them are recreational
+2013-02-28 11:04:24	ddv	lol
+2013-02-28 11:04:38	taotetek	bougyman: you probably SHOULDN'T have a spreadsheet over 1024 columns, to your earlier point, haha
+2013-02-28 11:05:00	bin_bash	I think bougyman has me on ignore ;.;
+2013-02-28 11:05:00	taotetek	bougyman: although I did some really scary excel programming jobs early in my career, consolidating spreadsheets between bank branches for a financial company
+2013-02-28 11:05:17	taotetek	bougyman: they had obviously never heard of "a database"
+2013-02-28 11:05:23	bin_bash	taotetek, that sounds horrifying.
+2013-02-28 11:05:37	bin_bash	taotetek, luckily our clients use SQL so we don't have to worry about that stuff
+2013-02-28 11:05:42	cyrus1	bin_bash: sometimes, when I've been drunk irc-ing, I'll ignore people and forget. then I sit there thinking people are talking to themselves....
+2013-02-28 11:06:11	KaiSforza	!grab cyrus1
+2013-02-28 11:06:13	phrik	KaiSforza: Tada!
+2013-02-28 11:06:36	carharttjimmy	sometimes when I am drunk IRCing, no one is here, then I realize I am looking into a toaster
+2013-02-28 11:06:45	taotetek	bin_bash: this was in like 1991 or something, databases were still really expensive I suppose
+2013-02-28 11:06:52	KaiSforza	!grab carharttjimmy
+2013-02-28 11:06:54	phrik	KaiSforza: Tada!
+2013-02-28 11:07:15	bin_bash	LOL cyrus1
+2013-02-28 11:10:45	taotetek	ok time to put on some star trek and write some code.
+2013-02-28 11:11:04	ddv	im gonna play a game tao
+2013-02-28 11:11:11	taotetek	ddv: have fun bro
+2013-02-28 11:11:18	ddv	thanks bro
+2013-02-28 11:11:21	taotetek	ddv: whatcha playing?
+2013-02-28 11:11:29	ddv	taotetek: sc2
+2013-02-28 11:11:38	taotetek	I grabbed the demo for that but haven't really played it
+2013-02-28 11:11:48	ddv	diamong league
+2013-02-28 11:11:51	ddv	diamond*
+2013-02-28 11:12:12	↩	b1tgl0w (~b1tgl0w@unaffiliated/enigmaticcoder) has quit (Remote host closed the connection)
+2013-02-28 11:12:27	ddv	no j/k I suck at sc2
+2013-02-28 11:12:39	↪	kry73n (~kry73n@p4FD0F85C.dip.t-dialin.net) has joined #archlinux-offtopic
+2013-02-28 11:16:36	↪	opt1mus (~~@unaffiliated/opt1mus) has joined #archlinux-offtopic
+2013-02-28 11:17:17	↪	gosshedd (~gosshedd@95.111.19.118) has joined #archlinux-offtopic
+2013-02-28 11:17:45	opt1mus	!rq
+2013-02-28 11:17:46	phrik	<heftig> learn to toilet paper.
+2013-02-28 11:18:30	ddv	!rq
+2013-02-28 11:18:41	ddv	oh yeah I was permabanned from phrick
+2013-02-28 11:19:52	bin_bash	so one of our clients got a T430s
+2013-02-28 11:19:55	bin_bash	it's really fucking nice
+2013-02-28 11:19:58	bin_bash	I want one.
+2013-02-28 11:20:24	ddv	get a macbook
+2013-02-28 11:20:50	numeral	we all want 'one'
+2013-02-28 11:21:19	↩	HuMu (~Huub@41.221.178.207) has quit (Quit: Lost terminal)
+2013-02-28 11:21:48	carharttjimmy	thats not nice to fuck your client
+2013-02-28 11:22:48	cyrus1	carharttjimmy: really?  I figured it was a great perk for the client.
+2013-02-28 11:23:13	cyrus1	"'scuse me ma'am, I'm here to fix your computer.... and fuck you."
+2013-02-28 11:23:14	carharttjimmy	lol
+2013-02-28 11:23:22	webspid0r	bin_bash: err, doesn't it have that horrible keyboard
+2013-02-28 11:23:37	cyrus1	ddv: lol, you got phrikbanned too?
+2013-02-28 11:23:52	cyrus1	!!
+2013-02-28 11:23:56	cyrus1	nothing.
+2013-02-28 11:24:26	bin_bash	webspid0r, I like it
+2013-02-28 11:24:34	bin_bash	I like chiclet keyboards
+2013-02-28 11:24:38	bin_bash	https://www.youtube.com/watch?v=8lOhvS-xyrA
+2013-02-28 11:24:39	phrik	Title: What if wild animals ate fast food - YouTube (at www.youtube.com)
+2013-02-28 11:24:43	bin_bash	my boss just showed me this LOL
+2013-02-28 11:24:52	cyrus1	it makes me want to post NSFW links. then phrik won't post the blurb about them, then people with click the links, and then they will have to give me access.....
+2013-02-28 11:25:05	cyrus1	oh... they will rue the day...
+2013-02-28 11:25:08	numeral	just use !silent
+2013-02-28 11:25:28	bin_bash	cyrus1, how'd you get phrike-baed?
+2013-02-28 11:25:29	bin_bash	banned
+2013-02-28 11:25:41	cyrus1	appending "in the butt" to !rq's
+2013-02-28 11:26:04	cyrus1	which is hilarious, by the way.
+2013-02-28 11:26:08	bin_bash	wait really?
+2013-02-28 11:26:21	cyrus1	well, I was kind of abusing it...
+2013-02-28 11:26:26	cyrus1	in the butt
+2013-02-28 11:26:39	carharttjimmy	How I feel right now as I do hw
+2013-02-28 11:26:43	carharttjimmy	!ohnomath
+2013-02-28 11:26:44	phrik	http://www.youtube.com/watch?v=fVRZnvxFXmM
+2013-02-28 11:26:51	numeral	math is easy
+2013-02-28 11:26:54	numeral	mod math is annoying :/
+2013-02-28 11:27:21	↪	sq-one (~sq-one@p57977E31.dip.t-dialin.net) has joined #archlinux-offtopic
+2013-02-28 11:27:21	carharttjimmy	calculus isnt that easy
+2013-02-28 11:27:31	cyrus1	carharttjimmy: haha, that episode was great.
+2013-02-28 11:27:33	numeral	eh? calc is SUPER easy
+2013-02-28 11:27:48	carharttjimmy	not when you need to find stuff from vector functions
+2013-02-28 11:27:57	numeral	the only reason people think calc is hard is cause they give stupid questions that have very very little to do with calculus
+2013-02-28 11:28:02	cyrus1	learning calc is hard, but once you get it down it opens up so many possibilities. it makes the rest of math infinitely easier.
+2013-02-28 11:28:37	bin_bash	I have dyscalcula
+2013-02-28 11:28:38	cyrus1	same goes for linear algebra and differential equations.
+2013-02-28 11:28:41	bin_bash	;.;
+2013-02-28 11:29:04	numeral	I have dislogarithma
+2013-02-28 11:29:11	carharttjimmy	I have a penis
+2013-02-28 11:29:12	↪	rmd (~rmd_@108-61-55-68ch.openskytelcom.net) has joined #archlinux-offtopic
+2013-02-28 11:29:19	cyrus1	I have disestablishmentarianism
+2013-02-28 11:29:53	cyrus1	I'm also a sex addict.... it's my cross to bear....
+2013-02-28 11:30:29	bin_bash	http://imgs.xkcd.com/comics/workflow.png
+2013-02-28 11:31:10	numeral	truth
+2013-02-28 11:31:34	↪	Arcalyth (~arcalyth@unaffiliated/arcalyth) has joined #archlinux-offtopic
+2013-02-28 11:32:07	↪	GI_Jack (~GI_Jack@pdpc/supporter/active/gi-jack) has joined #archlinux-offtopic
+2013-02-28 11:34:45	bin_bash	http://xkcd.com/1168/
+2013-02-28 11:34:45	phrik	Title: xkcd: tar (at xkcd.com)
+2013-02-28 11:34:49	bin_bash	tar -zxvf!
+2013-02-28 11:35:21	megustavo	xD
+2013-02-28 11:35:30	carharttjimmy	numeral: you are right
+2013-02-28 11:35:47	carharttjimmy	numeral: solve for general soln then apply the numbers to it
+2013-02-28 11:36:52	megustavo	so
+2013-02-28 11:37:29	megustavo	when you visit a website, it could load javascript from multiple sources, no? i dont get chromium's do not allow javascript option
+2013-02-28 11:37:38	MutantTurkey	the recent xkcd about time robot really hurts
+2013-02-28 11:37:45	↩	Cor-Ai (~cor-ai@212.112.62.30) has quit (Quit: cya)
+2013-02-28 11:37:48	MutantTurkey	everything in that genre of thought hurts
+2013-02-28 11:38:01	megustavo	it gives you an icon to enable javascript if a side loads it, but seems to be only the top site
+2013-02-28 11:38:04	↪	Cor-Ai (~cor-ai@212.112.62.30) has joined #archlinux-offtopic
+2013-02-28 11:38:07	megustavo	site*
+2013-02-28 11:38:31	megustavo	maybe i should just use ghostery
+2013-02-28 11:39:26	megustavo	maybe ghostery is not relevant...
+2013-02-28 11:41:04	numeral	all this math works out perfectly
+2013-02-28 11:41:10	numeral	too bad I have no idea what it means
+2013-02-28 11:42:01	↩	Cor-Ai (~cor-ai@212.112.62.30) has quit (Client Quit)
+2013-02-28 11:42:26	↪	Cor-Ai (~cor-ai@212.112.62.30) has joined #archlinux-offtopic
+2013-02-28 11:48:11	↪	cinelli (~boss@cpe-142-136-63-210.socal.res.rr.com) has joined #archlinux-offtopic
+2013-02-28 11:48:11	⇄	Topic for #archlinux-offtopic is "Welcome to #archlinux-offtopic, the friendliest dictatorship in the world. <+> http://arch.har-ikkje.net/gfx/caturday/caturday29.jpg"
+2013-02-28 11:48:11	⇄	Topic set by tigrmesh (~arch@archlinux/op/tigrmesh) on Sat, 23 Feb 2013 10:57:52
+2013-02-28 11:48:11	⇄	Nicks #archlinux-offtopic: [_Caleb_ _eye `lorim acuzio aganders3 ahungry alexwh alienvenom Anaphaxeton Anders_J AndrevS Arcalyth arjovr_ autumn axanon_ ayres azradric Bane^ bin7me bin_bash BitterPeter bjoe2k4 bkc_ BladedThesis bleomycin Boohbah bougyman Brookie Buggy2k camerin carharttjimmy caveat- ChauffeR chee cheesecakes china cinelli cirrus_minor classix codependant comhack companion Cor-Ai Corey crazedpsyc CryptoNaut cyberspace- cyrus1 Daenyth Dan39 Danio danmackay dario dasbjo DaZ ddv Die18ink5 dimeshake DinCahill djinni dunz0r du|dx dxtr e36freak eir Ertyle ethail eto eyescream faen favadi felipe` fogobogo frankyboy_ frojnd frots Genolo GGLucas gholen GI_Jack GlitchMr gosshedd gridcol GSF1200S gtmanfred Hardolaf hasufell hatake heftig hejki hekel hi117 hobbily hrnz Hwkiller ikonia ioni iotku iv597 JakeDust james147 jdahm jdost Jeaye john_f johnhamelink johskar jrd0 jryan KaiSforza kamada kerrick-work kevku kry73n kubit kungsgeten laumars linduxed linux_probe LookTJ Lorem-Ip1 LysergicDreams matteotom megustavo memand meskarune Mezenir mikeplus64 mikko777 Moridin mquin MrElendig mrmackie MrRee MutantTurkey Nabobalis ninjabox Nisstyre nixin nodame nojan Nuck numeral omeringen opt1mus Overand Paul-S petantik phrik pieman_ polterge|st poseidon PrincessSomasis prinny pythonsnake r4 realeyes reashlin rmd rob``` Roukoswarf Roukoswarf-M ruan sa1 sammyf setkeh Shados Shapeshifter sheep shrp Shyde Sicp silentmike skope skrblr smilefreak Sn4keBite Sornaensis spY|da_ sq-one stackofcats stufe sudokode sw0rdfish SyAchmed syrinx t0x7bb Tam^ taotetek tasidus Tear_ tenmilestereo th3voic3 Tharugrim thehoff TheMaverick` thr tigrmesh timi tlonim tlvb Tom^ vee velcroshooz Vithon vodik Votan webspid0r Wntrvnm woddf2 wry xcrustyx XReaper yogiman321 yoshi314 Zanny ZekeS zendeavor zml2008 Zom ZWolf zyklon]
+2013-02-28 11:48:12	⇄	Channel #archlinux-offtopic: 222 nicks (0 ops, 0 halfops, 0 voices, 222 normals)
+2013-02-28 11:48:12	***	Buffer Playback...
+2013-02-28 11:48:12	cyrus1	[11:46:38] numeral: sometimes, that's all that matters
+2013-02-28 11:48:12	numeral	[11:47:45] sometimes
+2013-02-28 11:48:12	cyrus1	[11:47:58] numeral: what kind of math?
+2013-02-28 11:48:12	numeral	[11:47:58] only the professor is asking awkward questions like "what does this mean?"
+2013-02-28 11:48:12	***	Playback Complete.
+2013-02-28 11:48:12	⇄	Mode #archlinux-offtopic [+Ccnt]
+2013-02-28 11:48:12	⇄	Channel created on Wed, 28 Mar 2007 21:10:02
+2013-02-28 11:48:18	numeral	modulus arithmetic, discrete log problem, fermat's lesser theorem
+2013-02-28 11:48:19	numeral	etc
+2013-02-28 11:50:13	cyrus1	hm. math I'm not at all familiar with. wish I could help.
+2013-02-28 11:51:23	cyrus1	numeral: are you a math major? or is this for development of CS algorithms?  just glossing over this stuff it sounds interesting.
+2013-02-28 11:52:57	↪	freakazoid_ (~seanl@2620:0:1cfe:18:8e70:5aff:fe47:89d8) has joined #archlinux-offtopic
+2013-02-28 11:53:27	numeral	cyrus1: this is a math class on a computer science topic :P
+2013-02-28 11:53:41	numeral	it's cryptography, but gets down to the nitty gritty of the math :P
+2013-02-28 11:54:24	↩	Roukoswarf (~Roukoswar@unaffiliated/roukoswarf) has quit (Read error: Connection reset by peer)
+2013-02-28 11:54:49	↩	rmd (~rmd_@108-61-55-68ch.openskytelcom.net) has quit (Quit: leaving)
+2013-02-28 11:54:50	↪	Roukoswarf (~Roukoswar@unaffiliated/roukoswarf) has joined #archlinux-offtopic
+2013-02-28 11:56:55	↩	Arcalyth (~arcalyth@unaffiliated/arcalyth) has quit (Ping timeout: 260 seconds)
+2013-02-28 11:58:23	↩	cyrus1 (89c9f282@gateway/web/freenode/ip.137.201.242.130) has quit (Ping timeout: 245 seconds)
+2013-02-28 11:58:50	bin_bash	I love it when one of my bosses comes in and is like "I have a special project for you"
+2013-02-28 11:59:05	ddv	sucking his cock, bin_bash?
+2013-02-28 12:00:25	↩	cinelli (~boss@cpe-142-136-63-210.socal.res.rr.com) has left #archlinux-offtopic
+2013-02-28 12:00:05	numeral	ddv: well now I know what you do at work...
+2013-02-28 12:00:22	webspid0r	!q ddv
+2013-02-28 12:00:23	phrik	webspid0r: <ddv> hey bro wanna try anal?
+2013-02-28 12:00:24	fogobogo	"you got your vaccination didnt you?"
+2013-02-28 12:01:59	↩	vodik (~root@archlinux/op/vodik) has quit (Quit: WeeChat 0.4.1-dev)
+2013-02-28 12:02:30	↩	thr (~thr@unaffiliated/thr) has quit (Ping timeout: 264 seconds)
+2013-02-28 12:02:44	↪	rmd (~rmd_@108-61-41-219ch.openskytelcom.net) has joined #archlinux-offtopic
+2013-02-28 12:02:54	ddv	lol
+2013-02-28 12:04:31	↪	jchen (jchen@igotcreameverywhe.re) has joined #archlinux-offtopic
+2013-02-28 12:06:27	ddv	bin_bash: it's great you got a job though
+2013-02-28 12:06:35	ddv	even if it's sucking things
+2013-02-28 12:11:58	↩	Brookie (~sleeze@107-207-176-33.lightspeed.milwwi.sbcglobal.net) has quit (Remote host closed the connection)
+2013-02-28 12:12:05	↪	velusip (~velusip@CPE001d73111113-CM18593340f926.cpe.net.cable.rogers.com) has joined #archlinux-offtopic
+2013-02-28 12:12:30	↪	thr (~thr@unaffiliated/thr) has joined #archlinux-offtopic
+2013-02-28 12:13:41	↪	Arcalyth (~arcalyth@unaffiliated/arcalyth) has joined #archlinux-offtopic
+2013-02-28 12:15:22	↩	gosshedd (~gosshedd@95.111.19.118) has quit (Ping timeout: 240 seconds)
+2013-02-28 12:16:17	↩	polterge|st (~polt@cpe-76-184-117-237.tx.res.rr.com) has quit (Remote host closed the connection)
+2013-02-28 12:16:50	↩	arjovr_ (~sjf@host66.190-225-154.telecom.net.ar) has quit (Quit: leaving)
+2013-02-28 12:17:17	↪	arjovr (~sjf@host66.190-225-154.telecom.net.ar) has joined #archlinux-offtopic
+2013-02-28 12:18:49	bin_bash	ddv, lol no. it's using my linux skillz to troubleshoot this PC
+2013-02-28 12:18:53	bin_bash	he can't get windoze to boot
+2013-02-28 12:18:56	bin_bash	which is where I come in
+2013-02-28 12:19:53	ddv	I see bin_bash
+2013-02-28 12:21:13	↩	hekel (~hekel@unaffiliated/hekel) has quit (Read error: Connection reset by peer)
+2013-02-28 12:21:16	⇄	Buggy2k is now known as Bug2000
+2013-02-28 12:21:20	↪	cyrus1 (89c9f282@gateway/web/freenode/ip.137.201.242.130) has joined #archlinux-offtopic
+2013-02-28 12:21:44	↩	nojan (~nojan@bullernedre26.bitnet.nu) has quit (Quit: WeeChat 0.4.0)
+2013-02-28 12:21:56	↪	hekel (~hekel@unaffiliated/hekel) has joined #archlinux-offtopic
+2013-02-28 12:22:54	↩	memand (~memand@80-71-135-117.u.parknet.dk) has quit (Quit: C'YA)
+2013-02-28 12:24:01	GI_Jack	bin_bash - what do you do for work
+2013-02-28 12:24:03	GI_Jack	?
+2013-02-28 12:24:15	numeral	she just said she does tech support...
+2013-02-28 12:24:20	GI_Jack	ah....
+2013-02-28 12:24:21	GI_Jack	lol
+2013-02-28 12:24:35	GI_Jack	and the boss can't fix his computer, lol'
+2013-02-28 12:24:57	webspid0r	the boss can't be arsed
+2013-02-28 12:25:06	bin_bash	^
+2013-02-28 12:25:06	↪	Brookie (~sleeze@107-207-176-33.lightspeed.milwwi.sbcglobal.net) has joined #archlinux-offtopic
+2013-02-28 12:25:12	bin_bash	It's not even his computer
+2013-02-28 12:25:15	bin_bash	it's a client
+2013-02-28 12:25:19	bin_bash	my boss has other shit to deal with
+2013-02-28 12:25:25	bin_bash	besides, I'm the only Linux person
+2013-02-28 12:25:35	bin_bash	And Linux has tools Windows doesn't
+2013-02-28 12:25:42	cyrus1	http://cdn-media.hollywood.com/images/l/jim_carrey_colonel_stars.jpg  how I picture GI_Jack
+2013-02-28 12:25:43		[http://is.gd/91Z1I9]
+2013-02-28 12:26:05	GI_Jack	thats GI Joe, the all American hero
+2013-02-28 12:26:18	webspid0r	bin_bash: done that for some time
+2013-02-28 12:26:20	GI_Jack	I'm GI_Jack, the All American Zero, the one they don't make movies about
+2013-02-28 12:26:33	webspid0r	bin_bash: loads of fun stopping your current work to fix an old dell laptop
+2013-02-28 12:27:41	bin_bash	webspid0r, wat
+2013-02-28 12:28:08	GI_Jack	bin_bash - run memtest at boot off a live cd, and  let it run, and then go do something else
+2013-02-28 12:28:22	cyrus1	lol
+2013-02-28 12:28:23	bin_bash	GI_Jack, >implying I want to do the other things
+2013-02-28 12:28:23	bin_bash	lel
+2013-02-28 12:28:28	GI_Jack	ahh
+2013-02-28 12:28:28	cyrus1	then defrag the hard drive
+2013-02-28 12:28:29	bin_bash	also
+2013-02-28 12:28:35	bin_bash	>implying it's a RAM problem
+2013-02-28 12:28:35	webspid0r	bin_bash: imagine you're busy writing a beautifully typeset manual and then your boss calls you to reinstall xp on his laptop
+2013-02-28 12:28:52	bin_bash	lel
+2013-02-28 12:28:53	webspid0r	I still haven't finished writing that thing
+2013-02-28 12:29:39	GI_Jack	tech support == nerd hell
+2013-02-28 12:30:28	cyrus1	http://www.youtube.com/watch?v=2CjyhubgNTc
+2013-02-28 12:30:37	cyrus1	TECH SUUUUPPPPOOORRRRTTTT!!!!
+2013-02-28 12:36:56	↩	Arcalyth (~arcalyth@unaffiliated/arcalyth) has quit (Ping timeout: 255 seconds)
+2013-02-28 12:45:56	↪	Sadin (~sadin@75.97.121.35) has joined #archlinux-offtopic
+2013-02-28 12:46:13	↩	timi (~tim@unaffiliated/timi0tree) has quit (Changing host)
+2013-02-28 12:46:13	↪	timi (~tim@unaffiliated/timi) has joined #archlinux-offtopic
+2013-02-28 12:49:16	↪	Kirito (~iymovies@pdpc/supporter/student/kirito) has joined #archlinux-offtopic
+2013-02-28 12:51:24	↪	vodik (~root@archlinux/op/vodik) has joined #archlinux-offtopic
+2013-02-28 12:52:58	↩	eyescream (~eyescream@unaffiliated/eyescream) has quit (Quit: .)
+2013-02-28 12:53:08	↩	pieman_ (~pieman@ip24-251-38-73.ph.ph.cox.net) has quit (Quit: Lost terminal)
+2013-02-28 12:53:53	↩	Kirito (~iymovies@pdpc/supporter/student/kirito) has quit (Ping timeout: 245 seconds)
+2013-02-28 12:54:29	↪	pieman (~pieman@ip24-251-38-73.ph.ph.cox.net) has joined #archlinux-offtopic
+2013-02-28 12:57:35	↩	xcrustyx (~archbox@ip124-1-208-87.adsl2.static.versatel.nl) has quit (Remote host closed the connection)
+2013-02-28 13:00:32	↪	xcrustyx (~archbox@ip124-1-208-87.adsl2.static.versatel.nl) has joined #archlinux-offtopic
+2013-02-28 13:02:33	↩	cyrus1 (89c9f282@gateway/web/freenode/ip.137.201.242.130) has quit (Ping timeout: 245 seconds)
+2013-02-28 13:03:42	↪	Third3ye (~third3ye@194-3-118-87.mtulink.net) has joined #archlinux-offtopic
+2013-02-28 13:14:44	↪	herangr (~Jake@91.148.20.58) has joined #archlinux-offtopic
+2013-02-28 13:15:49	↪	iflema (~Ian@101.174.6.226) has joined #archlinux-offtopic
+2013-02-28 13:15:57	↩	Roukoswarf-M (~Roukoswar@unaffiliated/roukoswarf) has quit (Quit: Konversation terminated!)
+2013-02-28 13:19:45	⇄	Anaphaxeton is now known as georgios
+2013-02-28 13:20:03	⇄	georgios is now known as anaphaxeton
+2013-02-28 13:22:47	↩	vodik (~root@archlinux/op/vodik) has quit (Quit: WeeChat 0.4.1-dev)
+2013-02-28 13:36:41	↪	HuMu (~Huub@41.73.119.123) has joined #archlinux-offtopic
+2013-02-28 13:36:51	john_f	someone has been watching mythbusters http://www.guardian.co.uk/world/2013/feb/27/marijuana-cannon-us-border-seized-mexico?CMP=SOCNETTXT6965
+2013-02-28 13:36:52	phrik	Title: 'Marijuana cannon' used to fire drugs over US border seized in Mexico | World news | guardian.co.uk (at www.guardian.co.uk)
+2013-02-28 13:36:57		[http://is.gd/s4aVDa]
+2013-02-28 13:38:17	velcroshooz	baha thats fucking awesome
+2013-02-28 13:38:44	↩	mikko777 (~quassel@dsl-hkibrasgw2-50de27-167.dhcp.inet.fi) has quit (Remote host closed the connection)
+2013-02-28 13:39:14	↩	iflema (~Ian@101.174.6.226) has quit (Ping timeout: 246 seconds)
+2013-02-28 13:39:17	↪	cyrus1 (89c9f282@gateway/web/freenode/ip.137.201.242.130) has joined #archlinux-offtopic
+2013-02-28 13:43:33	⇄	Brookie is now known as ayobeez
+2013-02-28 13:43:44	↩	jryan (~jryan@inet-hqmc01-o.oracle.com) has quit (Quit: WeeChat 0.4.0)
+2013-02-28 13:44:21	↩	_eye (~eye@unaffiliated/eye/x-1653358) has quit (Ping timeout: 248 seconds)
+2013-02-28 13:45:37	↩	ayobeez (~sleeze@107-207-176-33.lightspeed.milwwi.sbcglobal.net) has quit (Quit: leaving)
+2013-02-28 13:45:38	↩	sq-one (~sq-one@p57977E31.dip.t-dialin.net) has quit (Remote host closed the connection)
+2013-02-28 13:45:46	↪	_eye (~eye@unaffiliated/eye/x-1653358) has joined #archlinux-offtopic
+2013-02-28 13:46:54	↪	ayobeez (~sleeze@107-207-176-33.lightspeed.milwwi.sbcglobal.net) has joined #archlinux-offtopic
+2013-02-28 13:47:35	↩	ahungry (~null@66.184.106.97) has quit (Quit: Lost terminal)
+2013-02-28 13:47:50	↪	MuffinMan` (~derp.sono@dh207-56-194.xnet.hr) has joined #archlinux-offtopic
+2013-02-28 13:47:57	↩	Genolo (~ivesound@2001:470:b9a3::81) has quit (Ping timeout: 245 seconds)
+2013-02-28 13:54:44	ddv	taotetek: war of the roses
+2013-02-28 13:54:51	ddv	taotetek: :P very cheap on steam right now
+2013-02-28 13:56:01	↩	kry73n (~kry73n@p4FD0F85C.dip.t-dialin.net) has quit (Quit: WeeChat 0.4.0)
+2013-02-28 13:58:01	↩	HuMu (~Huub@41.73.119.123) has quit (Quit: Lost terminal)
+2013-02-28 13:59:25	↩	_eye (~eye@unaffiliated/eye/x-1653358) has quit (Ping timeout: 244 seconds)
+2013-02-28 14:01:38	↪	_eye (~eye@unaffiliated/eye/x-1653358) has joined #archlinux-offtopic
+2013-02-28 14:03:31	↪	Roukoswarf-M (~Roukoswar@unaffiliated/roukoswarf) has joined #archlinux-offtopic
+2013-02-28 14:07:30	↪	hh4a (~hh4a@BSN-182-140-177.dial-up.dsl.siol.net) has joined #archlinux-offtopic
+2013-02-28 14:07:57	hh4a	o/o/o/o/
+2013-02-28 14:08:02	↪	soylentbomb (~k@65.79.1.34) has joined #archlinux-offtopic
+2013-02-28 14:08:02	↩	soylentbomb (~k@65.79.1.34) has quit (Changing host)
+2013-02-28 14:08:02	↪	soylentbomb (~k@unaffiliated/soylentbomb) has joined #archlinux-offtopic
+2013-02-28 14:08:06	hh4a	for we are many
+2013-02-28 14:10:15	↪	halosghost (~halosghos@lit75-4-88-167-34-46.fbx.proxad.net) has joined #archlinux-offtopic
+2013-02-28 14:10:46	↩	tenmilestereo (~tnmlstr@212.105.160.70) has quit (Quit: Leaving)
+2013-02-28 14:13:38	↩	freakazoid_ (~seanl@2620:0:1cfe:18:8e70:5aff:fe47:89d8) has left #archlinux-offtopic
+2013-02-28 14:13:39	halosghost	!Roukoswarf-M2 is <reply>A murderous panda
+2013-02-28 14:13:41	phrik	halosghost: Tada!
+2013-02-28 14:13:48	↪	silvius (~silvius@75.87.130.227) has joined #archlinux-offtopic
+2013-02-28 14:13:52	cyrus1	a murderous panda?
+2013-02-28 14:14:04	halosghost	 │23:12:33            * | Roukoswarf-M is a murderous panda
+2013-02-28 14:14:07	↩	GI_Jack (~GI_Jack@pdpc/supporter/active/gi-jack) has quit (Ping timeout: 260 seconds)
+2013-02-28 14:14:09	halosghost	it's true
+2013-02-28 14:14:25	Roukoswarf-M	heh,...
+2013-02-28 14:14:50	↪	cinelli (~boss@cpe-142-136-63-210.socal.res.rr.com) has joined #archlinux-offtopic
+2013-02-28 14:14:50	⇄	Topic for #archlinux-offtopic is "Welcome to #archlinux-offtopic, the friendliest dictatorship in the world. <+> http://arch.har-ikkje.net/gfx/caturday/caturday29.jpg"
+2013-02-28 14:14:50	⇄	Topic set by tigrmesh (~arch@archlinux/op/tigrmesh) on Sat, 23 Feb 2013 10:57:52
+2013-02-28 14:14:50	cinelli	quit
+2013-02-28 14:14:50	⇄	Nicks #archlinux-offtopic: [_Caleb_ _eye `lorim acuzio aganders3 alexwh alienvenom anaphaxeton Anders_J AndrevS arjovr autumn axanon_ ayobeez ayres azradric Bane^ bin7me bin_bash BitterPeter bjoe2k4 bkc_ BladedThesis bleomycin Boohbah bougyman Bug2000 camerin carharttjimmy caveat- ChauffeR chee cheesecakes china cinelli cirrus_minor classix codependant comhack companion Cor-Ai Corey crazedpsyc CryptoNaut cyberspace- cyrus1 Daenyth Dan39 Danio danmackay dario dasbjo DaZ ddv Die18ink5 dimeshake DinCahill djinni dunz0r du|dx dxtr e36freak eir Ertyle ethail eto faen favadi felipe` fogobogo frankyboy_ frojnd frots GGLucas gholen GlitchMr gridcol GSF1200S gtmanfred halosghost Hardolaf hasufell hatake heftig hejki hekel herangr hh4a hi117 hobbily hrnz Hwkiller ikonia ioni iotku iv597 JakeDust james147 jchen jdahm jdost Jeaye john_f johnhamelink johskar jrd0 KaiSforza kamada kerrick-work kevku kubit kungsgeten laumars linduxed linux_probe LookTJ Lorem-Ip1 LysergicDreams matteotom megustavo meskarune Mezenir mikeplus64 Moridin mquin MrElendig mrmackie MrRee MuffinMan` MutantTurkey Nabobalis ninjabox Nisstyre nixin nodame Nuck numeral omeringen opt1mus Overand Paul-S petantik phrik pieman poseidon PrincessSomasis prinny pythonsnake r4 realeyes reashlin rmd rob``` Roukoswarf Roukoswarf-M ruan sa1 Sadin sammyf setkeh Shados Shapeshifter sheep shrp Shyde Sicp silentmike silvius skope skrblr smilefreak Sn4keBite Sornaensis soylentbomb spY|da_ stackofcats stufe sudokode sw0rdfish SyAchmed syrinx t0x7bb Tam^ taotetek tasidus Tear_ th3voic3 Tharugrim thehoff TheMaverick` Third3ye thr tigrmesh timi tlonim tlvb Tom^ vee velcroshooz velusip Vithon Votan webspid0r Wntrvnm woddf2 wry xcrustyx XReaper yogiman321 yoshi314 Zanny ZekeS zendeavor zml2008 Zom ZWolf zyklon]
+2013-02-28 14:14:50	⇄	Channel #archlinux-offtopic: 217 nicks (0 ops, 0 halfops, 0 voices, 217 normals)
+2013-02-28 14:14:54	⇄	Mode #archlinux-offtopic [+Ccnt]
+2013-02-28 14:14:54	⇄	Channel created on Wed, 28 Mar 2007 21:10:02
+2013-02-28 14:32:08	↪	cinelli (~boss@archlinux/trusteduser/cinelli) has joined #archlinux-offtopic
+2013-02-28 14:32:08	⇄	Topic for #archlinux-offtopic is "Welcome to #archlinux-offtopic, the friendliest dictatorship in the world. <+> http://arch.har-ikkje.net/gfx/caturday/caturday29.jpg"
+2013-02-28 14:32:08	⇄	Topic set by tigrmesh (~arch@archlinux/op/tigrmesh) on Sat, 23 Feb 2013 10:57:52
+2013-02-28 14:32:08	⇄	Nicks #archlinux-offtopic: [_Caleb_ `lorim acuzio aganders3 alexwh alienvenom anaphaxeton Anders_J AndrevS arjovr autumn axanon_ ayobeez ayres azradric Bane^ bin7me bin_bash BitterPeter bjoe2k4 bkc_ BladedThesis bleomycin Boohbah bougyman Bug2000 camerin carharttjimmy caveat- ChauffeR chee cheesecakes china cinelli cirrus_minor classix codependant comhack companion Cor-Ai Corey crazedpsyc CryptoNaut cyberspace- Daenyth Dan39 Danio danmackay dario dasbjo DaZ ddv Die18ink5 dimeshake DinCahill djinni dunz0r du|dx dxtr e36freak eir Ertyle ethail eto faen favadi felipe` fogobogo frankyboy_ frojnd frots GGLucas gholen GlitchMr gridcol GSF1200S gtmanfred halosghost Hardolaf hasufell hatake heftig hejki hekel henkye hh4a hi117 hobbily hrnz HuMu Hwkiller ikonia ioni iotku iv597 JakeDust james147 jchen jdahm jdost Jeaye john_f johnhamelink johskar jrd0 KaiSforza kamada kerrick-work kevku kubit kungsgeten laumars linduxed linux_probe LookTJ Lorem-Ip1 LysergicDreams matteotom megustavo meskarune Mezenir mikeplus64 Moridin mquin MrElendig mrmackie MrRee MuffinMan` MutantTurkey Nabobalis ninjabox Nisstyre Nisstyre-laptop nixin nodame Nuck numeral omeringen opt1mus Overand Paul-S petantik phrik pieman poseidon PrincessSomasis prinny pythonsnake r4 realeyes reashlin rmd rob``` Roukoswarf Roukoswarf-M ruan sa1 Sadin sammyf setkeh Shados Shapeshifter sheep shrp Shyde silentmike silvius skope skrblr smilefreak Sn4keBite Sornaensis soylentbomb spY|da_ stackofcats stufe sudokode sw0rdfish SyAchmed syrinx t0x7bb Tam^ taotetek tasidus Tear_ th3voic3 Tharugrim thehoff TheMaverick` Third3ye thr tigrmesh timi tlonim tlvb Tom^ vee velcroshooz velusip Vithon Votan webspid0r Wntrvnm woddf2 wry xcrustyx XReaper yogiman321 yoshi314 Zanny ZekeS zendeavor zml2008 Zom ZWolf zyklon]
+2013-02-28 14:32:08	⇄	Channel #archlinux-offtopic: 216 nicks (0 ops, 0 halfops, 0 voices, 216 normals)
+2013-02-28 14:32:10	⇄	Mode #archlinux-offtopic [+Ccnt]
+2013-02-28 14:32:10	⇄	Channel created on Wed, 28 Mar 2007 21:10:02
+2013-02-28 14:32:11	Roukoswarf-M	to make*
+2013-02-28 14:32:29	fogobogo	indeed plenty space left in the astral plane
+2013-02-28 14:33:06	↪	_eye (~eye@unaffiliated/eye/x-1653358) has joined #archlinux-offtopic
+2013-02-28 14:34:36	Roukoswarf-M	!shutup
+2013-02-28 14:34:42	Roukoswarf-M	hm
+2013-02-28 14:34:51	Roukoswarf-M	i got a odd error
+2013-02-28 14:35:07	Roukoswarf-M	!factinfo shutup
+2013-02-28 14:35:08	phrik	Roukoswarf-M: shutup: Created by jelly12gen on 04:14 PM, October 05, 2009. Last requested by nerdshark!~dorkfish@173.81.66.134 on 12:10 AM, May 31, 2010, requested 1 time.
+2013-02-28 14:35:23	Roukoswarf-M	odd...
+2013-02-28 14:35:28	webspid0r	!help shutup
+2013-02-28 14:35:29	phrik	webspid0r: (shutup <an alias, 0 arguments>) -- Alias for "echo You act like you are [smallnumber] years old. Shut your [rword mouth trap hole face ass] you [harshadjectives] [insultwords] -- [rword jeez! god! damn! really! now! *Sighs.* please! ugh! seriously... *Grumbles.*]".
+2013-02-28 14:35:47	webspid0r	quite
+2013-02-28 14:36:10	↩	cirrus_minor (~cirrus_mi@unaffiliated/cirrus-minor/x-6868843) has quit (Quit: .'Anything You Say Will Be Taken Down & May Be Used Against You'..ᗧ ....ᗣᗣ...⚠)
+2013-02-28 14:36:30	↪	cirrus_minor (~cirrus_mi@unaffiliated/cirrus-minor/x-6868843) has joined #archlinux-offtopic
+2013-02-28 14:36:35	Roukoswarf-M	it errors when i try to run it, says i dont have perms
+2013-02-28 14:39:39	petantik	!shutup
+2013-02-28 14:39:51	cirrus_minor	a man needs a maid http://postimage.org/image/i7f4bar6n/
+2013-02-28 14:39:52	phrik	Title: View image: maid (at postimage.org)
+2013-02-28 14:40:04	↩	ayres (~camilasan@91-64-80-97-dynip.superkabel.de) has quit (Ping timeout: 248 seconds)
+2013-02-28 14:40:37	Roukoswarf-M	http://i.imgur.com/UwV0MJ3.jpg
+2013-02-28 14:40:48	petantik	I don't have the last capability apparently.
+2013-02-28 14:40:48	Roukoswarf-M	we need to stick this somewhere
+2013-02-28 14:41:00	Roukoswarf-M	petantik: same error i got, very odd
+2013-02-28 14:43:22	↪	List (~asd@194.187.206.211) has joined #archlinux-offtopic
+2013-02-28 14:44:05	↪	Third3ye_ (~Third3ye@87.118.3.194) has joined #archlinux-offtopic
+2013-02-28 14:44:25	↪	yours_truly (~yours@mc-189-127.IPReg.mcmaster.ca) has joined #archlinux-offtopic
+2013-02-28 14:44:50	↩	hh4a (~hh4a@BSN-182-140-177.dial-up.dsl.siol.net) has quit (Quit: going away and always astray)
+2013-02-28 14:44:57	↩	opt1mus (~~@unaffiliated/opt1mus) has quit (Quit: opt1mus)
+2013-02-28 14:45:27	silvius	has anyone tried installing Office 2010 using playonlinux?
+2013-02-28 14:45:43	halosghost	…
+2013-02-28 14:45:47	halosghost	why would you do that?
+2013-02-28 14:46:00	Roukoswarf-M	^
+2013-02-28 14:46:04	halosghost	No, no
+2013-02-28 14:46:07	halosghost	really
+2013-02-28 14:46:10	dunz0r	Some men just want to watch the world burn.
+2013-02-28 14:46:16	silvius	lol
+2013-02-28 14:46:27	Roukoswarf-M	dunz0r: http://i.imgur.com/WJqRpSv.jpg
+2013-02-28 14:46:30	halosghost	Why, for the love of all that is worthy of the light of day, would you do that?
+2013-02-28 14:46:46	↩	_eye (~eye@unaffiliated/eye/x-1653358) has quit (Ping timeout: 246 seconds)
+2013-02-28 14:46:48	↩	omeringen (~loL@88.241.230.58) has quit (Read error: Connection reset by peer)
+2013-02-28 14:46:49	dunz0r	Roukoswarf-M: Haha, awesome picture.
+2013-02-28 14:47:04	dunz0r	I would totally act like that if Fabio carried me at a library too.
+2013-02-28 14:47:15	silvius	so what's the faux pas here, using playonlinux or using office?
+2013-02-28 14:47:30	dunz0r	silvius: The latter of course.
+2013-02-28 14:47:31	↩	AndrevS (~andrevs@2001:610:1108:5011:225:b3ff:fec0:41e1) has quit (Quit: Leaving)
+2013-02-28 14:47:35	dunz0r	Just use Libre Office instead.
+2013-02-28 14:47:37	Roukoswarf-M	silvius: both, but mostly office
+2013-02-28 14:47:38	halosghost	well, the fact that you like office is a negative to begin with
+2013-02-28 14:47:47	dunz0r	It doesn't have that shitty ribbon-thing.
+2013-02-28 14:47:48	silvius	i didn't say i like it
+2013-02-28 14:47:53	halosghost	but the fact that you want to use it so badly that you're willing to run a whole abstraction layer for it
+2013-02-28 14:47:58	halosghost	I mean… seriously?
+2013-02-28 14:48:08	silvius	microsoft can suck it... but i'm using it for work
+2013-02-28 14:48:17	halosghost	Use LibreOffice
+2013-02-28 14:48:20	halosghost	!next
+2013-02-28 14:48:21	phrik	Another satisfied customer! NEXT!
+2013-02-28 14:48:29	silvius	:-|
+2013-02-28 14:48:43	halosghost	No really
+2013-02-28 14:48:52	halosghost	LO has come a long way in terms of M$ support and compatibility
+2013-02-28 14:49:00	halosghost	and LO4.x takes that effort even further
+2013-02-28 14:49:04	dunz0r	It works for most things. Some very advanced excel-features doesn't work yet I think.
+2013-02-28 14:49:09	dunz0r	But no one uses those.
+2013-02-28 14:49:14	↪	_eye (~eye@unaffiliated/eye/x-1653358) has joined #archlinux-offtopic
+2013-02-28 14:49:17	halosghost	and the people that do should stop
+2013-02-28 14:49:18	dunz0r	I haven't had any problems at all with it
+2013-02-28 14:49:22	↩	yours_truly (~yours@mc-189-127.IPReg.mcmaster.ca) has quit (Quit: Leaving)
+2013-02-28 14:49:22	halosghost	^
+2013-02-28 14:49:39	dunz0r	halosghost: Yeah. A lot of people use Excel/etc for way too much.
+2013-02-28 14:49:41	silvius	ok, so let me obfuscate... i need to meet the winbind dependency
+2013-02-28 14:49:48	dunz0r	I've seen god damn network maps done in Excel.
+2013-02-28 14:49:51	halosghost	winbind?
+2013-02-28 14:49:52	silvius	and i have no idea what i'm doing
+2013-02-28 14:50:01	dunz0r	With the cell lines as connecting lines between nodes.
+2013-02-28 14:50:03	dunz0r	I shit you not.
+2013-02-28 14:50:17	halosghost	speak of the devil
+2013-02-28 14:50:17	silvius	POL wants some dependency called winbind
+2013-02-28 14:50:18	dunz0r	It's like using paint to write an essay.
+2013-02-28 14:50:31	halosghost	dunz0r: … is that not what you use to write essays?
+2013-02-28 14:50:41	|	halosghost thinks he may have been doing it wrong…
+2013-02-28 14:50:41	↩	MuffinMan` (~derp.sono@dh207-56-194.xnet.hr) has quit (Quit: sava krpa sava)
+2013-02-28 14:50:52	↩	Third3ye (~third3ye@194-3-118-87.mtulink.net) has quit (Read error: Connection reset by peer)
+2013-02-28 14:50:59	silvius	i just switched to Arch a couple days ago from lubuntu
+2013-02-28 14:51:11	dunz0r	halosghost: Nope. I use LaTeX
+2013-02-28 14:51:14	fogobogo	if you rename the link of paint to word in the star menu that can easily happen
+2013-02-28 14:51:18	halosghost	silvius: guess what doesn't need winbind as a dependency? LibreOffice
+2013-02-28 14:51:18	silvius	didn't have this problem with POL on lubuntu
+2013-02-28 14:51:35	↪	Roukoghost (~Roukoswar@unaffiliated/roukoswarf) has joined #archlinux-offtopic
+2013-02-28 14:51:35	↩	Roukoswarf-M (~Roukoswar@unaffiliated/roukoswarf) has quit (Disconnected by services)
+2013-02-28 14:51:41	fogobogo	silvius: good for lubuntu i guess. and whats a POL?
+2013-02-28 14:51:47	⇄	Roukoghost is now known as Roukoswarf-M
+2013-02-28 14:51:51	halosghost	fogobogo: PlayOnLinux
+2013-02-28 14:51:56	halosghost	It's a branch of WINE
+2013-02-28 14:52:03	halosghost	that is… interesting
+2013-02-28 14:52:04	|	silvius is sufficiently shamed
+2013-02-28 14:52:04	fogobogo	lol
+2013-02-28 14:52:10	dunz0r	No, it's not a branch.
+2013-02-28 14:52:18	dunz0r	It's an interface for using different versions etc
+2013-02-28 14:52:19	halosghost	sorry, fork
+2013-02-28 14:52:27	dunz0r	halosghost: Not a for either really.
+2013-02-28 14:52:32	dunz0r	It's a complement
+2013-02-28 14:52:40	halosghost	I mean, it does custom-tailor each build of WINE if memory serves
+2013-02-28 14:52:48	halosghost	did they stop that patching thing?
+2013-02-28 14:53:08	silvius	it runs install scripts for certain programs, skips the guesswork of figuring out which wine/settings are best
+2013-02-28 14:53:15	fogobogo	blech, who cares. just some stuff for desperate gamers
+2013-02-28 14:53:38	silvius	mostly games, but some other stuff too
+2013-02-28 14:53:55	halosghost	fogobogo: largely
+2013-02-28 14:54:32	silvius	i used it for spotify since the AUR package doesn't build properly at the moment
+2013-02-28 14:54:56	halosghost	ewww, spotify
+2013-02-28 14:55:07	webspid0r	>streaming music
+2013-02-28 14:56:30	↪	Third3ye (~third3ye@194-3-118-87.mtulink.net) has joined #archlinux-offtopic
+2013-02-28 14:56:37	webspid0r	speaking of horrible things done in microsoft office products
+2013-02-28 14:57:08	halosghost	webspid0r: Publisher is coming back?
+2013-02-28 14:57:38	webspid0r	I had to adjust a company structure somebody created in microsoft powerpoint
+2013-02-28 14:57:51	webspid0r	ugh
+2013-02-28 14:57:53	halosghost	I don't even use Impress anymore
+2013-02-28 14:57:58	halosghost	I just make PDF slides
+2013-02-28 14:58:25	webspid0r	moving a node took three seconds to update its position
+2013-02-28 14:58:26	dunz0r	I've started using reveal.js for my slides.
+2013-02-28 14:58:33	dunz0r	Everything looks amazing.
+2013-02-28 14:58:39	dunz0r	And I can write them in Html \o/
+2013-02-28 14:59:12	webspid0r	and any wrong move broke the layout
+2013-02-28 14:59:32	webspid0r	when I saved and opened the file another day, it was corrupted
+2013-02-28 14:59:39	webspid0r	so I had to redo it
+2013-02-28 14:59:56	fogobogo	heard good things about svg slides. but you better now how to handle inkscape
+2013-02-28 15:00:07	webspid0r	you'd expect saving a file saving your progress, but I guess that's not how things roll with microsoft
+2013-02-28 15:00:38	halosghost	mmmm, inkscape
+2013-02-28 15:00:41	halosghost	I do love inkscape
+2013-02-28 15:00:54	velcroshooz	inkscape is boss
+2013-02-28 15:00:59	halosghost	truth
+2013-02-28 15:01:38	↪	sebikul (~sebi@pdpc/supporter/student/sebikul) has joined #archlinux-offtopic
+2013-02-28 15:02:13	↩	_eye (~eye@unaffiliated/eye/x-1653358) has quit (Ping timeout: 245 seconds)
+2013-02-28 15:03:36	↩	Shyde (~Shyde^^@HSI-KBW-078-043-093-037.hsi4.kabel-badenwuerttemberg.de) has quit (Quit: Shyde)
+2013-02-28 15:03:58	halosghost	fogobogo: you should add an alias in your shell RC to run sudo pacman -Syyuuf $(pacman -Ssq)
+2013-02-28 15:04:01	halosghost	That'd be fun
+2013-02-28 15:04:52	fogobogo	ok!
+2013-02-28 15:05:05	halosghost	make sure to edit your sudoers file so that command can be run without a password
+2013-02-28 15:05:14	halosghost	and hotkey it to something in your Window Manager / DE
+2013-02-28 15:05:20	Roukoswarf-M	pacman -Syfuuuuuuuuuuuuuuuuuuuuuuuuu
+2013-02-28 15:05:23	halosghost	I'd recommend the space key
+2013-02-28 15:05:25	fogobogo	no need! i run all my commands without password!
+2013-02-28 15:05:29	halosghost	haha
+2013-02-28 15:06:32	halosghost	If I ever get this: http://www.artlebedev.com/everything/optimus/maximus/
+2013-02-28 15:06:33	phrik	Title: Optimus Maximus keyboard (at www.artlebedev.com)
+2013-02-28 15:06:33		[http://is.gd/nP4MWg]
+2013-02-28 15:06:44	halosghost	I'm going to have the Space Core from Portal 2 bounce around on the space bar
+2013-02-28 15:07:17	velcroshooz	man, just got back from the doctors, got MRI results back, my shoulder is all fucked up :/
+2013-02-28 15:07:27	halosghost	:(
+2013-02-28 15:07:54	fogobogo	velcroshooz: so what happened to the shoulder?
+2013-02-28 15:09:21	fogobogo	fell from your tree?
+2013-02-28 15:09:25	velcroshooz	fogobogo: i dislocated it at work a couple weeks ago, thought id bounce back fast from it, mri results were not what i was expecting
+2013-02-28 15:09:39	halosghost	dislocated shoulders are no fun
+2013-02-28 15:09:48	fogobogo	so now your right arm will rot off?
+2013-02-28 15:09:57	velcroshooz	fogobogo: signs point to yes
+2013-02-28 15:10:09	fogobogo	good you have 2 of em
+2013-02-28 15:10:20	velcroshooz	halosghost: this is the first time ive ever done it and yeah, sucked hard.
+2013-02-28 15:11:01	velcroshooz	specially now that i know how bad i fucked it up - two muscle tears and an impact fracture
+2013-02-28 15:11:09	halosghost	velcroshooz: I managed to dislocate my left shoulder a year or so ago
+2013-02-28 15:11:43	halosghost	'twas quite fun
+2013-02-28 15:11:49	halosghost	I managed to impress a couple of my friends though :P
+2013-02-28 15:12:06	fogobogo	how does that feel like?
+2013-02-28 15:12:26	fogobogo	do you know you dislocated something or does it just hurt?
+2013-02-28 15:12:39	halosghost	You know
+2013-02-28 15:12:46	halosghost	it's not just pain
+2013-02-28 15:13:29	halosghost	for the shoulder, you can move most other parts of your arm, but moving anything near the shoulder just feels like you know it will hurt massively if you even nudge it
+2013-02-28 15:13:31	halosghost	and it does
+2013-02-28 15:13:37	velcroshooz	it feels out of place, youve got barely any movement whatsoever, and it hurts like all hell until they put it back in
+2013-02-28 15:13:49	↪	iflema (~Ian@101.174.6.226) has joined #archlinux-offtopic
+2013-02-28 15:14:47	velcroshooz	they put me on an iv and put some high end pain killers on it before they reset it, and that worked for all of like 2 minutes .. the pain just doesnt lessen or go away till it gets put back
+2013-02-28 15:14:53	halosghost	After it's been reset, it just feels really sore
+2013-02-28 15:15:55	velcroshooz	its my dominant hand too which makes it that much more shitty
+2013-02-28 15:15:58	fogobogo	hmm. had something like that once or twice but went away after a week or so
+2013-02-28 15:16:08	halosghost	I managed to get mine dislocated during a sport, but there were no replacements and I was leading my team, so I just had one of my friends reset it for me on the field
+2013-02-28 15:16:12	cinelli	I like the way you work it... no diggity
+2013-02-28 15:16:35	fogobogo	velcroshooz: dont worry, youll get used to masturbating with the left
+2013-02-28 15:16:51	velcroshooz	HAVING to do the stranger is not fun
+2013-02-28 15:16:52	webspid0r	cinelli: Dope Skillz - [True Playaz in the Mix Vol. 1 #08] No Diggity
+2013-02-28 15:16:53	halosghost	the friend that reset it was an EMT, he was kind of shocked I hadn't like, passed out or something
+2013-02-28 15:17:01	halosghost	!grab velcroshooz
+2013-02-28 15:17:02	phrik	halosghost: Tada!
+2013-02-28 15:17:05	halosghost	!grab fogobogo
+2013-02-28 15:17:05	phrik	halosghost: Tada!
+2013-02-28 15:17:08	cinelli	webspid0r: straight classic 
+2013-02-28 15:17:12	halosghost	both of those were worth it
+2013-02-28 15:19:21	↩	sebikul (~sebi@pdpc/supporter/student/sebikul) has quit (Quit: Ex-Chat)
+2013-02-28 15:21:15	↩	Roukoswarf-M (~Roukoswar@unaffiliated/roukoswarf) has quit (Quit: Konversation terminated!)
+2013-02-28 15:24:17	↩	ethail (~ethail@unaffiliated/ethail) has quit (Quit: = "Now you see me. Now you don't")
+2013-02-28 15:25:00	↩	HuMu (~Huub@41.73.119.123) has quit (Quit: Lost terminal)
+2013-02-28 15:27:20	↩	hasufell (~jule@gentoo/developer/hasufell) has quit (Quit: Verlassend)
+2013-02-28 15:27:37	halosghost	alright, I have long day tomorrow
+2013-02-28 15:27:39	halosghost	!gn
+2013-02-28 15:27:40	phrik	Good night to all from halosghost!
+2013-02-28 15:28:04	↩	halosghost (~halosghos@lit75-4-88-167-34-46.fbx.proxad.net) has quit (Quit: The strongest of thunderstorms is no more than Nature's shower.)
+2013-02-28 15:28:17	↩	ninjabox (~ninjabox@66.100.171.26) has quit (Ping timeout: 255 seconds)
+2013-02-28 15:33:31	↪	Kirito (~iymovies@pdpc/supporter/student/kirito) has joined #archlinux-offtopic
+2013-02-28 15:34:11	↩	kevku (~kevku@2001:470:27:773:0:feed:c0f:fee) has quit (Ping timeout: 245 seconds)
+2013-02-28 15:35:05	↪	ninjabox (~ninjabox@66.100.171.26) has joined #archlinux-offtopic
+2013-02-28 15:35:30	↩	bin_bash (~bin_bash@unaffiliated/bin-bash/x-0273453) has quit (Ping timeout: 264 seconds)
+2013-02-28 15:39:16	↪	vodik (~root@archlinux/op/vodik) has joined #archlinux-offtopic
+2013-02-28 15:39:20	↩	cirrus_minor (~cirrus_mi@unaffiliated/cirrus-minor/x-6868843) has quit (Quit: .'Anything You Say Will Be Taken Down & May Be Used Against You'..ᗧ ....ᗣᗣ...⚠)
+2013-02-28 15:53:48	↩	Third3ye_ (~Third3ye@87.118.3.194) has quit (Read error: Connection reset by peer)
+2013-02-28 15:54:28	↪	Third3ye_ (~Third3ye@194-3-118-87.mtulink.net) has joined #archlinux-offtopic
+2013-02-28 15:57:10	↩	frojnd (~frojnd@unaffiliated/frojnd) has quit (Read error: Connection reset by peer)
+2013-02-28 15:57:50	↩	Tear_ (~tear@188.33.85.43) has left #archlinux-offtopic
+2013-02-28 15:58:10	↪	Tear (~tear@188.33.85.43) has joined #archlinux-offtopic
+2013-02-28 15:58:22	↪	frojnd (~frojnd@unaffiliated/frojnd) has joined #archlinux-offtopic
+2013-02-28 15:58:22	↪	bowiek (~atm@61.23.213.77) has joined #archlinux-offtopic
+2013-02-28 15:59:33	henkye	!latency
+2013-02-28 15:59:35	phrik	henkye: 0.16 seconds.
+2013-02-28 15:59:43	henkye	wo ho
+2013-02-28 16:00:01	henkye	beat me if you dare!
+2013-02-28 16:01:22	↩	iflema (~Ian@101.174.6.226) has quit (Quit: WeeChat 0.3.8)
+2013-02-28 16:02:28	↪	iflema (~Ian_Flemi@101.174.6.226) has joined #archlinux-offtopic
+2013-02-28 16:03:07	pythonsnake	 
+2013-02-28 16:03:09	pythonsnake	 
+2013-02-28 16:03:11	pythonsnake	 
+2013-02-28 16:03:13	pythonsnake	 
+2013-02-28 16:03:30	dunz0r	pythonsnake: Tit.
+2013-02-28 16:03:52	↩	soylentbomb (~k@unaffiliated/soylentbomb) has quit (Quit: Leaving)
+2013-02-28 16:04:05	↪	bin7me|2 (~kvirc@p578E1C1A.dip.t-dialin.net) has joined #archlinux-offtopic
+2013-02-28 16:06:36	henkye	http://www.imgbox.de/users/public/images/8ga47Lm0SM.jpg  nom
+2013-02-28 16:06:37		[http://is.gd/MqNw1b]
+2013-02-28 16:06:51	dunz0r	Heh. Nice :)
+2013-02-28 16:07:52	↩	bin7me (~kvirc@p4FC0F930.dip.t-dialin.net) has quit (Ping timeout: 272 seconds)
+2013-02-28 16:10:06	↩	Tharugrim (~Tharugrim@62-46-145-46.adsl.highway.telekom.at) has quit (Quit: WeeChat 0.4.0)
+2013-02-28 16:10:19	↪	opt1mus (~~@unaffiliated/opt1mus) has joined #archlinux-offtopic
+2013-02-28 16:10:46	opt1mus	Hello people
+2013-02-28 16:11:19	henkye	hello human
+2013-02-28 16:11:37	fogobogo	ALL HAIL opt1mus PRIME!!!
+2013-02-28 16:11:47	opt1mus	o/
+2013-02-28 16:12:07	fogobogo	AVE opt1mus PRIME o/
+2013-02-28 16:12:37	henkye	viva la opt1mus
+2013-02-28 16:12:58	↪	sanic_ (~d@cpe-75-187-243-224.neo.res.rr.com) has joined #archlinux-offtopic
+2013-02-28 16:13:10	↩	sanic_ (~d@cpe-75-187-243-224.neo.res.rr.com) has quit (Client Quit)
+2013-02-28 16:13:51	opt1mus	So xkcd reminded me to check that I'm adhering to ISO 8601 across my computers, bastard.
+2013-02-28 16:14:45	fogobogo	i finally want metric time
+2013-02-28 16:14:54	henkye	bleh xkcd
+2013-02-28 16:15:14	opt1mus	Well, in the mean time would binary help?
+2013-02-28 16:15:17	↩	acuzio (~acuzio@unaffiliated/acuzio) has quit (Ping timeout: 256 seconds)
+2013-02-28 16:15:31	↪	acuzio (~acuzio@unaffiliated/acuzio) has joined #archlinux-offtopic
+2013-02-28 16:15:58	henkye	there is no time
+2013-02-28 16:16:05	fogobogo	24 hours, 60 minutes, 60 seconds, 1000 ms, 1000 us, 1000 ns. not smooth. at all.
+2013-02-28 16:16:52	fogobogo	never understood why anything below seconds is suddenly metric
+2013-02-28 16:17:00	↪	kerrick (~kerrick@c-67-180-210-197.hsd1.ca.comcast.net) has joined #archlinux-offtopic
+2013-02-28 16:17:02	woddf2	opt1mus: ISO 8601 FTW
+2013-02-28 16:17:45	opt1mus	Don't get me started on ISO, I'll be conforming to all-the-things in a fit of boredom this weekend...
+2013-02-28 16:18:00	woddf2	!give opt1mus all
+2013-02-28 16:18:02	phrik	opt1mus: All the things!!!!!!!1111
+2013-02-28 16:18:26	opt1mus	!all |jeffk
+2013-02-28 16:18:27	phrik	Alll teh things!!!!!!!1111
+2013-02-28 16:18:43	opt1mus	!all |moar
+2013-02-28 16:18:45	phrik	moaarrr Allll teh thigns!!!!!!!1111!!! MMMOOOOOAAAAAARRRRRRR!!! ahhahhahhl0l~~~!~:-):-):-)
+2013-02-28 16:19:32	henkye	hmm  maybe there is no word after seconds fogobogo ?
+2013-02-28 16:20:00	opt1mus	it does shorten the template line of my xmobarrc
+2013-02-28 16:20:20	fogobogo	henkye: milli, micro, nano, pico, femto... all the metric stuff
+2013-02-28 16:21:03	henkye	second = 1/60 minute, 1/60 of second = ???
+2013-02-28 16:21:06	fogobogo	imho, day should be 10 hours, each hour 100 minutes and each minute 100 seconds.
+2013-02-28 16:21:16	↩	Nisstyre-laptop (~yours@oftn/member/Nisstyre) has quit (Quit: Leaving)
+2013-02-28 16:21:36	henkye	do it fogobogo
+2013-02-28 16:21:46	fogobogo	damn yes. where is that ISO again?
+2013-02-28 16:22:10	opt1mus	Let's start a movement
+2013-02-28 16:22:40	henkye	lets start a war. at the gaybar
+2013-02-28 16:22:44	opt1mus	zulu is the current best standard for time keeping, globally.
+2013-02-28 16:22:47	woddf2	!give henkye randwar
+2013-02-28 16:22:48	phrik	henkye: Are we ranting about AUR helpers again?
+2013-02-28 16:22:52	fogobogo	question is if you also want 10 months and a year to be 100 days or 1000 days
+2013-02-28 16:23:47	opt1mus	and why center it on the birth of some possibly fictional hippy, new start date please
+2013-02-28 16:24:12	fogobogo	good point
+2013-02-28 16:24:23	henkye	who would that be
+2013-02-28 16:24:33	opt1mus	heyzoos
+2013-02-28 16:24:36	henkye	aaron
+2013-02-28 16:24:57	fogobogo	justin bieber
+2013-02-28 16:25:08	henkye	amen replaced by aaron
+2013-02-28 16:25:25	opt1mus	Ron Jeremy
+2013-02-28 16:25:54	fogobogo	great, i already see millions of people howling like wolves "aaaaaarrrrrroooooonnnnn"
+2013-02-28 16:26:07	henkye	muhehe
+2013-02-28 16:27:41	woddf2	fogobogo: ...or JULAAAAAY?
+2013-02-28 16:27:44	opt1mus	Too set in old ways to change, like the majority of people using qwerty keyboards
+2013-02-28 16:28:04	opt1mus	or qwertz
+2013-02-28 16:28:07	opt1mus	et al
+2013-02-28 16:28:53	opt1mus	all new boards will be dvorak, metric time and a reset date
+2013-02-28 16:29:11	henkye	!echo qwerty |jeffk
+2013-02-28 16:29:11	phrik	qwerey
+2013-02-28 16:29:20	opt1mus	All stand for INGSOC
+2013-02-28 16:29:24	dunz0r	qverti is the new thing.
+2013-02-28 16:29:27	opt1mus	o\
+2013-02-28 16:29:29	fogobogo	hmm. question is... 0 indexed or 1?
+2013-02-28 16:29:56	opt1mus	a sset number of digits
+2013-02-28 16:30:04	fogobogo	resetting every 100 years or so would be kinda cool
+2013-02-28 16:30:09	opt1mus	just to fuck with the conspiracy theorists
+2013-02-28 16:32:59	henkye	conspiracy theorists helped me to -think- about things btw
+2013-02-28 16:33:28	opt1mus	cons + piracy, hmm
+2013-02-28 16:33:40	opt1mus	:O
+2013-02-28 16:34:56	↩	gridcol (~alex@unaffiliated/gridcol) has quit (Quit: Lost terminal)
+2013-02-28 16:35:13	↪	gridcol (~alex@nat-wh-wz4-12.rz.uni-karlsruhe.de) has joined #archlinux-offtopic
+2013-02-28 16:35:13	↩	gridcol (~alex@nat-wh-wz4-12.rz.uni-karlsruhe.de) has quit (Changing host)
+2013-02-28 16:35:13	↪	gridcol (~alex@unaffiliated/gridcol) has joined #archlinux-offtopic
+2013-02-28 16:35:40	↪	bin_bash (~bin_bash@unaffiliated/bin-bash/x-0273453) has joined #archlinux-offtopic
+2013-02-28 16:37:19	↩	frankyboy_ (~frankyboy@128-68-24-173.broadband.corbina.ru) has quit (Read error: Connection reset by peer)
+2013-02-28 16:37:50	↩	silvius (~silvius@75.87.130.227) has quit (Quit: Leaving)
+2013-02-28 16:38:02	henkye	opt1m + us
+2013-02-28 16:38:10	henkye	hmmmmmmmm
+2013-02-28 16:38:52	henkye	may the boredom smash all the living!
+2013-02-28 16:40:08	↩	Kirito (~iymovies@pdpc/supporter/student/kirito) has quit (Ping timeout: 245 seconds)
+2013-02-28 16:42:45	numeral	!rimjob
+2013-02-28 16:42:46	phrik	http://blackberry.com
+2013-02-28 16:42:52	opt1mus	Listening to the blues is no good without alcohol, this sucks
+2013-02-28 16:42:55	numeral	!rimjobs
+2013-02-28 16:42:56	phrik	http://cubetitans.com/wp-content/uploads/2012/06/RIM-Jobs.jpg
+2013-02-28 16:42:57		[http://is.gd/XQCg0w]
+2013-02-28 16:42:58	numeral	I would sue!
+2013-02-28 16:44:38	↩	henkye (~henkye@32.111.broadband13.iol.cz) has quit (Quit: Leaving)
+2013-02-28 16:46:14	↪	henkye (~henkye@90.180.111.32) has joined #archlinux-offtopic
+2013-02-28 16:46:41	|	opt1mus slides a coffee over to henkye
+2013-02-28 16:47:08	henkye	what a nasty lag i had there
+2013-02-28 16:47:21	henkye	thx for coffee ^.^
+2013-02-28 16:47:24	opt1mus	that's no way to talk about numeral
+2013-02-28 16:47:48	opt1mus	;P
+2013-02-28 16:48:08	↩	mquin (~mquin@freenode/staff/mquin) has quit (Read error: Connection reset by peer)
+2013-02-28 16:48:41	numeral	at least he thanked me for the coffee
+2013-02-28 16:48:43	opt1mus	wonder if there'd be much benefit upgrading from a T2500 to a T7600
+2013-02-28 16:48:55	numeral	btw, I just realized that I had my phone blugged into my ethernet jack instead of my usb jack for the past hour :/
+2013-02-28 16:49:15	henkye	lol
+2013-02-28 16:49:20	henkye	n00b
+2013-02-28 16:49:24	opt1mus	lol, how... wha?
+2013-02-28 16:49:31	↪	mquin (~mquin@freenode/staff/mquin) has joined #archlinux-offtopic
+2013-02-28 16:49:42	numeral	it's right next to the usb jack and I just donated blood :9
+2013-02-28 16:49:44	numeral	:(
+2013-02-28 16:49:51	opt1mus	:(
+2013-02-28 16:50:01	numeral	I'm woozy!
+2013-02-28 16:50:22	|	henkye sucks numerals blood
+2013-02-28 16:51:01	velcroshooz	numeral: couple beers will fix that
+2013-02-28 16:51:17	numeral	I need a smoke :/
+2013-02-28 16:51:24	numeral	to go back to normal
+2013-02-28 16:51:44	numeral	I've been trying to work on this script for like an hour and still haven't written more than 4-5 lines
+2013-02-28 16:51:50	numeral	to be fair my professor is pretty cool
+2013-02-28 16:52:47	henkye	my class teacher had big tits.
+2013-02-28 16:53:30	dunz0r	numeral: Write pseudo-code. Then fill in the TODOs with actual code.
+2013-02-28 16:54:01	opt1mus	^ if anything's missed, just lorem-ipsum it
+2013-02-28 16:54:56	numeral	dunz0r: I do that anyway
+2013-02-28 16:55:13	numeral	those 4-5 lines are all function definitions :P
+2013-02-28 17:03:03	numeral	codingconfessional.com makes me want to put the konami code in every application I use
+2013-02-28 17:03:09	numeral	apparently a really popular thing to do ...
+2013-02-28 17:03:31	numeral	…
+2013-02-28 17:04:36	numeral	so addictive...
+2013-02-28 17:04:38	numeral	Sometimes my functions don't have space before { and sometimes they do. It's eating me from the inside.
+2013-02-28 17:07:00	↩	anaphaxeton (~george@ppp005054013236.access.hol.gr) has quit (Quit: Αποχώρησε)
+2013-02-28 17:08:30	↩	Sadin (~sadin@75.97.121.35) has quit (Remote host closed the connection)
+2013-02-28 17:08:35	↩	henkye (~henkye@90.180.111.32) has quit (Quit: Leaving)
+2013-02-28 17:09:05	↪	jemofthewest (~jeremy@71-13-212-3.dhcp.mrqt.mi.charter.com) has joined #archlinux-offtopic
+2013-02-28 17:09:36	↪	andrewSC (~Andrew@unaffiliated/andrewsc) has joined #archlinux-offtopic
+2013-02-28 17:10:36	↩	Third3ye_ (~Third3ye@194-3-118-87.mtulink.net) has quit (Quit: ZNC - http://znc.in)
+2013-02-28 17:11:15	andrewSC	http://i.imgur.com/TsCI2Qr.png
+2013-02-28 17:11:22	andrewSC	initial logo draft... thoughts?
+2013-02-28 17:12:08	numeral	missing an e
+2013-02-28 17:12:23	andrewSC	no?
+2013-02-28 17:12:27	andrewSC	those are my initials
+2013-02-28 17:12:29	numeral	jk
+2013-02-28 17:12:40	opt1mus	Too... generic
+2013-02-28 17:12:43	numeral	I would get rid of the coord in the A
+2013-02-28 17:12:43	andrewSC	maybe not that font exactly
+2013-02-28 17:12:48	andrewSC	hmmm
+2013-02-28 17:13:01	numeral	the S makes it looks like an A already anyhow
+2013-02-28 17:13:15	andrewSC	opt1mus: too consultanty?
+2013-02-28 17:13:45	opt1mus	Yeah, it's something I'd expect to see on an estate agency door
+2013-02-28 17:14:01	opt1mus	No offence intended
+2013-02-28 17:14:04	andrewSC	hmmm
+2013-02-28 17:14:24	andrewSC	nono opt1mus, i am welcome to all critical opinion as long as it's in good taste and not just "You suck"
+2013-02-28 17:14:29	andrewSC	or something like that
+2013-02-28 17:14:48	andrewSC	opt1mus: i've been studying symbolism for the past day or so in my spare time
+2013-02-28 17:14:55	numeral	can you get rid of the mid chord?
+2013-02-28 17:15:02	andrewSC	and i'm trying to come up with something professional
+2013-02-28 17:15:03	Sornaensis	'u suck' is not critical opinion
+2013-02-28 17:15:08	andrewSC	numeral: yeah let me give that a try
+2013-02-28 17:15:12	andrewSC	but just a sec i need to cook dinner
+2013-02-28 17:15:24	andrewSC	Sornaensis: it's an opinion, nonetheless
+2013-02-28 17:15:30	↪	Sadin (~sadin@h138.153.101.208.dynamic.ip.windstream.net) has joined #archlinux-offtopic
+2013-02-28 17:15:31	opt1mus	Yeah, customising the font in some way, making it more... simplistic perhaps... memorable
+2013-02-28 17:15:33	numeral	ooh dinner is cool
+2013-02-28 17:15:37	numeral	I wish I could afford food :/
+2013-02-28 17:17:35	↪	chrome_lover (~joe@vaoffice.inmotionhosting.com) has joined #archlinux-offtopic
+2013-02-28 17:21:37	↪	Genolo (~ivesound@2001:470:b9a3::81) has joined #archlinux-offtopic
+2013-02-28 17:22:21	↪	kreiGT (~kreig@190.149.42.117) has joined #archlinux-offtopic
+2013-02-28 17:22:47	taotetek	o/
+2013-02-28 17:25:06	opt1mus	Welcome, pull up a pew
+2013-02-28 17:25:32	Jeaye	Confess your sins.
+2013-02-28 17:25:52	taotetek	sorry, fresh out of sins
+2013-02-28 17:26:16	Jeaye	I can sell you some. There're plenty to go around.
+2013-02-28 17:26:43	taotetek	Bob approves of my sins
+2013-02-28 17:26:47	opt1mus	yyyyesss, confess - http://www.vincegolangco.com/wp-content/uploads/2010/10/dirty-priest-costume.jpg
+2013-02-28 17:26:48		[http://is.gd/IOiCPJ]
+2013-02-28 17:26:53	taotetek	and I paid for my eternal salvation already
+2013-02-28 17:26:54	opt1mus	:O
+2013-02-28 17:27:05	taotetek	or triple my money back
+2013-02-28 17:27:26	Jeaye	Praise "Bob"
+2013-02-28 17:27:57	Jeaye	taotetek: I'd expect to see you in ##slackware-offtopic with that kind of talk. :P
+2013-02-28 17:27:58	taotetek	slack off
+2013-02-28 17:28:19	taotetek	Jeaye: I'm ordained! still have my cetificate ;)
+2013-02-28 17:28:26	Jeaye	hehe
+2013-02-28 17:28:26	↩	Sadin (~sadin@h138.153.101.208.dynamic.ip.windstream.net) has quit (Read error: No route to host)
+2013-02-28 17:28:45	↩	fogobogo (~fogobogo@unaffiliated/fogobogo) has quit (Quit: Tada!)
+2013-02-28 17:28:48	Jeaye	Wish I'd been older when that was more active.
+2013-02-28 17:33:53	opt1mus	Potasium overload!
+2013-02-28 17:34:30	opt1mus	+s
+2013-02-28 17:34:52	↩	jemofthewest (~jeremy@71-13-212-3.dhcp.mrqt.mi.charter.com) has quit (Ping timeout: 244 seconds)
+2013-02-28 17:35:07	john_f	opossum vocal aid
+2013-02-28 17:38:56	↩	bin7me|2 (~kvirc@p578E1C1A.dip.t-dialin.net) has quit (Read error: Connection reset by peer)
+2013-02-28 17:47:54	megustavo	why are pdf's executable?
+2013-02-28 17:48:06	megustavo	also my keepass databse..
+2013-02-28 17:48:13	taotetek	so that you can be pwned with them
+2013-02-28 17:48:30	megustavo	ya rly
+2013-02-28 17:49:31	megustavo	epubs too, eh?
+2013-02-28 17:51:09	rmd	megustavo: Blame Adobe
+2013-02-28 17:51:15	rmd	megustavo: What about your keepass database?
+2013-02-28 17:52:52	|	Wntrvnm finally realizes that isn't KeepAss... or is it?  :P
+2013-02-28 17:55:08	megustavo	pdf's, epub's and kdb's are +x
+2013-02-28 17:55:32	rmd	Wntrvnm: It could be, if you want it, baby.
+2013-02-28 17:55:32	megustavo	on a windows system, at least
+2013-02-28 17:55:38	megustavo	xD
+2013-02-28 17:56:33	woddf2	!grab webspid0r
+2013-02-28 17:56:35	woddf2	!grab Wntrvnm
+2013-02-28 17:56:36	phrik	woddf2: Tada!
+2013-02-28 17:56:44	webspid0r	!q webspid0r
+2013-02-28 17:56:45	phrik	webspid0r: <webspid0r> the word "mesa" reminds me of brains for some reason
+2013-02-28 17:56:47	⇄	numeral is now known as sqrtnegone
+2013-02-28 17:56:47	cinelli	woddf2: grabbing-spree
+2013-02-28 17:56:50	webspid0r	hmm
+2013-02-28 17:57:03	woddf2	webspid0r: Fortunately, it did not find a proper message to grab. (For some reason, irssi's tab completion chose you instead of Wntrvnm.)
+2013-02-28 17:57:22	webspid0r	woddf2: yeah, I was wondering, since the last thing I posted here was a track
+2013-02-28 17:57:42	woddf2	Jeaye: TIL that channel exists.
+2013-02-28 17:57:54	Jeaye	hmm?
+2013-02-28 17:58:01	woddf2	20:27:57 < Jeaye> taotetek: I'd expect to see you in ##slackware-offtopic with that kind of talk. :P
+2013-02-28 17:58:10	Jeaye	TIL?
+2013-02-28 17:58:17	opt1mus	!wtf is TIL
+2013-02-28 17:58:18	woddf2	Jeaye: Today I Learned
+2013-02-28 17:58:20	phrik	opt1mus: What the hell is TIL?
+2013-02-28 17:58:24	Jeaye	Ahh
+2013-02-28 17:58:31	Jeaye	woddf2: Yeah, it's a fun channel. :)
+2013-02-28 17:58:40	megustavo	"if you want to sit on this.. i was thinking the wood is too hard for your damaged penis"
+2013-02-28 17:59:00	opt1mus	O_o
+2013-02-28 17:59:28	Wntrvnm	!wat
+2013-02-28 17:59:29	phrik	http://24.media.tumblr.com/tumblr_lgj2j4IT8x1qh71uoo1_400.jpg
+2013-02-28 17:59:30		[http://is.gd/NLYgbI]
+2013-02-28 18:00:27	↩	th3voic3 (~th3voic3@ip-95-223-103-158.unitymediagroup.de) has quit (Ping timeout: 260 seconds)
+2013-02-28 18:00:48	opt1mus	Wntrvnm's on the show, give him a round of applause, take a seat
+2013-02-28 18:02:01	↪	dishaze (~burn@unaffiliated/burnreich) has joined #archlinux-offtopic
+2013-02-28 18:02:23	Wntrvnm	Aww, someone replaced the WTF llama.
+2013-02-28 18:03:15	webspid0r	!grab megustavo
+2013-02-28 18:03:17	phrik	webspid0r: Tada!
+2013-02-28 18:03:26	bin_bash	hhi Wntrvnm <3
+2013-02-28 18:03:41	opt1mus	We need more llama llama duck in here
+2013-02-28 18:04:40	↪	Srf (~leuck@187.36.54.90) has joined #archlinux-offtopic
+2013-02-28 18:05:06	megustavo	yipee
+2013-02-28 18:06:46	↩	vodik (~root@archlinux/op/vodik) has quit (Quit: WeeChat 0.4.1-dev)
+2013-02-28 18:10:03	↪	Kirito (~iymovies@pdpc/supporter/student/kirito) has joined #archlinux-offtopic
+2013-02-28 18:10:51	dishaze	winamp already whip'd them all~ :/
+2013-02-28 18:12:26	webspid0r	what is winamp?
+2013-02-28 18:12:51	webspid0r	a bad xmms clone?
+2013-02-28 18:14:13	↪	ahungry (~null@99-40-10-216.lightspeed.livnmi.sbcglobal.net) has joined #archlinux-offtopic
+2013-02-28 18:14:29	dishaze	dunno, but it is said to whip the llama's ass~
+2013-02-28 18:14:32	dishaze	xP
+2013-02-28 18:18:25	dishaze	hmm thinking bout it, milkdrop + evil_lyrics is the only thing I miss from it..
+2013-02-28 18:19:48	john_f	http://24.media.tumblr.com/3c2f39b226469f6b93cd3f68ba82dea4/tumblr_misnyvrtL21rjcfxro1_400.gif
+2013-02-28 18:19:49	dishaze	yet it'll just keep me from massive time lost heh
+2013-02-28 18:19:49		[http://is.gd/joNdLv]
+2013-02-28 18:22:08	dishaze	lol, my cat is just like that black one, coolest breed of domestic cat I've ever had
+2013-02-28 18:23:25	dishaze	bombay cat*
+2013-02-28 18:23:41	↩	Anders_J (~anders@unaffiliated/anders-j/x-0508776) has quit (Quit: Anders_J)
+2013-02-28 18:26:49	⇄	sqrtnegone is now known as numeral
+2013-02-28 18:39:57	↩	rob``` (~rob@gtng-4d08a2be.pool.mediaWays.net) has quit (Quit: leaving)
+2013-02-28 18:40:52	opt1mus	https://groups.google.com/forum/?fromgroups=#!topic/qubes-devel/qnB_QPusOwE
+2013-02-28 18:40:53	phrik	Title: Google Groups (at groups.google.com)
+2013-02-28 18:40:53		[http://is.gd/6Cbcw5]
+2013-02-28 18:41:00	numeral	I think the guy who is writing one punch man just wants to write gags and draw panoramas of robots landing... seriously... how do you have a whole chapter, 25+ pages of a robot landing in a city
+2013-02-28 18:42:21	opt1mus	don't look at me when whinging about giant robots...
+2013-02-28 18:42:35	opt1mus	:D
+2013-02-28 18:49:06	↪	spchariot (~southpoin@cpe-174-106-124-207.nc.res.rr.com) has joined #archlinux-offtopic
+2013-02-28 18:49:49	numeral	I hate this desk so much, my monitors bobble like two contrary Indian women
+2013-02-28 18:52:03	woddf2	Late, but:
+2013-02-28 18:52:15	woddf2	At least you have a !wat pony: 21:02:23 < Wntrvnm> Aww, someone replaced the WTF llama.
+2013-02-28 18:56:15	numeral	!wat pony
+2013-02-28 18:56:20	numeral	!wat
+2013-02-28 18:56:21	phrik	http://24.media.tumblr.com/tumblr_lgj2j4IT8x1qh71uoo1_400.jpg
+2013-02-28 18:56:22		[http://is.gd/NLYgbI]
+2013-02-28 18:58:20	dunz0r	The !wat pony is meh.
+2013-02-28 18:59:02	↩	hatake (~ping__@125.162.229.135) has quit (Quit: Leaving)
+2013-02-28 19:01:26	JakeDust	so, #archlinux-offtopic is more serious than #archlinux
+2013-02-28 19:01:37	dunz0r	It is?:O
+2013-02-28 19:01:56	↩	Kirito (~iymovies@pdpc/supporter/student/kirito) has quit (Ping timeout: 256 seconds)
+2013-02-28 19:01:57	dunz0r	Heh. I need to stop reading df as the command df.
+2013-02-28 19:02:10	dunz0r	It's so confusing when people talk about the graphic modes of df and what not.
+2013-02-28 19:02:15	JakeDust	Hahahaha
+2013-02-28 19:02:22	woddf2	dunz0r: ++
+2013-02-28 19:03:31	JakeDust	talking about df, I should create an alias for du -h --max-depth 1
+2013-02-28 19:03:35	dunz0r	I've tried dwarffortress once. My dwarves got drunk and caught on fire and died.
+2013-02-28 19:03:55	numeral	dunz0r: losing is fun
+2013-02-28 19:03:57	numeral	!df
+2013-02-28 19:03:58	phrik	disk fucker
+2013-02-28 19:04:03	numeral	!dwarfortress
+2013-02-28 19:04:11	numeral	!dwarfortress is <reply> Losing is fun!
+2013-02-28 19:04:12	phrik	numeral: Tada!
+2013-02-28 19:04:13	JakeDust	!dwarffortress
+2013-02-28 19:04:26	numeral	oops
+2013-02-28 19:04:26	JakeDust	!dwarfortress is <reply> Losing is fun!
+2013-02-28 19:04:32	JakeDust	!dwarffortress is <reply> Losing is fun!
+2013-02-28 19:04:33	JakeDust	=p
+2013-02-28 19:04:41	JakeDust	nah, I can't do it
+2013-02-28 19:04:45	numeral	!dwarffortress is <reply> Losing is fun!
+2013-02-28 19:04:46	dunz0r	You suck at speling.
+2013-02-28 19:04:46	phrik	numeral: Tada!
+2013-02-28 19:04:57	numeral	dunz0r: yeah, I'm handicapped by having to use spaces :(
+2013-02-28 19:04:59	numeral	I'm retarted
+2013-02-28 19:05:13	JakeDust	Was that intentional?
+2013-02-28 19:05:14	numeral	 this one was on purpose though
+2013-02-28 19:05:16	dunz0r	I doubt it.
+2013-02-28 19:05:17	JakeDust	oh, thanks.
+2013-02-28 19:05:26	dunz0r	That you're retarded that is.
+2013-02-28 19:05:39	woddf2	!rmfact dwarfortress
+2013-02-28 19:05:39	phrik	woddf2: Tada!
+2013-02-28 19:05:43	woddf2	!dwarffortress
+2013-02-28 19:05:44	phrik	Losing is fun!
+2013-02-28 19:05:49	numeral	oh thanks woddf2 I forgot the command :/
+2013-02-28 19:05:59	numeral	I was gonna bug cheekymanfred later
+2013-02-28 19:07:55	andrewSC	https://plus.google.com/111626127367496192147/posts/c41FrSVV87z
+2013-02-28 19:07:56		[http://is.gd/a6UPYN]
+2013-02-28 19:07:59	andrewSC	second to last post
+2013-02-28 19:08:09	andrewSC	:')
+2013-02-28 19:12:14	↩	JakeDust (~Jake@201-68-175-72.dsl.telesp.net.br) has quit (Quit: Leaving.)
+2013-02-28 19:12:45	↪	diegoviola (~diego@host-1-19.b9.cvc.com.py) has joined #archlinux-offtopic
+2013-02-28 19:13:14	megustavo	guh
+2013-02-28 19:13:19	megustavo	i fail at mixing drinks
+2013-02-28 19:14:16	Third3ye	Then sir, you fail at LIFE!
+2013-02-28 19:15:06	↩	andrewSC (~Andrew@unaffiliated/andrewsc) has quit (Quit: †・．・☆†【βｙёβｙё】ヾ(´∀｀)ノ~~†★・．・†)
+2013-02-28 19:15:46	numeral	not really, humans drink neat liquor cause this isn't the 1920s, 18 year old kids who don't know what real alcohol should taste like drink mixed drinks
