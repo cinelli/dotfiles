@@ -1,0 +1,242 @@
+" VIM configuration
+" $HOME/.vimrc
+
+runtime! debian.vim
+set nocompatible
+
+if filereadable("/etc/vimrc")
+  source /etc/vimrc
+endif
+
+if has("autocmd")
+  au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+  filetype plugin indent on
+endif
+
+" call pathogen#runtime_append_all_bundles()
+
+if has("autocmd")
+  autocmd! bufwritepost .vimrc source ~/.vimrc
+endif
+
+filetype plugin on
+set ofu=syntaxcomplete#Complete
+runtime ftplugin/man.vim
+
+function ModeChange()
+  if getline(1) =~ "^#!.*/bin/*"
+      silent !chmod u+x <afile>
+  endif
+endfunction
+au BufWritePost * call ModeChange()
+
+let MRU_Auto_Close = 1
+command Conque :set nolist | ConqueTerm zsh
+command Zshs :set nolist | ConqueTermSplit zsh
+command Zsh :set nolist | ConqueTerm zsh
+command Bpythons :set nolist | ConqueTermSplit bpython
+command Bpython :set nolist | ConqueTerm bpython
+
+"Interface
+if has("syntax")
+  syntax on
+endif
+set t_Co=256
+highlight NbSp ctermbg=lightgray guibg=lightred
+match NbSp /\%xa0/
+
+"GVim
+if has('gui_running')
+  set guifont=DeJavu\ Sans\ Mono\ 7
+  ":set guioptions-=m  "remove menu bar
+  set guioptions-=T  "remove toolbar
+  set guioptions-=r  "remove right-hand scroll bar
+  nnoremap <C-F1> :if &go=~#'m'<Bar>set go-=m<Bar>else<Bar>set go+=m<Bar>endif<CR>
+  nnoremap <C-F2> :if &go=~#'T'<Bar>set go-=T<Bar>else<Bar>set go+=T<Bar>endif<CR>
+  nnoremap <C-F3> :if &go=~#'r'<Bar>set go-=r<Bar>else<Bar>set go+=r<Bar>endif<CR>
+  slate,ron,torte,fruity,dante,dw_red,dw_orange
+  highlight SpellBad term=underline gui=undercurl guisp=Orange
+else
+  set t_Co=256
+  colorscheme codesweets
+endif
+
+if !has("gui_running")
+  if &term =~ "rxvt-unicode"
+    let &t_SI = "\033]12;white\007"
+    let &t_EI = "\033]12;red\007"
+
+    :silent !echo -ne "\033]12;red\007"
+    autocmd VimLeave * :silent :!echo -ne "\033]12;red\007"
+  endif
+endif
+
+set laststatus=2
+set statusline= " clear
+set statusline+=%-3.3n\
+set statusline+=%f\
+set statusline+=%h%m%r%w
+set statusline+=[%{strlen(&ft)?&ft:'none'}, 
+set statusline+=%{strlen(&fenc)?&fenc:&enc},
+set statusline+=%{&fileformat}] 
+set statusline+=%*
+set statusline+=%= 
+set statusline+=%-14.(%l,%c%V%)\ %<%P 
+set statusline+=%{strftime('%H\h%M')} 
+set statusline+=\ [(%(%l,%c%V%)) 
+set statusline+=\ %<%P]
+set number
+set si   
+set showcmd
+set showmatch 
+set mouse=a
+set mousehide
+set showmode
+set ruler
+set autochdir  
+set fileformats=unix,dos
+set encoding=utf-8     
+set fileencoding=utf-8
+set ttyfast          
+set shell=zsh       
+set softtabstop=2
+set autoindent shiftwidth=2
+set incsearch      
+set hlsearch      
+set formatprg=par\ 80j
+set history=1000    
+set hidden           
+set wildmenu       
+set wildmode=list:longest 
+set title
+setlocal spell spelllang=en
+set nospell               
+autocmd BufEnter,BufNewFile,BufRead *.txt set spell  
+au filetype tex set spell                           
+autocmd BufEnter,BufNewFile,BufRead *.txt let g:spellactive=1
+au filetype tex let g:spellactive=1
+au filetype tex set grepprg=grep\ -nH\ $*
+au filetype tex let g:tex_flavor='latex'
+au bufNewFile *.tex set ft=latex.tex      
+au filetype tex set sw=2
+au filetype tex set iskeyword+=:
+au filetype tex set list                 
+
+"Python 
+autocmd FileType python set omnifunc=pythoncomplete#Complete "Complétion
+au bufNewFile *.py set ft=python.py
+au filetype python set expandtab  
+au filetype python highlight OverLength term=bold
+au filetype python match OverLength /\%80v.\+/  
+au filetype python set foldmethod=indent       
+au filetype python set cindent                
+au filetype python set autoindent shiftwidth=2
+au filetype python set softtabstop=2         
+au filetype python set list                 
+au filetype python set lcs:tab:>-,trail:X  
+au BufEnter *.rpy set syntax=renpy.vim
+
+"C/CPP
+au bufNewFile *.c 0r ~/.vim/templates/c.c 
+au bufNewFile *.h 0r ~/.vim/templates/h.h
+au filetype c set omnifunc=ccomplete#Complete
+au filetype c set cindent                   
+au filetype c set autoindent shiftwidth=2
+au filetype c set softtabstop=2           
+au filetype c set foldmethod=syntax      
+au filetype c set list                  
+au filetype c set lcs:tab:>-,trail:X   
+
+"Ruby
+au bufNewFile *.rb set ft=ruby.rb 
+
+"Keymapings
+au filetype tex map <F5> <c-\><c-n>:w<cr>:!pdflatex %<cr>:!apvlv %:r.pdf<cr>:!rm -f *.out *.aux *.log<cr>
+au filetype python map <F5> :w<CR>:!echo -e '---Python---\n'<CR>:!python2 %<CR>:!rm *.pyc<CR>:!rm *py~<CR>
+au filetype c map <F5> <c-\><c-n>:!gcc *.c -o %:r<cr>\rr<cr>
+au filetype sh map <F5> <c-\><c-n>:!./%<cr>
+au filetype ruby map <F5> :w<CR>:!echo -e '---Ruby---\n'<CR>:!ruby %<CR>
+imap <F5> <Esc><F5>
+vmap <F5> <Esc><F5>
+noremap <F5> <Esc><F5>
+"F2:Tabs
+map <silent> <F2> :tabnext<cr>
+imap <F2> <Esc><F2>
+"F7:Correction
+map <silent> <F7> :execute ToggleSpell()<CR>
+imap <F7> <Esc><F7>
+
+nnoremap <silent> + :exe "resize " . (winheight(0) * 3/2)<CR>
+nnoremap <silent> - :exe "resize " . (winheight(0) * 2/3)<CR>
+map ,gc :!gca<cr>
+map ,g :!gca<CR>:!gpom<CR>
+nmap <C>s [e
+nmap <C>t ]e
+vmap <C>s [egv
+vmap <C>t ]egv
+
+noremap É W
+noremap aÉ aW
+noremap w <C-w>
+noremap W <C-w><C-w>
+ 
+noremap c h
+noremap r l
+noremap t j
+noremap s k
+noremap C H
+noremap R L
+noremap T J
+noremap S K
+noremap zs zj
+noremap zt zk
+noremap j t
+noremap J T
+noremap l c
+noremap L C
+noremap h r
+noremap H R
+noremap k s
+noremap K S
+noremap ]k ]s
+noremap [k [s
+ 
+noremap gs gk
+noremap gt gj
+noremap gb gT
+noremap gB :exe "silent! tabfirst"<CR>
+noremap gÉ :exe "silent! tablast"<CR>
+noremap g" g0
+ 
+noremap « <
+noremap » >
+au filetype tex noremap < «
+au filetype tex noremap > »
+
+let g:spellactive=0
+function! ToggleSpell()
+  if g:spellactive != 1
+    let g:spellactive=1
+    execute("set spell")
+  else
+    let g:spellactive=0
+    execute("set nospell")
+  endif
+endfunction
+
+function! GPL()
+  execute(":r ~/.vim/licenses/gpl_insert")
+endfunction
+command GPL :execute GPL()
+
+function! LGPL()
+  execute(":r ~/.vim/licenses/lgpl_insert")
+endfunction
+
+function! GPLC()
+  execute(":r ~/.vim/licenses/gpl-license")
+endfunction
+
+function! LGPLC()
+  execute(":r ~/.vim/licenses/lgpl-license")
+endfunction
