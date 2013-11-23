@@ -31,9 +31,9 @@ endfunction
 au BufWritePost * call ModeChange()
 
 let MRU_Auto_Close = 1
-command Conque :set nolist | ConqueTerm zsh
-command Zshs :set nolist | ConqueTermSplit zsh
-command Zsh :set nolist | ConqueTerm zsh
+command Conque :set nolist | ConqueTerm bash
+command Zshs :set nolist | ConqueTermSplit bash
+command Zsh :set nolist | ConqueTerm bash
 command Bpythons :set nolist | ConqueTermSplit bpython
 command Bpython :set nolist | ConqueTerm bpython
 
@@ -42,12 +42,12 @@ if has("syntax")
   syntax on
 endif
 set t_Co=256
-highlight NbSp ctermbg=lightgray guibg=lightred
+highlight NbSp ctermbg=gray guibg=lightred
 match NbSp /\%xa0/
 
 "GVim
 if has('gui_running')
-  set guifont=DeJavu\ Sans\ Mono\ 7
+  set guifont=DeJavu\ Sans\ Mono\ 7.5
   ":set guioptions-=m  "remove menu bar
   set guioptions-=T  "remove toolbar
   set guioptions-=r  "remove right-hand scroll bar
@@ -58,7 +58,7 @@ if has('gui_running')
   highlight SpellBad term=underline gui=undercurl guisp=Orange
 else
   set t_Co=256
-  colorscheme codesweets
+  colorscheme jellybeans
 endif
 
 if !has("gui_running")
@@ -71,6 +71,7 @@ if !has("gui_running")
   endif
 endif
 
+set background=dark
 set laststatus=2
 set statusline= " clear
 set statusline+=%-3.3n\
@@ -98,7 +99,7 @@ set fileformats=unix,dos
 set encoding=utf-8     
 set fileencoding=utf-8
 set ttyfast          
-set shell=zsh       
+set shell=bash
 set softtabstop=2
 set autoindent shiftwidth=2
 set incsearch      
